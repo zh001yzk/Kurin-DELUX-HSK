@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kimiri_Eye_A</defName>
+    <texPath>Kimiri/Face/Eyes/A</texPath>
+    <raceName>Kimiri</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <!-- <gender>Female</gender> -->
+  </FacialAnimation.EyeballTypeDef>
+  <!--================================================== OBSOLETE (very old eyes by EyeballTypeDef) ==================================================-->
+  <!--
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kimiri_Eye_Pink</defName>
+	<texPath>Kimiri/Face/Eyes/Pink</texPath>
+	<raceName>Kimiri</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kimiri_Eye_Turquoise</defName>
+	<texPath>Kimiri/Face/Eyes/Turquoise</texPath>
+	<raceName>Kimiri</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kimiri_Eye_Violet</defName>
+	<texPath>Kimiri/Face/Eyes/Violet</texPath>
+	<raceName>Kimiri</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+</FacialAnimation.EyeballTypeDef>
+-->
+</Defs>

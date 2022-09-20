@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching BodyParts</value>
+				</li>
+
+				<li Class="PatchOperation.Context">
+					<xpath>Defs/ThingDef[defName="Kurin_Fake_Ear"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Cloth>50</Cloth>
+									<Mechanism>3</Mechanism>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/recipeMaker</xpath>
+							<value>
+								<recipeMaker>
+									<recipeUsers>
+										<li>TablePrimitiveProsthetic</li>
+										<li>TableBasicProsthetic</li>
+									</recipeUsers>
+									<skillRequirements>
+										<Crafting>6</Crafting>
+									</skillRequirements>
+									<researchPrerequisite>Prosthesis_making_B1</researchPrerequisite>
+								</recipeMaker>
+							</value>
+						</li>
+					</operations>
+				</li>
+
+				<li Class="PatchOperation.Context">
+					<xpath>Defs/ThingDef[defName="Kurin_Fake_Tail"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Cloth>50</Cloth>
+									<Mechanism>3</Mechanism>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/recipeMaker</xpath>
+							<value>
+								<recipeMaker>
+									<recipeUsers>
+										<li>TablePrimitiveProsthetic</li>
+										<li>TableBasicProsthetic</li>
+									</recipeUsers>
+									<skillRequirements>
+										<Crafting>6</Crafting>
+									</skillRequirements>
+									<researchPrerequisite>Prosthesis_making_B1</researchPrerequisite>
+								</recipeMaker>
+							</value>
+						</li>
+					</operations>
+				</li>
+
+				<li Class="PatchOperation.Context">
+					<xpath>Defs/ThingDef[defName="Kurin_Bionic_Ear"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Biomatter>25</Biomatter>
+									<SyntheticFibers>8</SyntheticFibers>
+									<Paraffins>10</Paraffins>
+									<Microchips>2</Microchips>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/recipeMaker</xpath>
+							<value>
+								<recipeMaker>
+									<recipeUsers>
+										<li>TableBionics</li>
+									</recipeUsers>
+									<skillRequirements>
+										<Crafting>10</Crafting>
+									</skillRequirements>
+									<researchPrerequisite>Bionics</researchPrerequisite>
+								</recipeMaker>
+							</value>
+						</li>
+					</operations>
+				</li>
+
+				<li Class="PatchOperation.Context">
+					<xpath>Defs/ThingDef[defName="Kurin_Bionic_Tail"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Biomatter>25</Biomatter>
+									<SyntheticFibers>8</SyntheticFibers>
+									<ComponentAdvanced>3</ComponentAdvanced>
+									<Microchips>2</Microchips>
+									<ArtificialBone>3</ArtificialBone>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/recipeMaker</xpath>
+							<value>
+								<recipeMaker>
+									<recipeUsers>
+										<li>TableBionics</li>
+									</recipeUsers>
+									<skillRequirements>
+										<Crafting>10</Crafting>
+									</skillRequirements>
+									<researchPrerequisite>Bionics</researchPrerequisite>
+								</recipeMaker>
+							</value>
+						</li>
+					</operations>
+				</li>
+
+				<li Class="PatchOperation.Context">
+					<xpath>Defs/ThingDef[defName="Kimiri_Bionic_Ear"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Biomatter>25</Biomatter>
+									<SyntheticFibers>8</SyntheticFibers>
+									<Paraffins>10</Paraffins>
+									<Microchips>2</Microchips>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/recipeMaker</xpath>
+							<value>
+								<recipeMaker>
+									<recipeUsers>
+										<li>TableBionics</li>
+									</recipeUsers>
+									<skillRequirements>
+										<Crafting>10</Crafting>
+									</skillRequirements>
+									<researchPrerequisite>Bionics</researchPrerequisite>
+								</recipeMaker>
+							</value>
+						</li>
+					</operations>
+				</li>
+
+				<li Class="PatchOperation.Context">
+					<xpath>Defs/ThingDef[defName="Kimiri_Bionic_Tail"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Biomatter>25</Biomatter>
+									<Plasteel>10</Plasteel>
+									<SyntheticFibers>8</SyntheticFibers>
+									<ComponentAdvanced>3</ComponentAdvanced>
+									<Microchips>2</Microchips>
+									<ArtificialBone>3</ArtificialBone>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>/ThingDef/recipeMaker</xpath>
+							<value>
+								<recipeMaker>
+									<recipeUsers>
+										<li>TableBionics</li>
+									</recipeUsers>
+									<skillRequirements>
+										<Crafting>10</Crafting>
+									</skillRequirements>
+									<researchPrerequisite>Bionics</researchPrerequisite>
+								</recipeMaker>
+							</value>
+						</li>
+					</operations>
+				</li>
+
+
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

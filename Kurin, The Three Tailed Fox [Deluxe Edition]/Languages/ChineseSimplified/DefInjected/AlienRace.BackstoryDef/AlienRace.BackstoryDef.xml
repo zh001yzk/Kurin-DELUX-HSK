@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 고아 -->
+
+  <Kurin_BackstoryChild_01.title>魅狐 孤儿</Kurin_BackstoryChild_01.title>
+  <Kurin_BackstoryChild_01.titleShort>孤儿</Kurin_BackstoryChild_01.titleShort>
+  <Kurin_BackstoryChild_01.baseDescription>[PAWN_nameDef]的父母在[PAWN_pronoun]小的时候被人类杀害了，[PAWN_pronoun]因此得了PTSD。经过多年的精神治疗，[PAWN_nameDef]好转了很多，但偶尔还是会做噩梦。那天发生的事情至今仍历历在目，[PAWN_pronoun]感到非常痛苦。</Kurin_BackstoryChild_01.baseDescription>
+
+
+  <!-- 어린 시녀 -->
+
+  <Kurin_BackstoryChild_02.title>魅狐 年轻的女仆</Kurin_BackstoryChild_02.title>
+  <Kurin_BackstoryChild_02.titleShort>女仆</Kurin_BackstoryChild_02.titleShort>
+  <Kurin_BackstoryChild_02.baseDescription>[PAWN_nameDef]的父母在一次重大事故中破产，并负债累累。幸运的是，一位魅狐富豪同情[PAWN_nameDef]和[PAWN_nameDef]的家人，让[PAWN_pronoun]们在自家住宅里做杂务。[PAWN_pronoun]在照顾富豪女儿时，与她成为了好朋友。</Kurin_BackstoryChild_02.baseDescription>
+
+
+  <!-- 여우무리 일원 -->
+
+  <Kurin_BackstoryChild_03.title>魅狐 狐狸义警成员</Kurin_BackstoryChild_03.title>
+  <Kurin_BackstoryChild_03.titleShort>狐狸义警</Kurin_BackstoryChild_03.titleShort>
+  <Kurin_BackstoryChild_03.baseDescription>《狐狸义警的故事》在年轻的魅狐里是最受欢迎的电视动画。[PAWN_nameDef]在放学后组建了狐狸义警，和朋友们在空地和小巷中穿梭，成为了城市和平的守护者。但城市治安本来就很好，所以[PAWN_pronoun]们没什么事可做。</Kurin_BackstoryChild_03.baseDescription>
+
+
+  <!-- 따돌려진 아이 -->
+
+  <Kurin_BackstoryChild_04.title>魅狐 被孤立的孩子</Kurin_BackstoryChild_04.title>
+  <Kurin_BackstoryChild_04.titleShort>被孤立的孩子</Kurin_BackstoryChild_04.titleShort>
+  <Kurin_BackstoryChild_04.baseDescription>[wnwn_namedef]是一个少见的蓝眼睛的孩子，这在魅狐里被认为是不祥的象征。[PAWN_pronoun]从小到大受尽了所有人的冷眼，是个被孤立的孩子。</Kurin_BackstoryChild_04.baseDescription>
+
+
+  <!-- 비행청소년 -->
+
+  <Kurin_BackstoryChild_05.title>魅狐 熊孩子</Kurin_BackstoryChild_05.title>
+  <Kurin_BackstoryChild_05.titleShort>熊孩子</Kurin_BackstoryChild_05.titleShort>
+  <Kurin_BackstoryChild_05.baseDescription>[PAWN_nameDef]是部分魅狐孩子们眼里的偶像，同时也是老师眼中的熊孩子。[PAWN_pronoun]的恶行有不值日、不听老师话等，把所有人都吓坏了。</Kurin_BackstoryChild_05.baseDescription>
+
+
+  <!-- 빈민가 고아 -->
+
+  <Kurin_BackstoryChild_06.title>魅狐 贫民窟的孤儿</Kurin_BackstoryChild_06.title>
+  <Kurin_BackstoryChild_06.titleShort>孤儿</Kurin_BackstoryChild_06.titleShort>
+  <Kurin_BackstoryChild_06.baseDescription>[PAWN_nameDef]的童年靠着翻垃圾桶和吃发霉的面包生存。虽然也有帮助儿童的设施，但由于魅狐共和国把所有的国力都投入到建造移民船上，导致[PAWN_pronoun]没有得到正常的福利待遇，只能住在胡同里的纸箱里。</Kurin_BackstoryChild_06.baseDescription>
+
+
+  <!-- 공잡이 -->
+
+  <Kurin_BackstoryChild_07.title>魅狐 球童</Kurin_BackstoryChild_07.title>
+  <Kurin_BackstoryChild_07.titleShort>球童</Kurin_BackstoryChild_07.titleShort>
+  <Kurin_BackstoryChild_07.baseDescription>[PAWN_nameDef]非常喜欢棒球，是一个球队的球迷。[PAWN_pronoun]每场比赛都到场，经常被镜头捕捉，逐渐被俱乐部所熟知，最后成为了球队的球童。</Kurin_BackstoryChild_07.baseDescription>
+
+
+  <!-- 동물원 아르바이터 -->
+
+  <Kurin_BackstoryChild_08.title>魅狐 动物园兼职</Kurin_BackstoryChild_08.title>
+  <Kurin_BackstoryChild_08.titleShort>动物园兼职</Kurin_BackstoryChild_08.titleShort>
+  <Kurin_BackstoryChild_08.baseDescription>[PAWN_nameDef]是一名高中生，因为家里很穷有很多姐妹，[PAWN_pronoun]为了自己挣学费，便在动物园帮忙做一些小事。[PAWN_pronoun]照顾一些相对容易喂养的食草动物，一边赚学费一边努力学习。</Kurin_BackstoryChild_08.baseDescription>
+
+
+  <!-- 게으른 아이 -->
+
+  <Kurin_BackstoryChild_09.title>魅狐 懒惰的孩子</Kurin_BackstoryChild_09.title>
+  <Kurin_BackstoryChild_09.titleShort>懒孩子</Kurin_BackstoryChild_09.titleShort>
+  <Kurin_BackstoryChild_09.baseDescription>[PAWN_nameDef]觉得学习和在外玩耍很麻烦，便把自己锁在房间里玩游戏，吃喝拉撒全在房里，一刻也不离开房间。朋友来家里玩的时候也是这样，而且[PAWN_pronoun]还经常不洗澡，导致房间很臭。父母对[PAWN_pronoun]感到非常头疼。</Kurin_BackstoryChild_09.baseDescription>
+
+
+  <!-- 평범한 아이 -->
+
+  <Kurin_BackstoryChild_10.title>魅狐 平凡的孩子</Kurin_BackstoryChild_10.title>
+  <Kurin_BackstoryChild_10.titleShort>平凡的孩子</Kurin_BackstoryChild_10.titleShort>
+  <Kurin_BackstoryChild_10.baseDescription>[PAWN_nameDef]出生在一个普通的中产阶级家庭，[PAWN_pronoun]在父母的关爱下长大。和其他同龄人一样，[PAWN_nameDef]喜欢开心玩耍，吃甜马卡龙。虽然[PAWN_pronoun]考试成绩时好时差，但也还是个善良的孩子，会为其他的魅狐而考虑。</Kurin_BackstoryChild_10.baseDescription>
+
+
+  <!-- 프로게이머 -->
+
+  <Kurin_BackstoryChild_11.title>魅狐 职业玩家</Kurin_BackstoryChild_11.title>
+  <Kurin_BackstoryChild_11.titleShort>职业玩家</Kurin_BackstoryChild_11.titleShort>
+  <Kurin_BackstoryChild_11.baseDescription>[PAWN_nameDef]的游戏实力非常厉害。第一次玩的游戏很快就能上手，平时喜欢玩的游戏也进了排名榜前十。[PAWN_pronoun]参加过好几场电竞比赛并获得了冠，但是当网络被切断时，[PAWN_pronoun]就变成了一只什么都不想做的死狐狸。</Kurin_BackstoryChild_11.baseDescription>
+
+
+  <!-- 시골 아이 -->
+
+  <Kurin_BackstoryChild_12.title>魅狐 乡下孩子</Kurin_BackstoryChild_12.title>
+  <Kurin_BackstoryChild_12.titleShort>乡下孩子</Kurin_BackstoryChild_12.titleShort>
+  <Kurin_BackstoryChild_12.baseDescription>[PAWN_nameDef]的童年是在乡下度过，[PAWN_pronoun]在山上采蘑菇、在田野里追猫、在山谷里翻石头、在小河里抓鱼。虽然皮肤被阳光晒黑了，但[PAWN_pronoun]还是健康长大了。</Kurin_BackstoryChild_12.baseDescription>
+
+
+  <!-- 도시꼬마 -->
+
+  <Kurin_BackstoryChild_13.title>魅狐 城市孩子</Kurin_BackstoryChild_13.title>
+  <Kurin_BackstoryChild_13.titleShort>城市孩子</Kurin_BackstoryChild_13.titleShort>
+  <Kurin_BackstoryChild_13.baseDescription>[PAWN_nameDef]是在有着优良基础设施、大型公园还有高楼大厦的城市长大的。[PAWN_pronoun]的家位于一座繁华的魅狐城市，所以[PAWN_pronoun]可以无忧无虑地享受自己的爱好、文化生活、VR游戏等。但[PAWN_pronoun]最喜欢的还是和家人一起去旅行。</Kurin_BackstoryChild_13.baseDescription>
+
+
+  <!-- 어린 만화가 -->
+
+  <Kurin_BackstoryChild_14.title>魅狐 年轻的漫画家</Kurin_BackstoryChild_14.title>
+  <Kurin_BackstoryChild_14.titleShort>漫画家</Kurin_BackstoryChild_14.titleShort>
+  <Kurin_BackstoryChild_14.baseDescription>[PAWN_nameDef]喜欢画画，也很有天赋。[PAWN_pronoun]刚开始画画的时候，注意力集中到有人叫[PAWN_pronoun]都没反应，上学的时候也经常因为画画被老师骂，即使是这样[PAWN_pronoun]对画画的热情也没有熄灭。</Kurin_BackstoryChild_14.baseDescription>
+
+
+  <!-- 한꼬리 증후군 -->
+
+  <Kurin_BackstoryChild_15.title>魅狐 一尾综合症</Kurin_BackstoryChild_15.title>
+  <Kurin_BackstoryChild_15.titleShort>一尾综合症</Kurin_BackstoryChild_15.titleShort>
+  <Kurin_BackstoryChild_15.baseDescription>[PAWN_nameDef]与其他魅狐不一样，[PAWN_pronoun]出生的时候只有一条尾巴。虽然对健康和生活没有什么影响，但[PAWN_pronoun]发育缓慢，导致其看起来比同龄人小很多。年轻的时候经常被人取笑，但随着年龄的增长，[PAWN_nameDef]比其他魅狐还要可爱的外貌获得了很高的人气。</Kurin_BackstoryChild_15.baseDescription>
+
+
+  <!-- 겁많은 아이 -->
+
+  <Kurin_BackstoryChild_16.title>魅狐 胆小的孩子</Kurin_BackstoryChild_16.title>
+  <Kurin_BackstoryChild_16.titleShort>孩子</Kurin_BackstoryChild_16.titleShort>
+  <Kurin_BackstoryChild_16.baseDescription>[PAWN_nameDef]是个非常胆小的孩子。[PAWN_pronoun]的世界里到处都是可怕的东西。即使是夜晚的阴影，还有睡觉时听到的小声音。[PAWN_nameDef]最讨厌的就是虫子，当虫子出现时，[PAWN_pronoun]就会被吓得到处逃跑。</Kurin_BackstoryChild_16.baseDescription>
+
+
+  <!-- 다정한 아이 -->
+
+  <Kurin_BackstoryChild_17.title>魅狐 温柔的孩子</Kurin_BackstoryChild_17.title>
+  <Kurin_BackstoryChild_17.titleShort>孩子</Kurin_BackstoryChild_17.titleShort>
+  <Kurin_BackstoryChild_17.baseDescription>[PAWN_nameDef]个温柔的孩子。[PAWN_pronoun]总是倾听朋友们的故事，对有困难的朋友给予真心的安慰，一句话就可以让朋友们开心一天。</Kurin_BackstoryChild_17.baseDescription>
+
+
+  <!-- 가난한 아이 -->
+
+  <Kurin_BackstoryChild_18.title>魅狐 贫穷的孩子</Kurin_BackstoryChild_18.title>
+  <Kurin_BackstoryChild_18.titleShort>贫穷的孩子</Kurin_BackstoryChild_18.titleShort>
+  <Kurin_BackstoryChild_18.baseDescription>[PAWN_nameDef]小时候过着贫穷的生活。[PAWN_pronoun]的父母下班很晚才回家，因为[PAWN_pronoun]经常一个人住，所以比同龄人早熟一点。[PAWN_pronoun]梦想是找一份能赚大钱的工作，目前为了梦想成真而努力学习中。</Kurin_BackstoryChild_18.baseDescription>
+
+
+  <!-- 찻집 아이 -->
+
+  <Kurin_BackstoryChild_19.title>魅狐 茶馆孩子</Kurin_BackstoryChild_19.title>
+  <Kurin_BackstoryChild_19.titleShort>茶馆孩子</Kurin_BackstoryChild_19.titleShort>
+  <Kurin_BackstoryChild_19.baseDescription>[PAWN_nameDef]每次放学都会回家给父母帮忙，帮店里接受订单和打扫卫生。老顾客经常给[PAWN_pronoun]零花钱。[PAWN_pronoun]用这些钱来吃冰淇淋，剩下的便存起来。</Kurin_BackstoryChild_19.baseDescription>
+
+
+  <!-- 두부집 딸 -->
+
+  <Kurin_BackstoryChild_20.title>魅狐 豆腐店的孩子</Kurin_BackstoryChild_20.title>
+  <Kurin_BackstoryChild_20.titleShort>豆腐店的孩子</Kurin_BackstoryChild_20.titleShort>
+  <Kurin_BackstoryChild_20.baseDescription>[PAWN_nameDef]的家族以代代相传的传统方式制作豆腐，已有上百年的历史了。[PAWN_pronoun]从小就接受妈妈的教诲，无论是人类喜欢的豆腐还是魅狐喜欢的豆腐，都要用心去制作。</Kurin_BackstoryChild_20.baseDescription>
+
+
+  <!-- 유흥가 심부름꾼 -->
+
+  <Kurin_BackstoryChild_21.title>魅狐 娱乐区跑腿</Kurin_BackstoryChild_21.title>
+  <Kurin_BackstoryChild_21.titleShort>娱乐区跑腿</Kurin_BackstoryChild_21.titleShort>
+  <Kurin_BackstoryChild_21.baseDescription>在魅狐共和国，娱乐场所雇佣儿童是违法的。但[PAWN_nameDef]却在娱乐区帮忙在便利店跑腿，获得了小费。作为小孩，[PAWN_pronoun]收入还是很高的。 [PAWN_nameDef]是个机灵的小孩，即使被抓住也能逃脱。</Kurin_BackstoryChild_21.baseDescription>
+
+
+  <!-- 어린 공예가 -->
+
+  <Kurin_BackstoryChild_22.title>魅狐 年轻的工匠</Kurin_BackstoryChild_22.title>
+  <Kurin_BackstoryChild_22.titleShort>年轻的工匠</Kurin_BackstoryChild_22.titleShort>
+  <Kurin_BackstoryChild_22.baseDescription>[PAWN_nameDef]的手艺比别人好。[PAWN_pronoun]喜欢制作小巧玲珑的工艺品和朋友们分享。[PAWN_pronoun]的工艺品一直很受朋友们的欢迎。</Kurin_BackstoryChild_22.baseDescription>
+
+
+  <!-- 어린 원예가 -->
+
+  <Kurin_BackstoryChild_23.title>魅狐 年轻的园艺家</Kurin_BackstoryChild_23.title>
+  <Kurin_BackstoryChild_23.titleShort>年轻的园艺家</Kurin_BackstoryChild_23.titleShort>
+  <Kurin_BackstoryChild_23.baseDescription>[PAWN_nameDef]喜欢种植植物。[PAWN_pronoun]大部分的业余时间都是在花坛里种蔬菜、修剪花盆或在附近的植物园玩耍。</Kurin_BackstoryChild_23.baseDescription>
+
+
+  <!-- 어린 요리사 -->
+
+  <Kurin_BackstoryChild_24.title>魅狐 年轻的厨师</Kurin_BackstoryChild_24.title>
+  <Kurin_BackstoryChild_24.titleShort>年轻的厨师</Kurin_BackstoryChild_24.titleShort>
+  <Kurin_BackstoryChild_24.baseDescription>[PAWN_nameDef]喜欢烤面包、曲奇以及装饰蛋糕。[PAWN_pronoun]在家里也受到了表扬，并且开始对烹饪产生了兴趣，[PAWN_pronoun]在其他的料理上也表现出了天赋，从简单的饭菜到美食，没有什么是[PAWN_pronoun]做不出来的。</Kurin_BackstoryChild_24.baseDescription>
+
+
+  <!-- 동물 애호가 -->
+
+  <Kurin_BackstoryChild_25.title>魅狐 动物爱好者</Kurin_BackstoryChild_25.title>
+  <Kurin_BackstoryChild_25.titleShort>动物爱好者</Kurin_BackstoryChild_25.titleShort>
+  <Kurin_BackstoryChild_25.baseDescription>[PAWN_nameDef]真的很喜欢动物。[PAWN_pronoun]想养很多动物，但因为实际问题，只好养一只机器宠物。但是比起机器动物，[PAWN_pronoun]更喜欢真实动物的温暖，所以经常去动物园玩。</Kurin_BackstoryChild_25.baseDescription>
+
+
+  <!-- 똑똑한 학생 -->
+
+  <Kurin_BackstoryChild_26.title>魅狐 聪明的学生</Kurin_BackstoryChild_26.title>
+  <Kurin_BackstoryChild_26.titleShort>聪明的学生</Kurin_BackstoryChild_26.titleShort>
+  <Kurin_BackstoryChild_26.baseDescription>[PAWN_nameDef]成绩比其他学生好，考试成绩总是名列前茅，和朋友的关系也很好。但是因为长期坐在课桌前，[PAWN_pronoun]越来越虚弱，一到体育课就安静地坐在角落里。</Kurin_BackstoryChild_26.baseDescription>
+
+
+  <!-- 다재다능한 아이 -->
+
+  <Kurin_BackstoryChild_27.title>魅狐 多才多艺的孩子</Kurin_BackstoryChild_27.title>
+  <Kurin_BackstoryChild_27.titleShort>多才多艺的孩子</Kurin_BackstoryChild_27.titleShort>
+  <Kurin_BackstoryChild_27.baseDescription>[PAWN_nameDef]射猎广泛，在学习、烹饪、制作、锻炼等多方面都有天赋，但是[PAWN_pronoun]很难专注于一个领域。[PAWN_pronoun]彷徨了很久才找到自己的路。</Kurin_BackstoryChild_27.baseDescription>
+
+
+  <!-- 책벌레 -->
+
+  <Kurin_BackstoryChild_28.title>魅狐 书呆子</Kurin_BackstoryChild_28.title>
+  <Kurin_BackstoryChild_28.titleShort>书呆子</Kurin_BackstoryChild_28.titleShort>
+  <Kurin_BackstoryChild_28.baseDescription>细微的翻页声，旧纸的味道……[PAWN_nameDef]喜欢在他的房间里开着阅读灯看书。[PAWN_pronoun]经常在一整天都泡在图书馆里读古书。</Kurin_BackstoryChild_28.baseDescription>
+
+
+  <!-- 최초의 魅狐 -->
+
+  <Kurin_BackstoryChild_29.title>最早的魅狐</Kurin_BackstoryChild_29.title>
+  <Kurin_BackstoryChild_29.titleShort>最早的魅狐</Kurin_BackstoryChild_29.titleShort>
+  <Kurin_BackstoryChild_29.baseDescription>[PAWN_nameDef]是最早一批到达新的行星的魅狐之一，但由于休眠技术出现了问题，导致[PAWN_pronoun]沉睡了几百年。直到最近，魅狐们完善了休眠技术，[PAWN_pronoun]才睁开了眼睛。</Kurin_BackstoryChild_29.baseDescription>
+
+
+  <!-- 유학생 -->
+
+  <Kurin_BackstoryChild_30.title>魅狐 留学生</Kurin_BackstoryChild_30.title>
+  <Kurin_BackstoryChild_30.titleShort>留学生</Kurin_BackstoryChild_30.titleShort>
+  <Kurin_BackstoryChild_30.baseDescription>[PAWN_nameDef]从小就离开父母来到人类的国家留学。好在[PAWN_pronoun]就读的学校有很多的同学和老师，最终[PAWN_pronoun]成长为了一只活泼、热心的狐狸。</Kurin_BackstoryChild_30.baseDescription>
+
+
+  <!-- 어린 음악가 -->
+
+  <Kurin_BackstoryChild_31.title>魅狐 年轻的音乐家</Kurin_BackstoryChild_31.title>
+  <Kurin_BackstoryChild_31.titleShort>年轻的音乐家</Kurin_BackstoryChild_31.titleShort>
+  <Kurin_BackstoryChild_31.baseDescription>[PAWN_nameDef]是一只热爱音乐的小狐狸，非常喜欢和朋友一起唱歌。[PAWN_pronoun]尝试过自己制作歌曲和音乐，得到了其他魅狐的好评，于是[PAWN_pronoun]渐渐爱上了音乐。但父母似乎并不满意。</Kurin_BackstoryChild_31.baseDescription>
+
+
+  <!-- 아역 배우 -->
+
+  <Kurin_BackstoryChild_32.title>魅狐 童星</Kurin_BackstoryChild_32.title>
+  <Kurin_BackstoryChild_32.titleShort>童星</Kurin_BackstoryChild_32.titleShort>
+  <Kurin_BackstoryChild_32.baseDescription>[PAWN_nameDef]虽然年纪小，却以出色的演技和丰富的情感表达而出名。[PAWN_pronoun]希望在许多电影和电视剧中扮演儿童演员。在不同角色的表演过程中，[PAWN_pronoun]学会了很多技巧。</Kurin_BackstoryChild_32.baseDescription>
+
+
+  <!-- 활발한 학생 -->
+
+  <Kurin_BackstoryChild_33.title>魅狐 活泼的学生</Kurin_BackstoryChild_33.title>
+  <Kurin_BackstoryChild_33.titleShort>活泼的学生</Kurin_BackstoryChild_33.titleShort>
+  <Kurin_BackstoryChild_33.baseDescription>[PAWN_nameDef]以其良好的社交能力、可爱的外表、开朗开朗的性格一直深受朋友们的喜爱。虽然[PAWN_pronoun]现在已经是名人了，还上了电视节目，但却无法像以前那样和朋友们一起玩耍或自由地生活。没过多久，[PAWN_pronoun]决定隐退，回到平凡的生活。</Kurin_BackstoryChild_33.baseDescription>
+
+
+  <!-- 격투기 수련생 -->
+
+  <Kurin_BackstoryChild_34.title>魅狐 格斗学员</Kurin_BackstoryChild_34.title>
+  <Kurin_BackstoryChild_34.titleShort>格斗学员</Kurin_BackstoryChild_34.titleShort>
+  <Kurin_BackstoryChild_34.baseDescription>[PAWN_nameDef]体质较弱，比同龄人弱很多。为了克服这个问题，[PAWN_pronoun]始练习各种运动和格斗技刻苦努力的[PAWN_pronoun]后来在地区比赛中获得了冠军，实力有所提高。</Kurin_BackstoryChild_34.baseDescription>
+
+
+  <!-- 스카우트단 -->
+
+  <Kurin_BackstoryChild_35.title>魅狐 童子军</Kurin_BackstoryChild_35.title>
+  <Kurin_BackstoryChild_35.titleShort>童子军</Kurin_BackstoryChild_35.titleShort>
+  <Kurin_BackstoryChild_35.baseDescription>年轻的[PAWN_nameDef]对童子军很感兴趣。尽管家境贫寒，父母还是给[PAWN_pronoun]送去了制服作为礼物。之后[PAWN_pronoun]加入了童子军，学习了露营、栽培和生存等各种技能，度过了一段快乐的时光。</Kurin_BackstoryChild_35.baseDescription>
+
+
+  <!-- 체육부원 -->
+
+  <Kurin_BackstoryChild_36.title>魅狐 体育部成员</Kurin_BackstoryChild_36.title>
+  <Kurin_BackstoryChild_36.titleShort>体育部成员</Kurin_BackstoryChild_36.titleShort>
+  <Kurin_BackstoryChild_36.baseDescription>[PAWN_nameDef]和大多数魅狐不同，[PAWN_pronoun]喜欢运动身体，并加入了学校体育部进行了各种运动。体育课是独属于[PAWN_pronoun]的舞台，[PAWN_pronoun]帮助过很多被欺负的学生，但遗憾的是[PAWN_pronoun]的学习成绩并不理想。</Kurin_BackstoryChild_36.baseDescription>
+
+
+  <!-- 신문기자 -->
+
+  <Kurin_BackstoryAdult_01.title>魅狐 新闻记者</Kurin_BackstoryAdult_01.title>
+  <Kurin_BackstoryAdult_01.titleShort>新闻记者</Kurin_BackstoryAdult_01.titleShort>
+  <Kurin_BackstoryAdult_01.baseDescription>[PAWN_nameDef]正在为一家报纸写一篇文章，向人们介绍各种新闻。国家、文化以及外交的现状出乎意料的，政治部分比重却不是很高。因为大家都相信魅狐共和国是廉洁公正的。</Kurin_BackstoryAdult_01.baseDescription>
+
+
+  <!-- 고용된 메이드 -->
+
+  <Kurin_BackstoryAdult_02.title>魅狐 雇佣女仆</Kurin_BackstoryAdult_02.title>
+  <Kurin_BackstoryAdult_02.titleShort>雇佣女仆</Kurin_BackstoryAdult_02.titleShort>
+  <Kurin_BackstoryAdult_02.baseDescription>[PAWN_nameDef]是富豪雇佣的女仆。[PAWN_pronoun]从打扫住宅、准备饭菜的家务做起，到购买住宅所需物品、管理账簿的管家，得到了主人的高度信任。</Kurin_BackstoryAdult_02.baseDescription>
+
+
+  <!-- 레스토랑 종업원 -->
+
+  <Kurin_BackstoryAdult_03.title>魅狐 餐厅服务员</Kurin_BackstoryAdult_03.title>
+  <Kurin_BackstoryAdult_03.titleShort>餐厅服务员</Kurin_BackstoryAdult_03.titleShort>
+  <Kurin_BackstoryAdult_03.baseDescription>[PAWN_nameDef]在餐厅工作，接受订单、提供食物和清理桌子。虽然食物中经常会出现毛，但是很多客人都很喜欢。[PAWN_pronoun]还学到了厨师高超的厨艺和刀法。</Kurin_BackstoryAdult_03.baseDescription>
+
+
+  <!-- 사냥감 -->
+
+  <Kurin_BackstoryAdult_04.title>魅狐 猎物</Kurin_BackstoryAdult_04.title>
+  <Kurin_BackstoryAdult_04.titleShort>猎物</Kurin_BackstoryAdult_04.titleShort>
+  <Kurin_BackstoryAdult_04.baseDescription>自古以来，猎狐就是人类贵族的一项奢侈运动。它曾因残忍而被禁止，但自从魅狐出现后，它再次流行起来。[PAWN_nameDef]扮演着猎物的角色，穿着皮套逃离猎人。虽然猎人们使用的子弹是容易破碎的盐弹，但[PAWN_pronoun]的身体上还是布满了淤青。</Kurin_BackstoryAdult_04.baseDescription>
+
+
+  <!-- 테러리스트 -->
+
+  <Kurin_BackstoryAdult_05.title>魅狐 恐怖分子</Kurin_BackstoryAdult_05.title>
+  <Kurin_BackstoryAdult_05.titleShort>恐怖分子</Kurin_BackstoryAdult_05.titleShort>
+  <Kurin_BackstoryAdult_05.baseDescription>[PAWN_nameDef]在国际社会被称为恐怖分子。但实际上，[PAWN_pronoun]是一名英雄，[PAWN_pronoun]刺杀了一个独裁国家的军官，这个军官为了好玩而杀死了魅狐。虽然没有人注意到[PAWN_pronoun]，但[PAWN_pronoun]还是逃亡了。[PAWN_pronoun]认为自己做了正确的事情。</Kurin_BackstoryAdult_05.baseDescription>
+
+
+  <!-- 관경병 생존자 -->
+
+  <Kurin_BackstoryAdult_06.title>魅狐 狂犬病幸存者</Kurin_BackstoryAdult_06.title>
+  <Kurin_BackstoryAdult_06.titleShort>狂犬病幸存者</Kurin_BackstoryAdult_06.titleShort>
+  <Kurin_BackstoryAdult_06.baseDescription>在一个被狂犬病感染的城市里，人们精神异常，互相撕咬，互相感染，惨不忍睹。[PAWN_nameDef]关上便利店的卷门，蜷缩身子躲藏着。连续几天几夜，外面都传来了尖叫声和魅狐互相撕咬的声音，在事件被平息后，[PAWN_nameDef]虽然获救了，但那可怕的记忆却挥之不去。</Kurin_BackstoryAdult_06.baseDescription>
+
+
+  <!-- 마사지샵 점원 -->
+
+  <Kurin_BackstoryAdult_07.title>魅狐 按摩店店员</Kurin_BackstoryAdult_07.title>
+  <Kurin_BackstoryAdult_07.titleShort>按摩店店员</Kurin_BackstoryAdult_07.titleShort>
+  <Kurin_BackstoryAdult_07.baseDescription>[PAWN_nameDef]在市中心娱乐街一角的按摩店工作。客人来的时候，[PAWN_pronoun]通常会给客人涂上香料和油并帮客人按摩以缓解疲劳。在店的后面还准备了一些东西给想要体验高级服务的客人们。[PAWN_pronoun]接触过很多客人，客人们给的小费对[PAWN_pronoun]的生活帮助很大。</Kurin_BackstoryAdult_07.baseDescription>
+
+
+  <!-- 자연의 여우 -->
+
+  <Kurin_BackstoryAdult_08.title>魅狐 自然的狐狸</Kurin_BackstoryAdult_08.title>
+  <Kurin_BackstoryAdult_08.titleShort>自然的狐狸</Kurin_BackstoryAdult_08.titleShort>
+  <Kurin_BackstoryAdult_08.baseDescription>[PAWN_nameDef]是一只因为讨厌城市生活的疲惫而进了山里的狐狸。[PAWN_pronoun]盖了一栋只有水电的老房子，手上沾着土和水，独自耕种和做家务。</Kurin_BackstoryAdult_08.baseDescription>
+
+
+  <!-- 시민 -->
+
+  <Kurin_BackstoryAdult_09.title>魅狐 公民</Kurin_BackstoryAdult_09.title>
+  <Kurin_BackstoryAdult_09.titleShort>公民</Kurin_BackstoryAdult_09.titleShort>
+  <Kurin_BackstoryAdult_09.baseDescription>[PAWN_nameDef]是一个普通公民。每天努力工作的公民是魅狐共和国的基础和根本。他们会以魅狐的身份克服任何困难和逆境。</Kurin_BackstoryAdult_09.baseDescription>
+
+
+  <!-- 은행 접수원 -->
+
+  <Kurin_BackstoryAdult_10.title>魅狐 银行接待员</Kurin_BackstoryAdult_10.title>
+  <Kurin_BackstoryAdult_10.titleShort>银行接待员</Kurin_BackstoryAdult_10.titleShort>
+  <Kurin_BackstoryAdult_10.baseDescription>[PAWN_nameDef]是一只在银行工作的聪明狐狸，[PAWN_pronoun]负责魅狐们的存款和贷款咨询。[PAWN_nameDef]喜欢自己的工作，因为同事们性格好，[PAWN_pronoun]对职场生活很满意。</Kurin_BackstoryAdult_10.baseDescription>
+
+
+  <!-- 포도밭의 파수꾼 -->
+
+  <Kurin_BackstoryAdult_11.title>魅狐 葡萄园看守</Kurin_BackstoryAdult_11.title>
+  <Kurin_BackstoryAdult_11.titleShort>葡萄园看守</Kurin_BackstoryAdult_11.titleShort>
+  <Kurin_BackstoryAdult_11.baseDescription>[PAWN_nameDef]戴着草帽坐在木屋里看守葡萄园。当可爱的小魅狐们来偷吃精心种植的葡萄时，[PAWN_pronoun]就会大叫把他们赶走。当[PAWN_nameDef]看到小狐狸们因为葡萄没熟而酸得脸皱成一团的样子，[PAWN_pronoun]就会哈哈大笑。</Kurin_BackstoryAdult_11.baseDescription>
+
+
+  <!-- 경비행기 파일럿 -->
+
+  <Kurin_BackstoryAdult_12.title>魅狐 小型飞机飞行员</Kurin_BackstoryAdult_12.title>
+  <Kurin_BackstoryAdult_12.titleShort>飞行员</Kurin_BackstoryAdult_12.titleShort>
+  <Kurin_BackstoryAdult_12.baseDescription>[PAWN_nameDef]是一名驾驶小型飞机的飞行员。[PAWN_pronoun]过去为了帮助偷了7颗宝石越过国境的蓝刺猬，陷入了巨大的困境里，现在[PAWN_pronoun]再也不会做那种事了。</Kurin_BackstoryAdult_12.baseDescription>
+
+
+  <!-- 경찰 -->
+
+  <Kurin_BackstoryAdult_13.title>魅狐 警察</Kurin_BackstoryAdult_13.title>
+  <Kurin_BackstoryAdult_13.titleShort>警察</Kurin_BackstoryAdult_13.titleShort>
+  <Kurin_BackstoryAdult_13.baseDescription>[PAWN_nameDef]是一名优秀的警察，以优异的成绩毕业于警校。本来警察这个职业并不适合[PAWN_pronoun]的性格，但经过不懈努力，[PAWN_pronoun]实现了自己的梦想，摆脱了周围人的嘲笑。</Kurin_BackstoryAdult_13.baseDescription>
+
+
+  <!-- 붉은여우 병기창 계원 -->
+
+  <Kurin_BackstoryAdult_14.title>魅狐 军械库工作人员</Kurin_BackstoryAdult_14.title>
+  <Kurin_BackstoryAdult_14.titleShort>军械库工作人员</Kurin_BackstoryAdult_14.titleShort>
+  <Kurin_BackstoryAdult_14.baseDescription>[PAWN_nameDef]负责记录赤狐军械库生产的各种武器进出库。[PAWN_pronoun]只是个文员，并不知道如何制作武器。</Kurin_BackstoryAdult_14.baseDescription>
+
+
+  <!-- 선교사 -->
+
+  <Kurin_BackstoryAdult_15.title>魅狐 传教士</Kurin_BackstoryAdult_15.title>
+  <Kurin_BackstoryAdult_15.titleShort>传教士</Kurin_BackstoryAdult_15.titleShort>
+  <Kurin_BackstoryAdult_15.baseDescription>[PAWN_nameDef]根据自己的宗教信仰，过着为可怜的魅狐做志愿者的生活，参加各种活动、捐赠等。虽然[PAWN_pronoun]的生活比较贫穷，但[PAWN_pronoun]的内心世界却比任何人都要丰富。</Kurin_BackstoryAdult_15.baseDescription>
+
+
+  <!-- 무역회사 사원 -->
+
+  <Kurin_BackstoryAdult_16.title>魅狐 贸易公司员工</Kurin_BackstoryAdult_16.title>
+  <Kurin_BackstoryAdult_16.titleShort>贸易公司员工</Kurin_BackstoryAdult_16.titleShort>
+  <Kurin_BackstoryAdult_16.baseDescription>[PAWN_nameDef]是一家贸易公司的员工，该公司向其他国家销售各种魅狐产品。魅狐在其他国家被称为和蔼可亲但又狡猾的商人，而[PAWN_pronoun]正是这样的魅狐。最近魅狐共和国与其他国家的关系变冷了，公司的生意也变得糟糕了。</Kurin_BackstoryAdult_16.baseDescription>
+
+
+  <!-- 활주로 신호수 -->
+
+  <Kurin_BackstoryAdult_17.title>魅狐 机场信号指挥</Kurin_BackstoryAdult_17.title>
+  <Kurin_BackstoryAdult_17.titleShort>信号指挥</Kurin_BackstoryAdult_17.titleShort>
+  <Kurin_BackstoryAdult_17.baseDescription>[PAWN_nameDef]是一只在魅狐机场跑道上拿着信号棒指挥的狐狸。即使[PAWN_pronoun]戴了好几层耳塞，飞机的沉闷的噪音也让耳朵灵敏的[PAWN_pronoun]难以忍受。[PAWN_nameDef]的三条尾巴在强风中摆动非常疼，但是在[PAWN_pronoun]掌握了绑尾巴的技巧以后就感觉好很多了。</Kurin_BackstoryAdult_17.baseDescription>
+
+
+  <!-- 캐러밴 무역상 -->
+
+  <Kurin_BackstoryAdult_18.title>魅狐 商队商人</Kurin_BackstoryAdult_18.title>
+  <Kurin_BackstoryAdult_18.titleShort>商人</Kurin_BackstoryAdult_18.titleShort>
+  <Kurin_BackstoryAdult_18.baseDescription>[PAWN_nameDef]原本是一个普通的上门推销员，但自从在边缘世界迫降后，[PAWN_pronoun]就领导着一支商队，在定居点之间进行交易。[PAWN_pronoun]一般只访问同一个魅狐势力的定居地，但也经常访问其他势力定居地购买必要的东西销售。</Kurin_BackstoryAdult_18.baseDescription>
+
+
+  <!-- 편의점 아르바이터 -->
+
+  <Kurin_BackstoryAdult_19.title>魅狐 便利店打工人</Kurin_BackstoryAdult_19.title>
+  <Kurin_BackstoryAdult_19.titleShort>打工人</Kurin_BackstoryAdult_19.titleShort>
+  <Kurin_BackstoryAdult_19.baseDescription>[PAWN_nameDef]是在普通住宅区的便利商店做夜间兼职的魅狐。晚上几乎没有客人，所以[PAWN_pronoun]一有空就学习，当然工作也没有疏忽。[PAWN_pronoun]为了成为建筑工程师而日复一日地积累知识。</Kurin_BackstoryAdult_19.baseDescription>
+
+
+  <!-- 관광지 호객꾼 -->
+
+  <Kurin_BackstoryAdult_20.title>魅狐 景区拉客员</Kurin_BackstoryAdult_20.title>
+  <Kurin_BackstoryAdult_20.titleShort>景区拉客员</Kurin_BackstoryAdult_20.titleShort>
+  <Kurin_BackstoryAdult_20.baseDescription>[PAWN_nameDef]通过与魅狐和来到海滩的人类做生意而获利，假期期间收入相当不错。[PAWN_pronoun]曾经把准备好的赚钱球扔出去、用木偶或飞镖打气球、还有把廉价纪念品以荒唐的价格出售的事情。</Kurin_BackstoryAdult_20.baseDescription>
+
+
+  <!-- 전통시장 점주 -->
+
+  <Kurin_BackstoryAdult_21.title>魅狐 传统市场店主</Kurin_BackstoryAdult_21.title>
+  <Kurin_BackstoryAdult_21.titleShort>传统市场店主</Kurin_BackstoryAdult_21.titleShort>
+  <Kurin_BackstoryAdult_21.baseDescription>[PAWN_nameDef]在传统的老魅狐市场以低廉的价格出售食物。油豆腐。各种面食、还有饭。最近，魅狐们虽然经常光顾大型百货商店，但或许是因为[PAWN_pronoun]的料理手艺很好，又或许是有传闻说这家店很好吃，客人们还是来光顾了。</Kurin_BackstoryAdult_21.baseDescription>
+
+
+  <!-- 전직 쉐프 -->
+
+  <Kurin_BackstoryAdult_22.title>魅狐 前任主厨</Kurin_BackstoryAdult_22.title>
+  <Kurin_BackstoryAdult_22.titleShort>主厨</Kurin_BackstoryAdult_22.titleShort>
+  <Kurin_BackstoryAdult_22.baseDescription>[PAWN_nameDef]曾是人类国家著名酒店的厨师。在收到酒店的客人关于食物中发现头发的投诉后，[PAWN_pronoun]被解雇了。回到魅狐共和国后，[PAWN_pronoun]在当地一家小西餐厅打工，虽然工资比以前低，但现在可以放心工作了。</Kurin_BackstoryAdult_22.baseDescription>
+
+
+  <!-- 동물 사육사 -->
+
+  <Kurin_BackstoryAdult_23.title>魅狐 动物饲养员</Kurin_BackstoryAdult_23.title>
+  <Kurin_BackstoryAdult_23.titleShort>饲养员</Kurin_BackstoryAdult_23.titleShort>
+  <Kurin_BackstoryAdult_23.baseDescription>[PAWN_nameDef]是动物园中很受欢迎的饲养员。主要是照顾幼小动物或者训练动物在舞台上表演。有时，[PAWN_pronoun]还会为游客做导游。[PAWN_pronoun]一直很受欢迎。</Kurin_BackstoryAdult_23.baseDescription>
+
+
+  <!-- 수경재배 농부 -->
+
+  <Kurin_BackstoryAdult_24.title>魅狐 水培农夫</Kurin_BackstoryAdult_24.title>
+  <Kurin_BackstoryAdult_24.titleShort>农夫</Kurin_BackstoryAdult_24.titleShort>
+  <Kurin_BackstoryAdult_24.baseDescription>[PAWN_nameDef]在城外的一个完全消毒的栽培室和多肉室里用水培法中种植了各种作物、研究新种子。作为兴趣爱好，[PAWN_pronoun]偶尔也会用自己种的农作物做饭。</Kurin_BackstoryAdult_24.baseDescription>
+
+
+  <!-- 도예가 -->
+
+  <Kurin_BackstoryAdult_25.title>魅狐 陶艺家</Kurin_BackstoryAdult_25.title>
+  <Kurin_BackstoryAdult_25.titleShort>陶艺家</Kurin_BackstoryAdult_25.titleShort>
+  <Kurin_BackstoryAdult_25.baseDescription>随着3D打印技术的发展，手工产业逐渐没落了。[PAWN_nameDef]是魅狐里为数不多的陶瓷艺术家之一。[PAWN_pronoun]的作品比起实用性，更追求美丽和价值。[PAWN_pronoun]的作品常常以相当高的价格售出。</Kurin_BackstoryAdult_25.baseDescription>
+
+
+  <!-- 모자제작자 -->
+
+  <Kurin_BackstoryAdult_26.title>魅狐 制帽匠</Kurin_BackstoryAdult_26.title>
+  <Kurin_BackstoryAdult_26.titleShort>制帽匠</Kurin_BackstoryAdult_26.titleShort>
+  <Kurin_BackstoryAdult_26.baseDescription>[PAWN_nameDef]制作各种各样的丝绸帽子。[PAWN_pronoun]在与魅狐文化不同的人类国家中学到了传统帽子的制作方法，这种帽子在家乡很受欢迎。但是由于制作丝绸帽子的材料里含有水银，所以[PAWN_pronoun]出现了黑眼圈和全身颤抖的病症。</Kurin_BackstoryAdult_26.baseDescription>
+
+
+  <!-- 시계장인 -->
+
+  <Kurin_BackstoryAdult_27.title>魅狐 钟表匠</Kurin_BackstoryAdult_27.title>
+  <Kurin_BackstoryAdult_27.titleShort>钟表匠</Kurin_BackstoryAdult_27.titleShort>
+  <Kurin_BackstoryAdult_27.baseDescription>[PAWN_nameDef]用一生的时间在人类国家学习如何制造钟表。钟表上的每一个锯齿都用细致的手法雕刻而成，以其精良的艺术外观受到了贵族和富豪们的欢迎。</Kurin_BackstoryAdult_27.baseDescription>
+
+
+  <!-- 생선요리 쉐프 -->
+
+  <Kurin_BackstoryAdult_28.title>魅狐 海鲜大厨</Kurin_BackstoryAdult_28.title>
+  <Kurin_BackstoryAdult_28.titleShort>海鲜大厨</Kurin_BackstoryAdult_28.titleShort>
+  <Kurin_BackstoryAdult_28.baseDescription>[PAWN_nameDef]知道如何让鱼变得美味。[PAWN_pronoun]用刀将鱼收拾干净，拌上各种糖醋酱，然后用烤箱和烹饪。这样做出来的料理广受欢迎，很多人类都慕名前来品尝。但自从人类封国以后，就只有魅狐客人才能吃到了。</Kurin_BackstoryAdult_28.baseDescription>
+
+
+  <!-- 의상 디자이너 -->
+
+  <Kurin_BackstoryAdult_29.title>魅狐 服装设计师</Kurin_BackstoryAdult_29.title>
+  <Kurin_BackstoryAdult_29.titleShort>设计师</Kurin_BackstoryAdult_29.titleShort>
+  <Kurin_BackstoryAdult_29.baseDescription>[PAWN_nameDef]是刚从学校毕业，成为服装设计师不久的魅狐。尽管[PAWN_pronoun]很想设计出漂亮的衣服看，但现实的门槛是很高的。[PAWN_pronoun]目前是某摄影棚的实习员工，梦想着以后有自己的摄影棚，设计出带用自己的名字的衣服。</Kurin_BackstoryAdult_29.baseDescription>
+
+
+  <!-- 재단사 -->
+
+  <Kurin_BackstoryAdult_30.title>魅狐 裁缝</Kurin_BackstoryAdult_30.title>
+  <Kurin_BackstoryAdult_30.titleShort>裁缝</Kurin_BackstoryAdult_30.titleShort>
+  <Kurin_BackstoryAdult_30.baseDescription>在魅狐历史最悠久的城市首都，有着很多老字号、小店铺聚集的胡同。[PAWN_nameDef]经营着一家很小的布店。除了卖给客人布料和衣服外，[PAWN_pronoun]还用缝纫机进行修补，并做一些简单的衣服和装饰。</Kurin_BackstoryAdult_30.baseDescription>
+
+
+  <!-- 생산라인 작업자 -->
+
+  <Kurin_BackstoryAdult_31.title>魅狐 生产线工人</Kurin_BackstoryAdult_31.title>
+  <Kurin_BackstoryAdult_31.titleShort>工人</Kurin_BackstoryAdult_31.titleShort>
+  <Kurin_BackstoryAdult_31.baseDescription>[PAWN_nameDef]在不断运转的工厂生产线上工作。[PAWN_pronoun]忙着组装电子零件，挑出有缺陷的产品。很多魅狐都在一线工作，薪水不算高。[PAWN_pronoun]为梦想过上更好的生活而努力工作。</Kurin_BackstoryAdult_31.baseDescription>
+
+
+  <!-- 벌목공 -->
+
+  <Kurin_BackstoryAdult_32.title>魅狐 伐木工</Kurin_BackstoryAdult_32.title>
+  <Kurin_BackstoryAdult_32.titleShort>伐木工</Kurin_BackstoryAdult_32.titleShort>
+  <Kurin_BackstoryAdult_32.baseDescription>[PAWN_nameDef]在尚未开发的森林中砍伐木材。工作很危险，虽然[PAWN_nameDef]和其他魅狐一样讨厌费力的工作，但[PAWN_pronoun]认为和性格爽朗的魅狐们健康地流汗也不错。</Kurin_BackstoryAdult_32.baseDescription>
+
+
+  <!-- 가난한 로봇 연구자 -->
+
+  <Kurin_BackstoryAdult_33.title>魅狐 机器人研究员</Kurin_BackstoryAdult_33.title>
+  <Kurin_BackstoryAdult_33.titleShort>机器人研究员</Kurin_BackstoryAdult_33.titleShort>
+  <Kurin_BackstoryAdult_33.baseDescription>[PAWN_nameDef]研究了几种类型的机器人。[PAWN_pronoun]在检查因失控而被处置的机器人时发现了一些缺陷，并尝试解决它们，但都没有很好的结果。由于来自魅狐共和国的研究经费被中断，[PAWN_pronoun]只好窝在小房间里过着穷困潦倒的生活。</Kurin_BackstoryAdult_33.baseDescription>
+
+
+  <!-- 우주비행사 -->
+
+  <Kurin_BackstoryAdult_34.title>魅狐 宇航员</Kurin_BackstoryAdult_34.title>
+  <Kurin_BackstoryAdult_34.titleShort>宇航员</Kurin_BackstoryAdult_34.titleShort>
+  <Kurin_BackstoryAdult_34.baseDescription>[PAWN_nameDef]有着丰富的航天经验，已经完成了星系内所有星球的所有任务。虽然还没有人去过外太空，目前只靠发射探测器，但[PAWN_pronoun]认为自己会是第一个乘坐载人飞船去外太空的魅狐。</Kurin_BackstoryAdult_34.baseDescription>
+
+
+  <!-- 정비창 보조공 -->
+
+  <Kurin_BackstoryAdult_35.title>魅狐 维修工</Kurin_BackstoryAdult_35.title>
+  <Kurin_BackstoryAdult_35.titleShort>维修工</Kurin_BackstoryAdult_35.titleShort>
+  <Kurin_BackstoryAdult_35.baseDescription>来到人类国度学习东西的[PAWN_nameDef]是一家民间航空公司的维修工。但[PAWN_pronoun]没有做重要的工作，只是做一些杂务。[PAWN_pronoun]不善于交际，默默完成着属于自己的任务。</Kurin_BackstoryAdult_35.baseDescription>
+
+
+  <!-- 전기공 -->
+
+  <Kurin_BackstoryAdult_36.title>魅狐 电工</Kurin_BackstoryAdult_36.title>
+  <Kurin_BackstoryAdult_36.titleShort>电工</Kurin_BackstoryAdult_36.titleShort>
+  <Kurin_BackstoryAdult_36.baseDescription>[PAWN_nameDef]负责爬到高铁塔上更换电线和部件。即使不佩戴安全装备，[PAWN_pronoun]也能凭借三条尾巴抓住重心，以优秀的技巧快速完成工作，收入还算不错。[PAWN_pronoun]梦想着能和妻子在郊区找到一所好房子，过上幸福的生活。</Kurin_BackstoryAdult_36.baseDescription>
+
+
+  <!-- 배관공 -->
+
+  <Kurin_BackstoryAdult_37.title>魅狐 水管工</Kurin_BackstoryAdult_37.title>
+  <Kurin_BackstoryAdult_37.titleShort>水管工</Kurin_BackstoryAdult_37.titleShort>
+  <Kurin_BackstoryAdult_37.baseDescription>在建筑工地上组管道的[PAWN_nameDef]因经济不景气而被单位解雇了，[PAWN_pronoun]漂亮的脸蛋不禁愁容满面。[PAWN_pronoun]听说魅狐共和国最近的情况很糟糕，其他魅狐也是这样。</Kurin_BackstoryAdult_37.baseDescription>
+
+
+  <!-- 은여우 중공업 기술자 -->
+
+  <Kurin_BackstoryAdult_38.title>魅狐 重工业工程师</Kurin_BackstoryAdult_38.title>
+  <Kurin_BackstoryAdult_38.titleShort>重工业工程师</Kurin_BackstoryAdult_38.titleShort>
+  <Kurin_BackstoryAdult_38.baseDescription>[PAWN_nameDef]是魅狐共和国最大造船厂的一名工程师。该厂生产各种类型的游轮、集装箱船、驱逐舰，甚至航空母舰。银狐重工业是一家大型公司，供应了行星上80%以上的船只。[PAWN_pronoun]每天都忙于处理文件和工程管理。</Kurin_BackstoryAdult_38.baseDescription>
+
+
+  <!-- 레스토랑 웨이터 -->
+
+  <Kurin_BackstoryAdult_39.title>魅狐 餐厅服务员</Kurin_BackstoryAdult_39.title>
+  <Kurin_BackstoryAdult_39.titleShort>服务员</Kurin_BackstoryAdult_39.titleShort>
+  <Kurin_BackstoryAdult_39.baseDescription>[PAWN_nameDef]是高级餐厅的一名服务员，负责帮客人挂好随身物品和帮客人点单。虽然[PAWN_pronoun]现在只负责接待客人，但其实[PAWN_pronoun]更想在厨房里工作。毕竟[PAWN_pronoun]会做一些料理。</Kurin_BackstoryAdult_39.baseDescription>
+
+
+  <!-- 간호사 -->
+
+  <Kurin_BackstoryAdult_40.title>魅狐 护士</Kurin_BackstoryAdult_40.title>
+  <Kurin_BackstoryAdult_40.titleShort>护士</Kurin_BackstoryAdult_40.titleShort>
+  <Kurin_BackstoryAdult_40.baseDescription>[PAWN_nameDef]是一名正式接受过教育的护士。哪怕是严重受伤的魅狐被送到急诊室后，[PAWN_nameDef]脸色也不会变，冷静地进行止血和应急措施。</Kurin_BackstoryAdult_40.baseDescription>
+
+
+  <!-- 천문학자 -->
+
+  <Kurin_BackstoryAdult_41.title>魅狐 天文学家</Kurin_BackstoryAdult_41.title>
+  <Kurin_BackstoryAdult_41.titleShort>天文学家</Kurin_BackstoryAdult_41.titleShort>
+  <Kurin_BackstoryAdult_41.baseDescription>[PAWN_nameDef]负责分析深空探测器发送的数据，创建三维空间图，计算出探测器的星际飞行路径。这种平静的研究室生活让[PAWN_pronoun]变得比其他的魅狐脆弱。</Kurin_BackstoryAdult_41.baseDescription>
+
+
+  <!-- 생명공학자 -->
+
+  <Kurin_BackstoryAdult_42.title>魅狐 生物工程师</Kurin_BackstoryAdult_42.title>
+  <Kurin_BackstoryAdult_42.titleShort>生物工程师</Kurin_BackstoryAdult_42.titleShort>
+  <Kurin_BackstoryAdult_42.baseDescription>[PAWN_nameDef]是一位从事基因工程研究的生物工程师。[PAWN_pronoun]通过研究魅狐的基因，找到了治疗新疾病的方法。在研究基因时，[PAWN_nameDef]发现了魅狐如果不人为植入就无法产生新的染色体结构，[PAWN_pronoun]决定保密这个发现。</Kurin_BackstoryAdult_42.baseDescription>
+
+
+  <!-- 인공지능 공학자 -->
+
+  <Kurin_BackstoryAdult_43.title>魅狐 AI工程师</Kurin_BackstoryAdult_43.title>
+  <Kurin_BackstoryAdult_43.titleShort>AI工程师</Kurin_BackstoryAdult_43.titleShort>
+  <Kurin_BackstoryAdult_43.baseDescription>[PAWN_nameDef]知道机械生命有多危险，并识图开发一款搭载新型AI的人形机器人。在一次又一次的失败中，[PAWN_pronoun]回想起那些死在机械生命手下的人，再次坐在电脑前继续研究。</Kurin_BackstoryAdult_43.baseDescription>
+
+
+  <!-- 지질학자 -->
+
+  <Kurin_BackstoryAdult_44.title>魅狐 地质学家</Kurin_BackstoryAdult_44.title>
+  <Kurin_BackstoryAdult_44.titleShort>地质学家</Kurin_BackstoryAdult_44.titleShort>
+  <Kurin_BackstoryAdult_44.baseDescription>[PAWN_nameDef]是一位地质学家，负责调查国外的巨型断层、火山和陆地。[PAWN_pronoun]用钻头和镐子挖地，用鼻子嗅着地面和空中的气味，把精力都投入到地质研究中。</Kurin_BackstoryAdult_44.baseDescription>
+
+
+  <!-- 고등학교 교사 -->
+
+  <Kurin_BackstoryAdult_45.title>魅狐 高中老师</Kurin_BackstoryAdult_45.title>
+  <Kurin_BackstoryAdult_45.titleShort>老师</Kurin_BackstoryAdult_45.titleShort>
+  <Kurin_BackstoryAdult_45.baseDescription>[PAWN_nameDef]是一名高中数学老师，同时也是一名班主任。[PAWN_pronoun]抓住逃学的学生、教导学生到毕业，每天的生活都很充实。</Kurin_BackstoryAdult_45.baseDescription>
+
+
+  <!-- 외과 의사 -->
+
+  <Kurin_BackstoryAdult_46.title>魅狐 外科医生</Kurin_BackstoryAdult_46.title>
+  <Kurin_BackstoryAdult_46.titleShort>医生</Kurin_BackstoryAdult_46.titleShort>
+  <Kurin_BackstoryAdult_46.baseDescription>[PAWN_nameDef]是一家综合医院里的外科医生。在临近边境的城市里，病人本来不多，但最近魅狐被人类袭击的事件经常发生，导致[PAWN_pronoun]开始忙了起来。</Kurin_BackstoryAdult_46.baseDescription>
+
+
+  <!-- 의료보건부 공무원 -->
+
+  <Kurin_BackstoryAdult_47.title>魅狐 公务员</Kurin_BackstoryAdult_47.title>
+  <Kurin_BackstoryAdult_47.titleShort>公务员</Kurin_BackstoryAdult_47.titleShort>
+  <Kurin_BackstoryAdult_47.baseDescription>[PAWN_nameDef]是魅狐共和国医疗部的一名公务员。[PAWN_pronoun]本可以成为一名医生，但为了改善魅狐们的医疗环境，[PAWN_pronoun]放弃了开设私人医院，选择了成为一名公务员。</Kurin_BackstoryAdult_47.baseDescription>
+
+
+  <!-- 아이돌 -->
+
+  <Kurin_BackstoryAdult_48.title>魅狐 偶像</Kurin_BackstoryAdult_48.title>
+  <Kurin_BackstoryAdult_48.titleShort>偶像</Kurin_BackstoryAdult_48.titleShort>
+  <Kurin_BackstoryAdult_48.baseDescription>[PAWN_nameDef]是一个冉冉升起的魅狐偶像，[PAWN_pronoun]以出色的舞技、出色的歌功和美丽的容貌走红。[PAWN_pronoun]的人气日益提高，出演了许多节目。</Kurin_BackstoryAdult_48.baseDescription>
+
+
+  <!-- 떠오르는 가수 -->
+
+  <Kurin_BackstoryAdult_49.title>魅狐 歌手</Kurin_BackstoryAdult_49.title>
+  <Kurin_BackstoryAdult_49.titleShort>歌手</Kurin_BackstoryAdult_49.titleShort>
+  <Kurin_BackstoryAdult_49.baseDescription>[PAWN_nameDef]是一位著名的创作型歌手，曾发行过多张专辑。[PAWN_pronoun]受邀参加多场演出，偶尔出现在电视节目中。</Kurin_BackstoryAdult_49.baseDescription>
+
+
+  <!-- 드라마 배우 -->
+
+  <Kurin_BackstoryAdult_50.title>魅狐 话剧演员</Kurin_BackstoryAdult_50.title>
+  <Kurin_BackstoryAdult_50.titleShort>话剧演员</Kurin_BackstoryAdult_50.titleShort>
+  <Kurin_BackstoryAdult_50.baseDescription>[PAWN_nameDef]以柔和的声音和逼真的演技出演了各种电影和话剧。[PAWN_pronoun]饰演过主角和配角，有着丰富的演出经验。</Kurin_BackstoryAdult_50.baseDescription>
+
+
+  <!-- 가극단 단원 -->
+
+  <Kurin_BackstoryAdult_51.title>魅狐 歌剧团成员</Kurin_BackstoryAdult_51.title>
+  <Kurin_BackstoryAdult_51.titleShort>歌剧团成员</Kurin_BackstoryAdult_51.titleShort>
+  <Kurin_BackstoryAdult_51.baseDescription>[PAWN_nameDef]是一个歌剧团的成员，穿着华丽的服装演奏着歌曲和戏剧。虽然仅仅是一个地方歌剧团，但是只要离开城市，就能看到树林和听到虫子的声音，还有有很多淳朴的魅狐。[PAWN_pronoun]热爱着这个地方。</Kurin_BackstoryAdult_51.baseDescription>
+
+
+  <!-- 소총수 -->
+
+  <Kurin_BackstoryAdult_52.title>魅狐 步枪手</Kurin_BackstoryAdult_52.title>
+  <Kurin_BackstoryAdult_52.titleShort>步枪手</Kurin_BackstoryAdult_52.titleShort>
+  <Kurin_BackstoryAdult_52.baseDescription>[PAWN_nameDef]是魅狐共和国军队的主力步枪手。所有步枪手都是招募进来的，人数不够的话则雇佣雇佣兵。魅狐共和国强大的经济实力使这成为可能。</Kurin_BackstoryAdult_52.baseDescription>
+
+
+  <!-- 지정사수 -->
+
+  <Kurin_BackstoryAdult_53.title>魅狐 狙击手</Kurin_BackstoryAdult_53.title>
+  <Kurin_BackstoryAdult_53.titleShort>狙击手</Kurin_BackstoryAdult_53.titleShort>
+  <Kurin_BackstoryAdult_53.baseDescription>大多数魅狐的视力优秀，手也很稳，所以枪开得非常好。[PAWN_nameDef]拥有非常出色的视力和射击技巧，拿起狙击步枪时，能够比别人更快、更准确地击中敌人。</Kurin_BackstoryAdult_53.baseDescription>
+
+
+  <!-- 레인저 -->
+
+  <Kurin_BackstoryAdult_54.title>魅狐 游骑兵</Kurin_BackstoryAdult_54.title>
+  <Kurin_BackstoryAdult_54.titleShort>游骑兵</Kurin_BackstoryAdult_54.titleShort>
+  <Kurin_BackstoryAdult_54.baseDescription>[PAWN_nameDef]是一名守护北方被白雪覆盖的森林和山脉的游骑兵。发生火灾时，[PAWN_pronoun]会去灭火并救助遇险者。</Kurin_BackstoryAdult_54.baseDescription>
+
+
+  <!-- 정찰병 -->
+
+  <Kurin_BackstoryAdult_55.title>魅狐 侦察兵</Kurin_BackstoryAdult_55.title>
+  <Kurin_BackstoryAdult_55.titleShort>侦察兵</Kurin_BackstoryAdult_55.titleShort>
+  <Kurin_BackstoryAdult_55.baseDescription>在边缘世界迫降后，魅狐们觉得有必要侦察其他派系。[PAWN_nameDef]接受了大量的军事训练，能够以隐秘快速的方式侦察敌人，并且能够精确定位各派系据点的位置、动向等。</Kurin_BackstoryAdult_55.baseDescription>
+
+
+  <!-- 의무관 -->
+
+  <Kurin_BackstoryAdult_56.title>魅狐 医疗兵</Kurin_BackstoryAdult_56.title>
+  <Kurin_BackstoryAdult_56.titleShort>医疗兵</Kurin_BackstoryAdult_56.titleShort>
+  <Kurin_BackstoryAdult_56.baseDescription>[PAWN_nameDef]为了拯救战场上垂死的队友而成为了一名医疗兵。虽然[PAWN_pronoun]的医疗水平很高，但有时候需要杀死敌人才能拯救队友。</Kurin_BackstoryAdult_56.baseDescription>
+
+
+  <!-- 분대장 -->
+
+  <Kurin_BackstoryAdult_57.title>魅狐 班长</Kurin_BackstoryAdult_57.title>
+  <Kurin_BackstoryAdult_57.titleShort>班长</Kurin_BackstoryAdult_57.titleShort>
+  <Kurin_BackstoryAdult_57.baseDescription>[PAWN_nameDef]是一只有着领导才能的狐狸，自从迫降在边缘世界后就开始拿着枪站岗。当情况稳定下来后，有一定的军事经验的[PAWN_pronoun]申请成为班长。</Kurin_BackstoryAdult_57.baseDescription>
+
+
+  <!-- 붉은여우 -->
+
+  <Kurin_BackstoryAdult_58.title>魅狐 赤狐</Kurin_BackstoryAdult_58.title>
+  <Kurin_BackstoryAdult_58.titleShort>赤狐</Kurin_BackstoryAdult_58.titleShort>
+  <Kurin_BackstoryAdult_58.baseDescription>[PAWN_nameDef]在魅狐共和国移民前，亲眼目睹了与人类之间的暴力冲突。为了证明自己比人类厉害，[PAWN_pronoun]刻苦的训练了各种作战能力。[PAWN_pronoun]参加了许多战斗，凭借着敏锐的射击实力和快速的判断能力杀死了许多敌人，同事们都称[PAWN_pronoun]为“赤狐”。</Kurin_BackstoryAdult_58.baseDescription>
+
+
+  <!-- 여우장교 -->
+
+  <Kurin_BackstoryAdult_59.title>魅狐 军官</Kurin_BackstoryAdult_59.title>
+  <Kurin_BackstoryAdult_59.titleShort>军官</Kurin_BackstoryAdult_59.titleShort>
+  <Kurin_BackstoryAdult_59.baseDescription>[PAWN_nameDef]出身于为数不多的繁华地区军队的军官。[PAWN_pronoun]大部分时间都是在枯燥的办公室里工作，因为闲暇时间多，所以读了各种各样的书和进行VR射击训练。最重要的是，在被称为“豺狼”的老练司令官下当副官，[PAWN_pronoun]能听到很多战斗经验。</Kurin_BackstoryAdult_59.baseDescription>
+
+
+  <!-- 강하폭격기 파일럿 -->
+
+  <Kurin_BackstoryAdult_60.title>魅狐 轰炸机飞行员</Kurin_BackstoryAdult_60.title>
+  <Kurin_BackstoryAdult_60.titleShort>飞行员</Kurin_BackstoryAdult_60.titleShort>
+  <Kurin_BackstoryAdult_60.baseDescription>[PAWN_nameDef]是在人类国家参军的魅狐。[PAWN_pronoun]发明了一种新的轰炸方法，将飞机升高然后降低，直接将炸弹投入要塞或船只，使众多敌方目标沉没。[PAWN_pronoun]虽然是魅狐，但总想着脱离种族忠于军队。</Kurin_BackstoryAdult_60.baseDescription>
+
+
+  <!-- 유년기 -->
+
+  <Kimiri_BackstoryChild_01.title>奇龙 平凡的孩子</Kimiri_BackstoryChild_01.title>
+  <Kimiri_BackstoryChild_01.titleShort>平凡的孩子</Kimiri_BackstoryChild_01.titleShort>
+  <Kimiri_BackstoryChild_01.baseDescription>...</Kimiri_BackstoryChild_01.baseDescription>
+
+  <Kimiri_BackstoryChild_02.title>奇龙 富有的孩子</Kimiri_BackstoryChild_02.title>
+  <Kimiri_BackstoryChild_02.titleShort>富有的孩子</Kimiri_BackstoryChild_02.titleShort>
+  <Kimiri_BackstoryChild_02.baseDescription>...</Kimiri_BackstoryChild_02.baseDescription>
+
+  <Kimiri_BackstoryChild_03.title>奇龙 善良的孩子</Kimiri_BackstoryChild_03.title>
+  <Kimiri_BackstoryChild_03.titleShort>善良的孩子</Kimiri_BackstoryChild_03.titleShort>
+  <Kimiri_BackstoryChild_03.baseDescription>...</Kimiri_BackstoryChild_03.baseDescription>
+
+  <Kimiri_BackstoryChild_04.title>奇龙 粗鲁的孩子</Kimiri_BackstoryChild_04.title>
+  <Kimiri_BackstoryChild_04.titleShort>粗鲁的孩子</Kimiri_BackstoryChild_04.titleShort>
+  <Kimiri_BackstoryChild_04.baseDescription>...</Kimiri_BackstoryChild_04.baseDescription>
+
+  <Kimiri_BackstoryChild_05.title>奇龙 优秀的学生</Kimiri_BackstoryChild_05.title>
+  <Kimiri_BackstoryChild_05.titleShort>优秀的学生</Kimiri_BackstoryChild_05.titleShort>
+  <Kimiri_BackstoryChild_05.baseDescription>...</Kimiri_BackstoryChild_05.baseDescription>
+
+  <Kimiri_BackstoryChild_06.title>奇龙 年轻的运动员</Kimiri_BackstoryChild_06.title>
+  <Kimiri_BackstoryChild_06.titleShort>年轻的运动员</Kimiri_BackstoryChild_06.titleShort>
+  <Kimiri_BackstoryChild_06.baseDescription>...</Kimiri_BackstoryChild_06.baseDescription>
+
+  <Kimiri_BackstoryChild_07.title>奇龙 年轻的厨师</Kimiri_BackstoryChild_07.title>
+  <Kimiri_BackstoryChild_07.titleShort>年轻的厨师</Kimiri_BackstoryChild_07.titleShort>
+  <Kimiri_BackstoryChild_07.baseDescription>...</Kimiri_BackstoryChild_07.baseDescription>
+
+  <Kimiri_BackstoryChild_08.title>奇龙 年轻的动物爱好者</Kimiri_BackstoryChild_08.title>
+  <Kimiri_BackstoryChild_08.titleShort>年轻的动物爱好者</Kimiri_BackstoryChild_08.titleShort>
+  <Kimiri_BackstoryChild_08.baseDescription>...</Kimiri_BackstoryChild_08.baseDescription>
+
+  <Kimiri_BackstoryChild_09.title>奇龙 年轻的园丁</Kimiri_BackstoryChild_09.title>
+  <Kimiri_BackstoryChild_09.titleShort>年轻的园丁</Kimiri_BackstoryChild_09.titleShort>
+  <Kimiri_BackstoryChild_09.baseDescription>...</Kimiri_BackstoryChild_09.baseDescription>
+
+  <Kimiri_BackstoryChild_10.title>奇龙 游戏玩家</Kimiri_BackstoryChild_10.title>
+  <Kimiri_BackstoryChild_10.titleShort>游戏玩家</Kimiri_BackstoryChild_10.titleShort>
+  <Kimiri_BackstoryChild_10.baseDescription>...</Kimiri_BackstoryChild_10.baseDescription>
+
+  <Kimiri_BackstoryChild_11.title>奇龙 护士助理</Kimiri_BackstoryChild_11.title>
+  <Kimiri_BackstoryChild_11.titleShort>护士助理</Kimiri_BackstoryChild_11.titleShort>
+  <Kimiri_BackstoryChild_11.baseDescription>...</Kimiri_BackstoryChild_11.baseDescription>
+
+  <Kimiri_BackstoryChild_12.title>奇龙 年轻的剑客</Kimiri_BackstoryChild_12.title>
+  <Kimiri_BackstoryChild_12.titleShort>年轻的剑客</Kimiri_BackstoryChild_12.titleShort>
+  <Kimiri_BackstoryChild_12.baseDescription>...</Kimiri_BackstoryChild_12.baseDescription>
+
+  <Kimiri_BackstoryChild_13.title>奇龙 无家可归的孩子</Kimiri_BackstoryChild_13.title>
+  <Kimiri_BackstoryChild_13.titleShort>无家可归的孩子</Kimiri_BackstoryChild_13.titleShort>
+  <Kimiri_BackstoryChild_13.baseDescription>...</Kimiri_BackstoryChild_13.baseDescription>
+
+  <Kimiri_BackstoryChild_14.title>奇龙 倔强的孩子</Kimiri_BackstoryChild_14.title>
+  <Kimiri_BackstoryChild_14.titleShort>倔强的孩子</Kimiri_BackstoryChild_14.titleShort>
+  <Kimiri_BackstoryChild_14.baseDescription>...</Kimiri_BackstoryChild_14.baseDescription>
+
+
+  <!-- 성년기 -->
+
+  <Kimiri_BackstoryAdult_01.title>奇龙 剑术大师</Kimiri_BackstoryAdult_01.title>
+  <Kimiri_BackstoryAdult_01.titleShort>剑术大师</Kimiri_BackstoryAdult_01.titleShort>
+  <Kimiri_BackstoryAdult_01.baseDescription>...</Kimiri_BackstoryAdult_01.baseDescription>
+
+  <Kimiri_BackstoryAdult_02.title>奇龙 街头赛车手</Kimiri_BackstoryAdult_02.title>
+  <Kimiri_BackstoryAdult_02.titleShort>街头赛车手</Kimiri_BackstoryAdult_02.titleShort>
+  <Kimiri_BackstoryAdult_02.baseDescription>...</Kimiri_BackstoryAdult_02.baseDescription>
+
+  <Kimiri_BackstoryAdult_03.title>奇龙 商人</Kimiri_BackstoryAdult_03.title>
+  <Kimiri_BackstoryAdult_03.titleShort>商人</Kimiri_BackstoryAdult_03.titleShort>
+  <Kimiri_BackstoryAdult_03.baseDescription>...</Kimiri_BackstoryAdult_03.baseDescription>
+
+  <Kimiri_BackstoryAdult_04.title>奇龙 厨师</Kimiri_BackstoryAdult_04.title>
+  <Kimiri_BackstoryAdult_04.titleShort>厨师</Kimiri_BackstoryAdult_04.titleShort>
+  <Kimiri_BackstoryAdult_04.baseDescription>...</Kimiri_BackstoryAdult_04.baseDescription>
+
+  <Kimiri_BackstoryAdult_05.title>奇龙 渔夫</Kimiri_BackstoryAdult_05.title>
+  <Kimiri_BackstoryAdult_05.titleShort>渔夫</Kimiri_BackstoryAdult_05.titleShort>
+  <Kimiri_BackstoryAdult_05.baseDescription>...</Kimiri_BackstoryAdult_05.baseDescription>
+
+  <Kimiri_BackstoryAdult_06.title>奇龙 农夫</Kimiri_BackstoryAdult_06.title>
+  <Kimiri_BackstoryAdult_06.titleShort>农夫</Kimiri_BackstoryAdult_06.titleShort>
+  <Kimiri_BackstoryAdult_06.baseDescription>...</Kimiri_BackstoryAdult_06.baseDescription>
+
+  <Kimiri_BackstoryAdult_07.title>奇龙 裁缝</Kimiri_BackstoryAdult_07.title>
+  <Kimiri_BackstoryAdult_07.titleShort>裁缝</Kimiri_BackstoryAdult_07.titleShort>
+  <Kimiri_BackstoryAdult_07.baseDescription>...</Kimiri_BackstoryAdult_07.baseDescription>
+
+  <Kimiri_BackstoryAdult_08.title>奇龙 经理</Kimiri_BackstoryAdult_08.title>
+  <Kimiri_BackstoryAdult_08.titleShort>经理</Kimiri_BackstoryAdult_08.titleShort>
+  <Kimiri_BackstoryAdult_08.baseDescription>...</Kimiri_BackstoryAdult_08.baseDescription>
+
+  <Kimiri_BackstoryAdult_09.title>奇龙 农场主</Kimiri_BackstoryAdult_09.title>
+  <Kimiri_BackstoryAdult_09.titleShort>农场主</Kimiri_BackstoryAdult_09.titleShort>
+  <Kimiri_BackstoryAdult_09.baseDescription>...</Kimiri_BackstoryAdult_09.baseDescription>
+
+  <Kimiri_BackstoryAdult_10.title>奇龙 酒店老板</Kimiri_BackstoryAdult_10.title>
+  <Kimiri_BackstoryAdult_10.titleShort>酒店老板</Kimiri_BackstoryAdult_10.titleShort>
+  <Kimiri_BackstoryAdult_10.baseDescription>...</Kimiri_BackstoryAdult_10.baseDescription>
+
+  <Kimiri_BackstoryAdult_11.title>奇龙 女仆</Kimiri_BackstoryAdult_11.title>
+  <Kimiri_BackstoryAdult_11.titleShort>女仆</Kimiri_BackstoryAdult_11.titleShort>
+  <Kimiri_BackstoryAdult_11.baseDescription>...</Kimiri_BackstoryAdult_11.baseDescription>
+
+  <Kimiri_BackstoryAdult_12.title>奇龙 矿工</Kimiri_BackstoryAdult_12.title>
+  <Kimiri_BackstoryAdult_12.titleShort>矿工</Kimiri_BackstoryAdult_12.titleShort>
+  <Kimiri_BackstoryAdult_12.baseDescription>...</Kimiri_BackstoryAdult_12.baseDescription>
+
+  <Kimiri_BackstoryAdult_13.title>奇龙 地质学家</Kimiri_BackstoryAdult_13.title>
+  <Kimiri_BackstoryAdult_13.titleShort>地质学家</Kimiri_BackstoryAdult_13.titleShort>
+  <Kimiri_BackstoryAdult_13.baseDescription>...</Kimiri_BackstoryAdult_13.baseDescription>
+
+  <Kimiri_BackstoryAdult_14.title>奇龙 技工</Kimiri_BackstoryAdult_14.title>
+  <Kimiri_BackstoryAdult_14.titleShort>技工</Kimiri_BackstoryAdult_14.titleShort>
+  <Kimiri_BackstoryAdult_14.baseDescription>...</Kimiri_BackstoryAdult_14.baseDescription>
+
+  <Kimiri_BackstoryAdult_15.title>奇龙 爱猫人士</Kimiri_BackstoryAdult_15.title>
+  <Kimiri_BackstoryAdult_15.titleShort>爱猫人士</Kimiri_BackstoryAdult_15.titleShort>
+  <Kimiri_BackstoryAdult_15.baseDescription>...</Kimiri_BackstoryAdult_15.baseDescription>
+
+  <Kimiri_BackstoryAdult_16.title>奇龙 外科医生</Kimiri_BackstoryAdult_16.title>
+  <Kimiri_BackstoryAdult_16.titleShort>外科医生</Kimiri_BackstoryAdult_16.titleShort>
+  <Kimiri_BackstoryAdult_16.baseDescription>...</Kimiri_BackstoryAdult_16.baseDescription>
+
+  <Kimiri_BackstoryAdult_17.title>奇龙 服务员</Kimiri_BackstoryAdult_17.title>
+  <Kimiri_BackstoryAdult_17.titleShort>服务员</Kimiri_BackstoryAdult_17.titleShort>
+  <Kimiri_BackstoryAdult_17.baseDescription>...</Kimiri_BackstoryAdult_17.baseDescription>
+
+  <Kimiri_BackstoryAdult_18.title>奇龙 调酒师</Kimiri_BackstoryAdult_18.title>
+  <Kimiri_BackstoryAdult_18.titleShort>调酒师</Kimiri_BackstoryAdult_18.titleShort>
+  <Kimiri_BackstoryAdult_18.baseDescription>...</Kimiri_BackstoryAdult_18.baseDescription>
+
+  <Kimiri_BackstoryAdult_19.title>奇龙 清洁工</Kimiri_BackstoryAdult_19.title>
+  <Kimiri_BackstoryAdult_19.titleShort>清洁工</Kimiri_BackstoryAdult_19.titleShort>
+  <Kimiri_BackstoryAdult_19.baseDescription>...</Kimiri_BackstoryAdult_19.baseDescription>
+
+  <Kimiri_BackstoryAdult_20.title>奇龙 花农</Kimiri_BackstoryAdult_20.title>
+  <Kimiri_BackstoryAdult_20.titleShort>花农</Kimiri_BackstoryAdult_20.titleShort>
+  <Kimiri_BackstoryAdult_20.baseDescription>...</Kimiri_BackstoryAdult_20.baseDescription>
+
+  <Kimiri_BackstoryAdult_21.title>奇龙 吉他手</Kimiri_BackstoryAdult_21.title>
+  <Kimiri_BackstoryAdult_21.titleShort>吉他手</Kimiri_BackstoryAdult_21.titleShort>
+  <Kimiri_BackstoryAdult_21.baseDescription>...</Kimiri_BackstoryAdult_21.baseDescription>
+
+  <Kimiri_BackstoryAdult_22.title>奇龙 平面模特</Kimiri_BackstoryAdult_22.title>
+  <Kimiri_BackstoryAdult_22.titleShort>平面模特</Kimiri_BackstoryAdult_22.titleShort>
+  <Kimiri_BackstoryAdult_22.baseDescription>...</Kimiri_BackstoryAdult_22.baseDescription>
+
+  <Kimiri_BackstoryAdult_23.title>奇龙 警察</Kimiri_BackstoryAdult_23.title>
+  <Kimiri_BackstoryAdult_23.titleShort>警察</Kimiri_BackstoryAdult_23.titleShort>
+  <Kimiri_BackstoryAdult_23.baseDescription>...</Kimiri_BackstoryAdult_23.baseDescription>
+
+  <Kimiri_BackstoryAdult_24.title>奇龙 军官</Kimiri_BackstoryAdult_24.title>
+  <Kimiri_BackstoryAdult_24.titleShort>军官</Kimiri_BackstoryAdult_24.titleShort>
+  <Kimiri_BackstoryAdult_24.baseDescription>...</Kimiri_BackstoryAdult_24.baseDescription>
+
+  <Kimiri_BackstoryAdult_25.title>奇龙 军队士兵</Kimiri_BackstoryAdult_25.title>
+  <Kimiri_BackstoryAdult_25.titleShort>士兵</Kimiri_BackstoryAdult_25.titleShort>
+  <Kimiri_BackstoryAdult_25.baseDescription>...</Kimiri_BackstoryAdult_25.baseDescription>
+
+  <Kimiri_BackstoryAdult_26.title>奇龙 护理人员</Kimiri_BackstoryAdult_26.title>
+  <Kimiri_BackstoryAdult_26.titleShort>护理人员</Kimiri_BackstoryAdult_26.titleShort>
+  <Kimiri_BackstoryAdult_26.baseDescription>...</Kimiri_BackstoryAdult_26.baseDescription>
+
+  <Kimiri_BackstoryAdult_27.title>奇龙 出纳员</Kimiri_BackstoryAdult_27.title>
+  <Kimiri_BackstoryAdult_27.titleShort>出纳员</Kimiri_BackstoryAdult_27.titleShort>
+  <Kimiri_BackstoryAdult_27.baseDescription>...</Kimiri_BackstoryAdult_27.baseDescription>
+
+  <Kimiri_BackstoryAdult_28.title>奇龙 程序员</Kimiri_BackstoryAdult_28.title>
+  <Kimiri_BackstoryAdult_28.titleShort>程序员</Kimiri_BackstoryAdult_28.titleShort>
+  <Kimiri_BackstoryAdult_28.baseDescription>...</Kimiri_BackstoryAdult_28.baseDescription>
+
+  <Kimiri_BackstoryAdult_29.title>奇龙 法律顾问</Kimiri_BackstoryAdult_29.title>
+  <Kimiri_BackstoryAdult_29.titleShort>法律顾问</Kimiri_BackstoryAdult_29.titleShort>
+  <Kimiri_BackstoryAdult_29.baseDescription>...</Kimiri_BackstoryAdult_29.baseDescription>
+
+  <Kimiri_BackstoryAdult_30.title>奇龙 屠夫</Kimiri_BackstoryAdult_30.title>
+  <Kimiri_BackstoryAdult_30.titleShort>屠夫</Kimiri_BackstoryAdult_30.titleShort>
+  <Kimiri_BackstoryAdult_30.baseDescription>...</Kimiri_BackstoryAdult_30.baseDescription>
+
+  <Kimiri_BackstoryAdult_31.title>奇龙 失败的投资者</Kimiri_BackstoryAdult_31.title>
+  <Kimiri_BackstoryAdult_31.titleShort>失败的投资者</Kimiri_BackstoryAdult_31.titleShort>
+  <Kimiri_BackstoryAdult_31.baseDescription>...</Kimiri_BackstoryAdult_31.baseDescription>
+
+  <Kimiri_BackstoryAdult_32.title>奇龙 工厂工人</Kimiri_BackstoryAdult_32.title>
+  <Kimiri_BackstoryAdult_32.titleShort>工厂工人</Kimiri_BackstoryAdult_32.titleShort>
+  <Kimiri_BackstoryAdult_32.baseDescription>...</Kimiri_BackstoryAdult_32.baseDescription>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Electric_Tailoring_Bench.label>魅狐电力裁缝台</Kurin_Electric_Tailoring_Bench.label>
+  <Kurin_Electric_Tailoring_Bench.description>带有缝纫机的工作台，用于快速缝制衣服。可以在没有电的情况下以正常速度的50%工作。</Kurin_Electric_Tailoring_Bench.description>
+
+  <Kurin_Fabricator.label>魅狐制造台</Kurin_Fabricator.label>
+  <Kurin_Fabricator.description>魅狐制造台是高度先进的3D打印机，可以生产先进的材料和工具，让人对魅狐的技术感到自豪。\n\n优点: 工作速度快，对殖民者的技能没有任何要求。\n缺点：耗电量大，下雨时还会短路。</Kurin_Fabricator.description>
+
+
+</LanguageData>

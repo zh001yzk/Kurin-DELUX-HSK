@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Charge_LMG.label>魅狐电荷轻机枪</Kurin_Gun_Charge_LMG.label>
+  <Kurin_Gun_Charge_LMG.description>[FXCLMG-A1] - 【分裂者]\n\n~ “分裂者”是魅狐的一种超现代重型武器，创造于库林太空时代初期，专为精英魅狐部队设计。</Kurin_Gun_Charge_LMG.description>
+  <Kurin_Gun_Charge_LMG.tools.0.label>枪托</Kurin_Gun_Charge_LMG.tools.0.label>
+  <Kurin_Gun_Charge_LMG.tools.1.label>枪管</Kurin_Gun_Charge_LMG.tools.1.label>
+
+  <Kurin_Bullet_Charge_LMG.label>魅狐电荷轻机枪子弹</Kurin_Bullet_Charge_LMG.label>
+
+
+</LanguageData>

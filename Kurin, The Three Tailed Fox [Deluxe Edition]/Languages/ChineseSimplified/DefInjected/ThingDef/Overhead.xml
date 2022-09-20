@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tear 1 -->
+
+  <Kurin_Overhead_Winter_Hat.label>魅狐冬日帽</Kurin_Overhead_Winter_Hat.label>
+  <Kurin_Overhead_Winter_Hat.description>一顶简单的冬日帽。对寒冷的抵抗力较弱的魅狐们也可以舒适地度过冬天。</Kurin_Overhead_Winter_Hat.description>
+
+  <Kurin_Overhead_Summer_Hat.label>魅狐夏日帽</Kurin_Overhead_Summer_Hat.label>
+  <Kurin_Overhead_Summer_Hat.description>一顶简单的夏日帽。 只要戴上这顶帽子，即使在最热的夏天也能生存下来。</Kurin_Overhead_Summer_Hat.description>
+
+  <Kurin_Overhead_Cap.label>魅狐帽子</Kurin_Overhead_Cap.label>
+  <Kurin_Overhead_Cap.description>简单的深色帽子。</Kurin_Overhead_Cap.description>
+
+
+  <!-- Tear 2 -->
+
+  <Kurin_Overhead_Casual_Hair_Pin.label>魅狐休闲发夹</Kurin_Overhead_Casual_Hair_Pin.label>
+  <Kurin_Overhead_Casual_Hair_Pin.description>休闲感觉的发夹。单纯的穿着也会充满活力</Kurin_Overhead_Casual_Hair_Pin.description>
+
+  <Kurin_Overhead_Sunglasses.label>魅狐墨镜</Kurin_Overhead_Sunglasses.label>
+  <Kurin_Overhead_Sunglasses.description>冷面模式：激活。</Kurin_Overhead_Sunglasses.description>
+
+  <Kurin_Overhead_Goggles.label>魅狐护目镜</Kurin_Overhead_Goggles.label>
+  <Kurin_Overhead_Goggles.description>战斗用护目镜。提供了最基本的防御能力。</Kurin_Overhead_Goggles.description>
+
+
+  <!-- Tear 3 -->
+
+  <Kurin_Overhead_Gothic_Hair_Pin.label>魅狐哥特式发夹</Kurin_Overhead_Gothic_Hair_Pin.label>
+  <Kurin_Overhead_Gothic_Hair_Pin.description>哥特式发夹。</Kurin_Overhead_Gothic_Hair_Pin.description>
+
+  <Kurin_Overhead_Bikini_Armor_Headgear.label>魅狐比基尼头盔</Kurin_Overhead_Bikini_Armor_Headgear.label>
+  <Kurin_Overhead_Bikini_Armor_Headgear.description>比基尼盔甲的头盔。比看起来要强得多。</Kurin_Overhead_Bikini_Armor_Headgear.description>
+
+  <Kurin_Overhead_Traditional_Hair_Pin.label>魅狐传统发夹</Kurin_Overhead_Traditional_Hair_Pin.label>
+  <Kurin_Overhead_Traditional_Hair_Pin.description>一个可爱的花形发夹。</Kurin_Overhead_Traditional_Hair_Pin.description>
+
+  <Kurin_Overhead_Cute_Hair_Pin.label>魅狐可爱发夹</Kurin_Overhead_Cute_Hair_Pin.label>
+  <Kurin_Overhead_Cute_Hair_Pin.description>这是一个可爱的狐狸形发夹。</Kurin_Overhead_Cute_Hair_Pin.description>
+
+  <Kurin_Overhead_Military_Helmet_A.label>魅狐军用头盔 A</Kurin_Overhead_Military_Helmet_A.label>
+  <Kurin_Overhead_Military_Helmet_A.description>装有塑料防弹板的战斗防弹帽。这是挡住朝头部飞来的子弹的最后手段。</Kurin_Overhead_Military_Helmet_A.description>
+
+  <Kurin_Overhead_Military_Helmet_B.label>魅狐军用头盔 B</Kurin_Overhead_Military_Helmet_B.label>
+  <Kurin_Overhead_Military_Helmet_B.description>装有塑料防弹板的战斗防弹帽。这是挡住朝头部飞来的子弹的最后手段。</Kurin_Overhead_Military_Helmet_B.description>
+
+
+</LanguageData>

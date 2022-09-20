@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <LetterDef ParentName="CustomChoiceLetterBase">
+    <defName>KurinCampDefence_AcceptComrades</defName>
+    <letterClass>KurinDeluxeEdition.KurinQuests.KurinCampDefence.ChoiceLetter_AcceptComrades</letterClass>
+  </LetterDef>
+  <LetterDef ParentName="CustomChoiceLetterBase">
+    <defName>KurinReceptionCamp_GetRidOfComrades</defName>
+    <letterClass>KurinDeluxeEdition.KurinQuests.KurinReceptionCamp.ChoiceLetter_GetRidOfComrades</letterClass>
+  </LetterDef>
+</Defs>

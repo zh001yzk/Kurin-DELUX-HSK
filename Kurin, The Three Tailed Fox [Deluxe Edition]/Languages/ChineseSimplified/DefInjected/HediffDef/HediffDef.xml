@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Hediff.label>魅狐</Kurin_Hediff.label>
+  <Kurin_Hediff.description>魅狐天生的被动能力，赋予狐狸优秀的听觉和敏捷性。</Kurin_Hediff.description>
+
+  <Kimiri_Hediff.label>奇龙</Kimiri_Hediff.label>
+  <Kimiri_Hediff.description>奇龙天生的被动能力，魅狐与龙人族的基因组合。</Kimiri_Hediff.description>
+
+  <Kurin_Fake_Ear.label>假魅狐耳朵</Kurin_Fake_Ear.label>
+  <Kurin_Fake_Ear.description>这是一个假魅狐耳朵。</Kurin_Fake_Ear.description>
+  <Kurin_Fake_Ear.labelNoun>一个假魅狐耳朵</Kurin_Fake_Ear.labelNoun>
+
+  <Kurin_Fake_Tail.label>假魅狐尾巴</Kurin_Fake_Tail.label>
+  <Kurin_Fake_Tail.description>这是一个假魅狐尾巴。</Kurin_Fake_Tail.description>
+  <Kurin_Fake_Tail.labelNoun>一个假魅狐尾巴</Kurin_Fake_Tail.labelNoun>
+
+  <Kurin_Bionic_Ear.label>仿生魅狐耳朵</Kurin_Bionic_Ear.label>
+  <Kurin_Bionic_Ear.description>这是一个仿生魅狐耳朵。</Kurin_Bionic_Ear.description>
+  <Kurin_Bionic_Ear.labelNoun>一个仿生魅狐耳朵</Kurin_Bionic_Ear.labelNoun>
+
+  <Kurin_Bionic_Tail.label>仿生魅狐尾巴</Kurin_Bionic_Tail.label>
+  <Kurin_Bionic_Tail.description>这是一个仿生魅狐尾巴。</Kurin_Bionic_Tail.description>
+  <Kurin_Bionic_Tail.labelNoun>一个仿生魅狐尾巴</Kurin_Bionic_Tail.labelNoun>
+
+  <Kimiri_Bionic_Ear.label>仿生奇龙耳朵</Kimiri_Bionic_Ear.label>
+  <Kimiri_Bionic_Ear.description>这是一个仿生奇龙耳朵。</Kimiri_Bionic_Ear.description>
+  <Kimiri_Bionic_Ear.labelNoun>一个仿生奇龙耳朵</Kimiri_Bionic_Ear.labelNoun>
+
+  <Kimiri_Bionic_Tail.label>仿生奇龙尾巴</Kimiri_Bionic_Tail.label>
+  <Kimiri_Bionic_Tail.description>这是一个仿生奇龙尾巴。</Kimiri_Bionic_Tail.description>
+  <Kimiri_Bionic_Tail.labelNoun>一个仿生奇龙尾巴</Kimiri_Bionic_Tail.labelNoun>
+
+
+</LanguageData>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Pickaxe"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_MeleeWeapon_Pickaxe</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_MeleeWeapon_Axe"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_MeleeWeapon_Axe</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_MarksmanRifle"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Gun_MarksmanRifle</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeMinigun"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Gun_ChargeMinigun</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HMG"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Advanced_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_ServiceRifle"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Advanced_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_BattleRifle"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Advanced_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_Carbine"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Advanced_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeShotgun"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Charge_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeLMG"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Charge_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_ChargeSniperRifle"]/weaponTags</xpath>
+					<value>
+						<li>Vanilla_Expanded_Kurin_Charge_Guns</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[defName="Kimiri_Miner"]</xpath>
+					<value>
+						<weaponTags>
+							<li>Vanilla_Expanded_Kurin_MeleeWeapon_Pickaxe</li>
+						</weaponTags>
+						<weaponMoney>200~300</weaponMoney>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[defName="Kimiri_Miner_UFU"]</xpath>
+					<value>
+						<weaponTags>
+							<li>Vanilla_Expanded_Kurin_MeleeWeapon_Pickaxe</li>
+						</weaponTags>
+						<weaponMoney>200~300</weaponMoney>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[defName="Kimiri_Farmer"]</xpath>
+					<value>
+						<weaponTags>
+							<li>Vanilla_Expanded_Kurin_MeleeWeapon_Axe</li>
+						</weaponTags>
+						<weaponMoney>200~300</weaponMoney>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[defName="Kimiri_Farmer_UFU"]</xpath>
+					<value>
+						<weaponTags>
+							<li>Vanilla_Expanded_Kurin_MeleeWeapon_Axe</li>
+						</weaponTags>
+						<weaponMoney>200~300</weaponMoney>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

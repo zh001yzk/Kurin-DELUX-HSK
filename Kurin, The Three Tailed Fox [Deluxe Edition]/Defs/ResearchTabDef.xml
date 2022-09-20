@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>Kurin_ResearchTab</defName>
+    <label>魅狐</label>
+  </ResearchTabDef>
+  <ResearchProjectDef Name="KurinResearchProjectBase" Abstract="True">
+    <tab>Kurin_ResearchTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectDef Name="KurinResearchProjectMultiAnalyzer" ParentName="KurinResearchProjectBase" Abstract="True">
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+  </ResearchProjectDef>
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_ProsthesesT1</defName>
+    <label>简单魅狐假肢</label>
+    <description>研究如何制作简单魅狐假肢。</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Prosthetics</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_ProsthesesT2</defName>
+    <label>先进魅狐假肢</label>
+    <description>研究如何制作先进魅狐假肢。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Kurin_ProsthesesT1</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_ApparelT1</defName>
+    <label>简单的魅狐服饰</label>
+    <description>研究如何制作简单的魅狐服饰。</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>ComplexClothing</li>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_ApparelT2</defName>
+    <label>朴素的魅狐服饰</label>
+    <description>研究如何制作朴素的魅狐服饰。</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Kurin_ApparelT1</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_ApparelT3</defName>
+    <label>精美的魅狐服饰</label>
+    <description>研究如何制作精美的魅狐服饰。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Kurin_ApparelT2</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_ApparelT4</defName>
+    <label>魅狐军用服饰</label>
+    <description>研究如何制作魅狐军用服饰。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Kurin_ApparelT3</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_ApparelT5</defName>
+    <label>魅狐动力装甲</label>
+    <description>研究如何制作魅狐动力装甲。</description>
+    <baseCost>10200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Kurin_ApparelT4</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_ApparelT6</defName>
+    <label>魅狐强化动力装甲</label>
+    <description>魅狐强化动力装甲服的制造研究。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>Kurin_ApparelT5</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_WeaponT1</defName>
+    <label>魅狐钢制武器</label>
+    <description>研究如何制作魅狐钢制武器。</description>
+    <baseCost>800</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_WeaponT2</defName>
+    <label>魅狐简单武器</label>
+    <description>研究如何制作魅狐简单武器</description>
+    <baseCost>800</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Machining</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_WeaponT3</defName>
+    <label>魅狐先进武器</label>
+    <description>研究如何制作魅狐先进武器。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Kurin_WeaponT2</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_WeaponT4</defName>
+    <label>魅狐重型武器</label>
+    <description>研究如何制作魅狐电荷武器。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Kurin_WeaponT3</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_WeaponT5</defName>
+    <label>魅狐电荷武器</label>
+    <description>研究如何制作魅狐电荷武器。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Kurin_WeaponT4</li>
+      <li>Fabrication</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_WeaponT6</defName>
+    <label>毁灭者</label>
+    <description>研究如何制作毁灭者，又称作"魅狐大炮"。</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>Kurin_WeaponT5</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectBase">
+    <defName>Kurin_Weapon_Mods</defName>
+    <label>魅狐武器改装</label>
+    <description>魅狐武器改装制造研究。</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Kurin_WeaponT4</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>3</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_ProductionT1</defName>
+    <label>魅狐先进生产技术</label>
+    <description>研究如何制作魅狐制造台，也称作“魅狐3D打印机”。</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_ProductionT2</defName>
+    <label>魅狐先进生产技术（二级）</label>
+    <description>研究如何用魅狐制造台打印先进的物品。</description>
+    <baseCost>10200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Kurin_ProductionT1</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Production_Meat</defName>
+    <label>先进的魅狐生产（肉类转换器）</label>
+    <description>魅狐肉转化炉的构建研究。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Kurin_ProductionT1</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>3</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Production_Material</defName>
+    <label>先进的魅狐生产（材料制造商）</label>
+    <description>魅狐材料制造厂的建造研究。</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Kurin_ProductionT1</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>5</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_Turret</defName>
+    <label>魅狐伊卡洛斯号宇宙飞船 (defensive systems)</label>
+    <description>“伊卡洛斯”级库林共和国星护卫舰库林飞船炮塔建造研究。</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+      <li>Kurin_WeaponT6</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_Computer</defName>
+    <label>魅狐伊卡洛斯号宇宙飞船 (main computer)</label>
+    <description>“伊卡洛斯”号“库林共和国”级护卫舰“库林”号飞船主计算机构建研究。</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>1</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_Reactor</defName>
+    <label>魅狐伊卡洛斯号宇宙飞船 (reactor)</label>
+    <description>“伊卡洛斯”号库林共和国级星际护卫舰库林飞船反应堆建造研究。</description>
+    <baseCost>10200</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>6</researchViewX>
+    <researchViewY>3</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <discoveredLetterTitle>关于发射伊卡洛斯</discoveredLetterTitle>
+    <discoveredLetterText>伊卡洛斯发射的飞行前准备持续60天。\在启动伊卡洛斯的反应堆之前，要做好充分准备，因为除了你之外，还有许多绝望的人想逃离，而在整个游戏年中，反应堆的激活所产生的能量将使你的营地成为被放逐者、怪物、昆虫和机械人袭击的目标。</discoveredLetterText>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_Engine</defName>
+    <label>魅狐伊卡洛斯号宇宙飞船 (engine)</label>
+    <description>“伊卡洛斯”号库林共和国级星际护卫舰库林飞船发动机建造研究。</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_APU</defName>
+    <label>魅狐伊卡洛斯号宇宙飞船 (APU)</label>
+    <description>“伊卡洛斯”号“库林共和国”级护卫舰库林飞船APU建造研究。</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>5</researchViewX>
+    <researchViewY>5</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_Communication_Module</defName>
+    <label>魅狐伊卡洛斯号宇宙飞船 (communication module)</label>
+    <description>“伊卡洛斯”级库林共和国星护卫舰库林飞船通信模块建造研究。</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>5</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+  <!--<ResearchProjectDef ParentName="KurinResearchProjectMultiAnalyzer">
+    <defName>Kurin_Icarus_Utility_Modules</defName>
+    <label>kurin spaceship Icarus (utility modules)</label>
+    <description>Researching of building of utility modules of kurin spaceship of class Kurin Republic Star Frigate named "Icarus".</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ShipBasics</li>
+    </prerequisites>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>-->
+</Defs>

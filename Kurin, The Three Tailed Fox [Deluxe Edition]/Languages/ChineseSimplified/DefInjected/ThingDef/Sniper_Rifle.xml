@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Sniper_Rifle.label>魅狐狙击步枪</Kurin_Gun_Sniper_Rifle.label>
+  <Kurin_Gun_Sniper_Rifle.description>[FXAR-A1] - [边锋]\n\n~ “边锋”是魅狐的新式狙击步枪，为精准射击而改装的。</Kurin_Gun_Sniper_Rifle.description>
+  <Kurin_Gun_Sniper_Rifle.tools.0.label>枪托</Kurin_Gun_Sniper_Rifle.tools.0.label>
+  <Kurin_Gun_Sniper_Rifle.tools.1.label>枪管</Kurin_Gun_Sniper_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Sniper_Rifle.label>狙击步枪子弹</Kurin_Bullet_Sniper_Rifle.label>
+
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Faction_Player.label>魅狐的新基地</Kurin_Faction_Player.label>
+  <Kurin_Faction_Player.description>这是你的魅狐派系</Kurin_Faction_Player.description>
+  <Kurin_Faction_Player.pawnsPlural>魅狐殖民者</Kurin_Faction_Player.pawnsPlural>
+
+  <Kurin_Faction_Republic.label>魅狐共和国</Kurin_Faction_Republic.label>
+  <Kurin_Faction_Republic.description>这些是魅狐同胞，不久前她们迫降在边缘世界上。\n\n绝大多数魅狐都驻扎在她们的船只旁边，她们得到了适当的保护，在世界各处建立定居点是为了殖民这个星球。</Kurin_Faction_Republic.description>
+  <Kurin_Faction_Republic.pawnsPlural>魅狐</Kurin_Faction_Republic.pawnsPlural>
+  <Kurin_Faction_Republic.leaderTitle>总统</Kurin_Faction_Republic.leaderTitle>
+
+  <Kurin_Faction_UFU.label>魅狐团结联盟</Kurin_Faction_UFU.label>
+  <Kurin_Faction_UFU.description>自由狐狸联盟，正式名称为魅狐团结联盟或魅狐联盟。这些是魅狐同胞，但是对魅狐共和国的政治不再抱有幻想，他们把整个魅狐物种带到了边缘世界的星球上。一些魅狐人建立了联盟，他们脱离了共和国，但他们不是共和国的敌人。\n\n只要你不伤害他们，他们就不会伤害你。</Kurin_Faction_UFU.description>
+  <Kurin_Faction_UFU.fixedName>魅狐团结联盟</Kurin_Faction_UFU.fixedName>
+  <Kurin_Faction_UFU.pawnsPlural>魅狐</Kurin_Faction_UFU.pawnsPlural>
+  <Kurin_Faction_UFU.leaderTitle>秘书长</Kurin_Faction_UFU.leaderTitle>
+
+
+</LanguageData>

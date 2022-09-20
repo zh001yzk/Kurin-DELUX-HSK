@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tear 1 -->
+
+  <Kurin_Middle_Scarf.label>魅狐围巾</Kurin_Middle_Scarf.label>
+  <Kurin_Middle_Scarf.description>一条柔软的围巾。简单而有效地保护体温。</Kurin_Middle_Scarf.description>
+
+
+  <!-- Tear 4 -->
+
+  <Kurin_Middle_Body_Armor.label>魅狐防弹衣</Kurin_Middle_Body_Armor.label>
+  <Kurin_Middle_Body_Armor.description>轻型防弹衣。任何时候都可以穿，只是防御力有点欠缺。</Kurin_Middle_Body_Armor.description>
+
+  <Kurin_Middle_Heavy_Body_Armor.label>魅狐重型防弹衣</Kurin_Middle_Heavy_Body_Armor.label>
+  <Kurin_Middle_Heavy_Body_Armor.description>重型防弹衣。危急时刻可以救命，而普通的防弹衣却无能为力。</Kurin_Middle_Heavy_Body_Armor.description>
+
+
+</LanguageData>

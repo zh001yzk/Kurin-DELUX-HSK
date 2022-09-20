@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_MachinePistol"]</xpath>
+		<value>
+			<weaponTags>
+				<li>Vanilla_Kurin_Gun_MachinePistol</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_BoltActionRifle"]</xpath>
+		<value>
+			<weaponTags>
+				<li>Vanilla_Kurin_Gun_BoltActionRifle</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_PumpShotgun"]</xpath>
+		<value>
+			<weaponTags>
+				<li>Vanilla_Kurin_Gun_PumpShotgun</li>
+			</weaponTags>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_ChainShotgun"]/weaponTags</xpath>
+		<value>
+			<li>Vanilla_Kurin_Gun_ChainShotgun</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_LMG"]/weaponTags</xpath>
+		<value>
+			<li>Vanilla_Kurin_Gun_LMG</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_Minigun"]/weaponTags</xpath>
+		<value>
+			<li>Vanilla_Kurin_Gun_Minigun</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="MeleeWeapon_Knife"]/weaponTags</xpath>
+		<value>
+			<li>Vanilla_Kurin_MeleeWeapon_Knife</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Gun_ChargeRifle"]/weaponTags</xpath>
+		<value>
+			<li>Vanilla_Kurin_Gun_ChargeRifle</li>
+		</value>
+	</Operation>
+
+</Patch>

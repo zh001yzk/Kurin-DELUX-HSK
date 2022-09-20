@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>Kurin_Hediff</defName>
+    <label>魅狐</label>
+    <description>魅狐天生的被动能力，赋予狐狸优秀的听觉和敏捷性。</description>
+    <defaultLabelColor>(0.93, 0.63, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MeleeDodgeChance>1</MeleeDodgeChance>
+          <PawnTrapSpringChance>-1</PawnTrapSpringChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef>
+    <defName>Kimiri_Hediff</defName>
+    <label>奇龙</label>
+    <description>奇龙天生的被动能力，魅狐与龙人族的基因组合。</description>
+    <defaultLabelColor>(0.93, 0.63, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <naturalHealingFactor>1.3</naturalHealingFactor>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.15</offset>
+          </li>
+          <li>
+            <capacity>Hearing</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--
+<makesSickThought>false</makesSickThought>
+<makesAlert>false</makesAlert>
+<tendable>false</tendable>
+<chronic>true</chronic>
+-->
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kurin_Fake_Ear</defName>
+    <label>假魅狐耳朵</label>
+    <labelNoun>一个假魅狐耳朵</labelNoun>
+    <description>假魅狐耳朵。</description>
+    <spawnThingOnRemoved>Kurin_Fake_Ear</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.8</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kurin_Fake_Tail</defName>
+    <label>假魅狐尾巴</label>
+    <labelNoun>一个假魅狐尾巴</labelNoun>
+    <description>一个简单的假尾巴。仔细看的话有点别扭。</description>
+    <spawnThingOnRemoved>Kurin_Fake_Tail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.8</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kurin_Bionic_Ear</defName>
+    <label>仿生魅狐耳朵</label>
+    <labelNoun>一个仿生魅狐耳朵</labelNoun>
+    <description>无法分辨真假的珍贵仿生耳朵。</description>
+    <spawnThingOnRemoved>Kurin_Bionic_Ear</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kurin_Bionic_Tail</defName>
+    <label>仿生魅狐尾巴</label>
+    <labelNoun>一个仿生魅狐尾巴</labelNoun>
+    <description>无法分辨真假的珍贵仿生尾巴。</description>
+    <spawnThingOnRemoved>Kurin_Bionic_Tail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kimiri_Bionic_Ear</defName>
+    <label>仿生奇龙耳朵</label>
+    <labelNoun>一个仿生奇龙耳朵</labelNoun>
+    <description>奇龙的仿生耳朵，灵活有力。</description>
+    <spawnThingOnRemoved>Kimiri_Bionic_Ear</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kimiri_Bionic_Tail</defName>
+    <label>仿生奇龙尾巴</label>
+    <labelNoun>一个仿生奇龙尾巴</labelNoun>
+    <description>奇龙的仿生尾巴，灵活有力。</description>
+    <spawnThingOnRemoved>Kimiri_Bionic_Tail</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.33</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kimiri_MeleeWeapon_Katana.label>奇龙武士刀</Kimiri_MeleeWeapon_Katana.label>
+  <Kimiri_MeleeWeapon_Katana.description>传说中的奇龙之刃的复制品。没有人知道这把刀是谁打造的，原型是魅狐军队的赤狐在高之战役中使用的武器。\n\n刀的名字是？“大和”。</Kimiri_MeleeWeapon_Katana.description>
+  <Kimiri_MeleeWeapon_Katana.tools.0.label>刀柄</Kimiri_MeleeWeapon_Katana.tools.0.label>
+  <Kimiri_MeleeWeapon_Katana.tools.1.label>刀尖</Kimiri_MeleeWeapon_Katana.tools.1.label>
+  <Kimiri_MeleeWeapon_Katana.tools.2.label>刀刃</Kimiri_MeleeWeapon_Katana.tools.2.label>
+
+  <Kurin_MeleeWeapon_Katana.label>魅狐武士刀</Kurin_MeleeWeapon_Katana.label>
+  <Kurin_MeleeWeapon_Katana.description>传说中的魅狐之刃的复制品。在魅狐的中世纪时期，有一种佩戴这种刀的战士。其中有个战士历经险难、长途跋涉拯救了主君，于是他的名字被铭刻在魅狐的历史上。\n\n刀的名字是？ “楔丸”。</Kurin_MeleeWeapon_Katana.description>
+  <Kurin_MeleeWeapon_Katana.tools.0.label>刀柄</Kurin_MeleeWeapon_Katana.tools.0.label>
+  <Kurin_MeleeWeapon_Katana.tools.1.label>刀尖</Kurin_MeleeWeapon_Katana.tools.1.label>
+  <Kurin_MeleeWeapon_Katana.tools.2.label>刀刃</Kurin_MeleeWeapon_Katana.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperation.Context">
+			<xpath>Def/ThingDef</xpath>
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Thing misc</value>
+				</li>
+				<!-- Kurin Trap -->
+				<li Class="PatchOperation.Context">
+					<xpath>ThingDef[defName="Kurin_Noose_Trap"]</xpath>
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>ThingDef/costList</xpath>
+							<value>
+								<costList>
+									<Plasteel>5</Plasteel>
+								</costList>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>ThingDef/stuffCategories</xpath>
+							<value>
+								<stuffCategories>
+									<li>Fabric</li>
+								</stuffCategories>
+							</value>
+						</li>
+					</operations>
+				</li>
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

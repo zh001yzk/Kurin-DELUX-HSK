@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tear 1 -->
+
+  <Kurin_Shell_Cardigan.label>魅狐开襟羊毛衫</Kurin_Shell_Cardigan.label>
+  <Kurin_Shell_Cardigan.description>一件柔软温暖的开衫。小心别把衣服拉长了！</Kurin_Shell_Cardigan.description>
+
+  <Kurin_Shell_Duster.label>魅狐防尘大衣</Kurin_Shell_Duster.label>
+  <Kurin_Shell_Duster.description>一件时尚的外套，可以防止酷暑和寒冷的侵袭。</Kurin_Shell_Duster.description>
+
+  <Kurin_Shell_Winter_Padding.label>魅狐冬季羽绒服</Kurin_Shell_Winter_Padding.label>
+  <Kurin_Shell_Winter_Padding.description>一件厚厚的冬季羽绒服。对于怕冷的魅狐来说是冬季必需品。</Kurin_Shell_Winter_Padding.description>
+
+
+  <!-- Tear 3 -->
+
+  <Kurin_Shell_Traditional_Coat.label>魅狐传统外套</Kurin_Shell_Traditional_Coat.label>
+  <Kurin_Shell_Traditional_Coat.description>一件魅狐的传统服饰，在单调的海军蓝外套上饰有令人印象深刻的白色图案。</Kurin_Shell_Traditional_Coat.description>
+
+
+</LanguageData>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kurin_Eye_Female_A</defName>
+    <texPath>Kurin/Face/Eyes/Female_A</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <gender>Female</gender>
+  </FacialAnimation.EyeballTypeDef>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kurin_Eye_Female_B</defName>
+    <texPath>Kurin/Face/Eyes/Female_B</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <gender>Female</gender>
+  </FacialAnimation.EyeballTypeDef>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kurin_Eye_Male_A</defName>
+    <texPath>Kurin/Face/Eyes/Male_A</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <gender>Male</gender>
+  </FacialAnimation.EyeballTypeDef>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kurin_One_Tailed_Eye_Female_A</defName>
+    <texPath>Kurin/Face/Eyes/Female_A</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <gender>Female</gender>
+  </FacialAnimation.EyeballTypeDef>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kurin_One_Tailed_Eye_Female_B</defName>
+    <texPath>Kurin/Face/Eyes/Female_B</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <gender>Female</gender>
+  </FacialAnimation.EyeballTypeDef>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Kurin_One_Tailed_Eye_Male_A</defName>
+    <texPath>Kurin/Face/Eyes/Male_A</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+    <gender>Male</gender>
+  </FacialAnimation.EyeballTypeDef>
+  <!--================================================== OBSOLETE (very old eyes by EyeballTypeDef) ==================================================-->
+  <!--
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Black_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Black_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Blue_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Blue_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Brown_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Brown_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Green_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Green_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Black_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Black_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Blue_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Blue_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Brown_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Brown_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Female_Green_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Green_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Female</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Male_Black</defName>
+	<texPath>Kurin/Face/Eyes/Male_Black</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Male</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Male_Blue</defName>
+	<texPath>Kurin/Face/Eyes/Male_Blue</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Male</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Male_Brown</defName>
+	<texPath>Kurin/Face/Eyes/Male_Brown</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Male</gender>
+</FacialAnimation.EyeballTypeDef>
+
+<FacialAnimation.EyeballTypeDef>
+	<defName>Kurin_Eye_Male_Green</defName>
+	<texPath>Kurin/Face/Eyes/Male_Green</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<minColor>RGB(1,1,1)</minColor>
+	<maxColor>RGB(1,1,1)</maxColor>
+	<gender>Male</gender>
+</FacialAnimation.EyeballTypeDef>
+-->
+</Defs>

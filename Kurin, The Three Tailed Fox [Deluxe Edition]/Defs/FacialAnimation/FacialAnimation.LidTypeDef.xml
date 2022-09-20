@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kurin_Lid_Female_A</defName>
+    <texPath>Kurin/Face/Lids/Female_A</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kurin_Lid_Female_B</defName>
+    <texPath>Kurin/Face/Lids/Female_B</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kurin_Lid_Male_A</defName>
+    <texPath>Kurin/Face/Lids/Male_A</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <gender>Male</gender>
+  </FacialAnimation.LidTypeDef>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kurin_One_Tailed_Lid_Female_A</defName>
+    <texPath>Kurin/Face/Lids/Female_A</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kurin_One_Tailed_Lid_Female_B</defName>
+    <texPath>Kurin/Face/Lids/Female_B</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kurin_One_Tailed_Lid_Male_A</defName>
+    <texPath>Kurin/Face/Lids/Male_A</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <gender>Male</gender>
+  </FacialAnimation.LidTypeDef>
+  <!--================================================== OBSOLETE (old eyes by LidTypeDef) ==================================================-->
+  <!--
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Black_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Black_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Black_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Black_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Blue_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Blue_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Blue_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Blue_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Brown_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Brown_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Brown_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Brown_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Green_A</defName>
+	<texPath>Kurin/Face/Eyes/Female_Green_A</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Female_Green_B</defName>
+	<texPath>Kurin/Face/Eyes/Female_Green_B</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Female</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Male_Black</defName>
+	<texPath>Kurin/Face/Eyes/Male_Black</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Male</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Male_Blue</defName>
+	<texPath>Kurin/Face/Eyes/Male_Blue</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Male</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Male_Brown</defName>
+	<texPath>Kurin/Face/Eyes/Male_Brown</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Male</gender>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kurin_Eye_Male_Green</defName>
+	<texPath>Kurin/Face/Eyes/Male_Green</texPath>
+	<raceName>Kurin</raceName>
+	<shader>Map/CutoutComplex</shader>
+	<gender>Male</gender>
+</FacialAnimation.LidTypeDef>
+-->
+</Defs>

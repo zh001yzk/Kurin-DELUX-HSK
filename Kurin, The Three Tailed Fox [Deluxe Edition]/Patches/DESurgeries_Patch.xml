@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>1541722340</li> <!-- DE Surgeries -->
+			<li>2002422428</li> <!-- DE Surgeries Color -->
+			<li>1556888077</li> <!-- DE Surgeries Hard -->
+			<li>2285847102</li> <!-- DE Surgeries Hard Color -->
+			<li>1541914821</li> <!-- DE Surgeries for RBSE only -->
+			<li>1983507181</li> <!-- DE Surgeries for RBSE only Color -->
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[@Name="DESurgeries"]/recipeUsers</xpath>
+					<value>
+						<li>Kurin</li>
+						<li>Kimiri</li>
+						<li>Kurin_One_Tailed</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

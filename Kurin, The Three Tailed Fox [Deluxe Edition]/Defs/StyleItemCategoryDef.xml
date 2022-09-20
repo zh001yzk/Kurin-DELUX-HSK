@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StyleItemCategoryDef>
+    <defName>Kurin_Hair</defName>
+    <label>魅狐发型</label>
+  </StyleItemCategoryDef>
+  <StyleItemCategoryDef>
+    <defName>Kimiri_Hair</defName>
+    <label>奇龙发型</label>
+  </StyleItemCategoryDef>
+</Defs>

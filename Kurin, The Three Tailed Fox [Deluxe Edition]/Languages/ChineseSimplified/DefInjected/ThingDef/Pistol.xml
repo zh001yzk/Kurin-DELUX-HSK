@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Pistol.label>魅狐手枪</Kurin_Gun_Pistol.label>
+  <Kurin_Gun_Pistol.description>[FXP-A1] - [弹弓]\n\n~“弹弓”是普通且符合人体工程学的魅狐手枪。</Kurin_Gun_Pistol.description>
+  <Kurin_Gun_Pistol.tools.0.label>枪托</Kurin_Gun_Pistol.tools.0.label>
+  <Kurin_Gun_Pistol.tools.1.label>枪管</Kurin_Gun_Pistol.tools.1.label>
+
+  <Kurin_Bullet_Pistol.label>手枪子弹</Kurin_Bullet_Pistol.label>
+
+
+</LanguageData>

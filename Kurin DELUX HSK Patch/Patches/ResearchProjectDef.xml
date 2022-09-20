@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Research</value>
+				</li>
+				<!--<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchTabDef[defName="Kurin_ResearchTab"]</xpath>
+				</li>-->
+				<!--<li Class="PatchOperationRemove">
+					<xpath>Defs/ResearchProjectDef[@Name="KurinResearchProjectBase" or @ParentName="KurinResearchProjectMultiAnalyzer" or @ParentName="KurinResearchProjectBase"]</xpath>
+				</li>-->
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef/recipeMaker/researchPrerequisite[starts-with(text(),"Kurin_")]</xpath>
+				</li>
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

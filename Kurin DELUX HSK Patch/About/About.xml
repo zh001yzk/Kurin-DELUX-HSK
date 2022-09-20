@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Kurin DELUX HSK Patch 个人修改版</name>
+	<author>asvc</author>
+	<packageId>asvc.Kurin.DELUX.HSK</packageId>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Inoshishi3.KTTFDE</packageId>
+			<displayName>Kurin, The Three Tailed Fox [Deluxe Edition]</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2106394330</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>skyarkhangel.HSK</packageId>
+			<displayName>Hardcore SK</displayName>
+			<downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+		</li>
+		<li>
+			<packageId>ccl.patchoperation.highlander</packageId>
+			<displayName>PatchOperationHighlander</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2552002158</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Inoshishi3.KTTFDE</li>
+		<li>skyarkhangel.HSK</li>
+	</loadAfter>
+	<description>
+	请勿与原版HSK布丁一同使用
+Kurin delux HSK patches
+魅狐崽子们的受苦生活
+	</description>
+</ModMetaData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Job/work</value>
+				</li>
+				<!--<li Class="PatchOperationRemove">
+					<xpath>Defs/JobDef[defName="FillKurinFabricator" or defName="EmptyKurinFabricator"]</xpath>
+				</li>-->
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/WorkGiverDef[defName="FillKurinFabricator" or defName="EmptyKurinFabricator"]</xpath>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs/li[text()="Kurin_Electric_Tailoring_Bench"]</xpath>
+				</li>
+				<!--<li Class="PatchOperationRemove">
+					<xpath>Defs/WorkGiverDef[defName="DoBillsFabricationBench"]/fixedBillGiverDefs/li[text()="Kurin_Fabricator"]</xpath>
+				</li>-->
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

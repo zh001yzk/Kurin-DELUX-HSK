@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Fake_Ear.label>假魅狐耳朵</Kurin_Fake_Ear.label>
+  <Kurin_Fake_Ear.description>假魅狐耳朵。</Kurin_Fake_Ear.description>
+
+  <Kurin_Fake_Tail.label>假魅狐尾巴</Kurin_Fake_Tail.label>
+  <Kurin_Fake_Tail.description>一个简单的假尾巴。仔细看的话有点别扭。</Kurin_Fake_Tail.description>
+
+  <Kurin_Bionic_Ear.label>仿生魅狐耳朵</Kurin_Bionic_Ear.label>
+  <Kurin_Bionic_Ear.description>无法分辨真假的珍贵仿生耳朵。</Kurin_Bionic_Ear.description>
+
+  <Kurin_Bionic_Tail.label>仿生魅狐尾巴</Kurin_Bionic_Tail.label>
+  <Kurin_Bionic_Tail.description>无法分辨真假的珍贵仿生尾巴。</Kurin_Bionic_Tail.description>
+
+  <Kimiri_Bionic_Ear.label>仿生奇龙耳朵</Kimiri_Bionic_Ear.label>
+  <Kimiri_Bionic_Ear.description>奇龙的仿生耳朵，灵活有力。</Kimiri_Bionic_Ear.description>
+
+  <Kimiri_Bionic_Tail.label>仿生奇龙尾巴</Kimiri_Bionic_Tail.label>
+  <Kimiri_Bionic_Tail.description>奇龙的仿生尾巴，灵活有力。</Kimiri_Bionic_Tail.description>
+
+
+</LanguageData>

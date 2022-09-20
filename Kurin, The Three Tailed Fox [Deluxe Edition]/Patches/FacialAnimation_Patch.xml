@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[NL] Facial Animation - WIP</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin"]/comps</xpath>
+					<value>
+						<li><compClass>FacialAnimation.DrawFaceGraphicsComp</compClass></li>
+						<li><compClass>FacialAnimation.HeadControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.EyeballControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.LidControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.BrowControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.MouthControllerComp</compClass></li>
+						<!-- <li><compClass>FacialAnimation.SkinControllerComp</compClass></li> -->
+						<li><compClass>FacialAnimation.FacialAnimationControllerComp</compClass></li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[NL] Facial Animation - WIP</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kimiri"]/comps</xpath>
+					<value>
+						<li><compClass>FacialAnimation.DrawFaceGraphicsComp</compClass></li>
+						<li><compClass>FacialAnimation.HeadControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.EyeballControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.LidControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.BrowControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.MouthControllerComp</compClass></li>
+						<!-- <li><compClass>FacialAnimation.SkinControllerComp</compClass></li> -->
+						<li><compClass>FacialAnimation.FacialAnimationControllerComp</compClass></li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[NL] Facial Animation - WIP</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Kurin_One_Tailed"]/comps</xpath>
+					<value>
+						<li><compClass>FacialAnimation.DrawFaceGraphicsComp</compClass></li>
+						<li><compClass>FacialAnimation.HeadControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.EyeballControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.LidControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.BrowControllerComp</compClass></li>
+						<li><compClass>FacialAnimation.MouthControllerComp</compClass></li>
+						<!-- <li><compClass>FacialAnimation.SkinControllerComp</compClass></li> -->
+						<li><compClass>FacialAnimation.FacialAnimationControllerComp</compClass></li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

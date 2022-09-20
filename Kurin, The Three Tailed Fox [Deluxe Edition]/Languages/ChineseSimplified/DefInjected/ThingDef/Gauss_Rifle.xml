@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Gauss_Rifle.label>魅狐高斯步枪</Kurin_Gun_Gauss_Rifle.label>
+  <Kurin_Gun_Gauss_Rifle.description>[FXGR-A1] - [捕食者]\n\n~ “捕食者”魅狐的一种先进而残忍的高斯步枪。</Kurin_Gun_Gauss_Rifle.description>
+  <Kurin_Gun_Gauss_Rifle.tools.0.label>枪托</Kurin_Gun_Gauss_Rifle.tools.0.label>
+  <Kurin_Gun_Gauss_Rifle.tools.1.label>枪管</Kurin_Gun_Gauss_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Gauss_Rifle.label>魅狐高斯步枪子弹</Kurin_Bullet_Gauss_Rifle.label>
+
+
+</LanguageData>

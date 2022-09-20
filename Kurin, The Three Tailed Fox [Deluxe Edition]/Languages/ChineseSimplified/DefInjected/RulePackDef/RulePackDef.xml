@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_NamerFaction.rulePack.rulesStrings.0>r_name->奇龙</Kurin_NamerFaction.rulePack.rulesStrings.0>
+  <Kurin_NamerFaction.rulePack.rulesStrings.1>r_name->魅狐</Kurin_NamerFaction.rulePack.rulesStrings.1>
+  <Kurin_NamerFaction.rulePack.rulesStrings.2>r_name->克莫米米之家</Kurin_NamerFaction.rulePack.rulesStrings.2>
+  <Kurin_NamerFaction.rulePack.rulesStrings.3>r_name->神圣之狐</Kurin_NamerFaction.rulePack.rulesStrings.3>
+  <Kurin_NamerFaction.rulePack.rulesStrings.4>r_name->狐狸公会</Kurin_NamerFaction.rulePack.rulesStrings.4>
+  <Kurin_NamerFaction.rulePack.rulesStrings.5>r_name->狐狸联盟</Kurin_NamerFaction.rulePack.rulesStrings.5>
+  <Kurin_NamerFaction.rulePack.rulesStrings.6>r_name->灵耳之屋</Kurin_NamerFaction.rulePack.rulesStrings.6>
+  <Kurin_NamerFaction.rulePack.rulesStrings.7>r_name->三尾联盟</Kurin_NamerFaction.rulePack.rulesStrings.7>
+  <Kurin_NamerFaction.rulePack.rulesStrings.8>r_name->三尾同盟</Kurin_NamerFaction.rulePack.rulesStrings.8>
+  <Kurin_NamerFaction.rulePack.rulesStrings.9>r_name->三尾联合会</Kurin_NamerFaction.rulePack.rulesStrings.9>
+  <Kurin_NamerFaction.rulePack.rulesStrings.10>r_name->针叶林同盟</Kurin_NamerFaction.rulePack.rulesStrings.10>
+  <Kurin_NamerFaction.rulePack.rulesStrings.11>r_name->狐狸露齿联盟</Kurin_NamerFaction.rulePack.rulesStrings.11>
+  <Kurin_NamerFaction.rulePack.rulesStrings.12>r_name->三尾</Kurin_NamerFaction.rulePack.rulesStrings.12>
+
+  <Kurin_NamerPerson_Female.rulePack.rulesStrings.0>r_name->[KurinFirstNameFemale] [KurinLastName]</Kurin_NamerPerson_Female.rulePack.rulesStrings.0>
+
+  <Kurin_NameUtility_Female.rulePack.rulesStrings.0>KurinFirstNameFemale->[KurinFirstF]</Kurin_NameUtility_Female.rulePack.rulesStrings.0>
+  <Kurin_NameUtility_Female.rulePack.rulesStrings.1>KurinLastName->[KurinLast]</Kurin_NameUtility_Female.rulePack.rulesStrings.1>
+
+  <Kurin_NamerPerson_Male.rulePack.rulesStrings.0>r_name->[KurinFirstNameMale] [KurinLastName]</Kurin_NamerPerson_Male.rulePack.rulesStrings.0>
+
+  <Kurin_NameUtility_Male.rulePack.rulesStrings.0>KurinFirstNameMale->[KurinFirstM]</Kurin_NameUtility_Male.rulePack.rulesStrings.0>
+  <Kurin_NameUtility_Male.rulePack.rulesStrings.1>KurinLastName->[KurinLast]</Kurin_NameUtility_Male.rulePack.rulesStrings.1>
+
+
+</LanguageData>

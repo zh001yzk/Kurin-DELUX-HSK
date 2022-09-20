@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.BrowTypeDef>
+    <defName>Kurin_Brow</defName>
+    <texPath>Kurin/Face/Brows</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.BrowTypeDef>
+  <FacialAnimation.BrowTypeDef>
+    <defName>Kurin_One_Tailed_Brow</defName>
+    <texPath>Kurin/Face/Brows</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.BrowTypeDef>
+</Defs>

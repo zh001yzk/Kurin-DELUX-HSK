@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Grenade_Launcher.label>魅狐榴弹发射器</Kurin_Gun_Grenade_Launcher.label>
+  <Kurin_Gun_Grenade_Launcher.description>[FXGL-A1] - [掠夺者]\n\n~ “掠夺者 A1”是魅狐们的新式榴弹发射器。</Kurin_Gun_Grenade_Launcher.description>
+  <Kurin_Gun_Grenade_Launcher.tools.0.label>枪托</Kurin_Gun_Grenade_Launcher.tools.0.label>
+  <Kurin_Gun_Grenade_Launcher.tools.1.label>枪管</Kurin_Gun_Grenade_Launcher.tools.1.label>
+
+  <Kurin_Gun_Grenade_Launcher_IM.label>魅狐榴弹发射器（燃烧弹）</Kurin_Gun_Grenade_Launcher_IM.label>
+  <Kurin_Gun_Grenade_Launcher_IM.description>[FXGL-A2] - [掠夺者]\n\n~ “掠夺者 A2”魅狐们的新式榴弹发射器，装有燃烧弹。</Kurin_Gun_Grenade_Launcher_IM.description>
+  <Kurin_Gun_Grenade_Launcher_IM.tools.0.label>枪托</Kurin_Gun_Grenade_Launcher_IM.tools.0.label>
+  <Kurin_Gun_Grenade_Launcher_IM.tools.1.label>枪管</Kurin_Gun_Grenade_Launcher_IM.tools.1.label>
+
+  <Kurin_Gun_Grenade_Launcher_FEM.label>魅狐榴弹发射器（灭火弹）</Kurin_Gun_Grenade_Launcher_FEM.label>
+  <Kurin_Gun_Grenade_Launcher_FEM.description>[FXGL-A3] - [掠夺者]\n\n~ “掠夺者 A3”魅狐们的新式榴弹发射器，装有灭火弹。</Kurin_Gun_Grenade_Launcher_FEM.description>
+  <Kurin_Gun_Grenade_Launcher_FEM.tools.0.label>枪托</Kurin_Gun_Grenade_Launcher_FEM.tools.0.label>
+  <Kurin_Gun_Grenade_Launcher_FEM.tools.1.label>枪管</Kurin_Gun_Grenade_Launcher_FEM.tools.1.label>
+
+  <Kurin_Gun_Grenade_Launcher_SM.label>魅狐榴弹发射器（烟雾弹）</Kurin_Gun_Grenade_Launcher_SM.label>
+  <Kurin_Gun_Grenade_Launcher_SM.description>[FXGL-A4] - [掠夺者]\n\n~ “掠夺者 A4”魅狐们的新式榴弹发射器，装有烟雾弹。</Kurin_Gun_Grenade_Launcher_SM.description>
+  <Kurin_Gun_Grenade_Launcher_SM.tools.0.label>枪托</Kurin_Gun_Grenade_Launcher_SM.tools.0.label>
+  <Kurin_Gun_Grenade_Launcher_SM.tools.1.label>枪管</Kurin_Gun_Grenade_Launcher_SM.tools.1.label>
+
+    <Kurin_Gun_Grenade_Launcher_EMPM.label>魅狐榴弹发射器（EMP弹）</Kurin_Gun_Grenade_Launcher_EMPM.label>
+  <Kurin_Gun_Grenade_Launcher_EMPM.description>[FXGL-A5] - [掠夺者]\n\n~  “掠夺者 A5”魅狐们的新式榴弹发射器，装有EMP弹。</Kurin_Gun_Grenade_Launcher_EMPM.description>
+  <Kurin_Gun_Grenade_Launcher_EMPM.tools.0.label>stock</Kurin_Gun_Grenade_Launcher_EMPM.tools.0.label>
+  <Kurin_Gun_Grenade_Launcher_EMPM.tools.1.label>barrel</Kurin_Gun_Grenade_Launcher_EMPM.tools.1.label>
+
+  <Kurin_Bullet_Grenade_Launcher.label>榴弹</Kurin_Bullet_Grenade_Launcher.label>
+  <Kurin_Bullet_Grenade_Launcher_IM.label>燃烧弹</Kurin_Bullet_Grenade_Launcher_IM.label>
+  <Kurin_Bullet_Grenade_Launcher_FEM.label>灭火弹</Kurin_Bullet_Grenade_Launcher_FEM.label>
+  <Kurin_Bullet_Grenade_Launcher_SM.label>烟雾弹</Kurin_Bullet_Grenade_Launcher_SM.label>
+    <Kurin_Bullet_Grenade_Launcher_EMPM.label>EMP弹</Kurin_Bullet_Grenade_Launcher_EMPM.label>
+
+
+</LanguageData>

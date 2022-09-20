@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef>
+    <defName>Kurin_Shuttle_FXTSA_Crush</defName>
+    <label>先驱者 (FXTS)</label>
+    <description>先驱者 (FXTS) - 这是库林斯的航天飞机，设计用于穿越系外行星。</description>
+    <graphicData>
+      <texPath>Kurin/Building/Harbinger/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(9,11)</drawSize>
+    </graphicData>
+    <size>(7,3)</size>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <killedLeavings>
+      <ChunkSlagSteel>6</ChunkSlagSteel>
+      <Plasteel>75</Plasteel>
+      <Silver>1000</Silver>
+    </killedLeavings>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.90</fillPercent>
+    <blockWind>true</blockWind>
+    <rotatable>false</rotatable>
+    <building>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinShuttleCrash.CompProperties_CompKurinShuttleCrash">
+        <crashScatterRadius>6</crashScatterRadius>
+        <crashScatterChunk>ShipChunk</crashScatterChunk>
+        <crashScatterChunkAmount>3~4</crashScatterChunkAmount>
+        <crashPeopleAmount>3~4</crashPeopleAmount>
+        <crashPeopleKind>Kurin_Spaceship_Crew_Member</crashPeopleKind>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef>
+    <defName>Kurin_Shuttle_FXTSB_Crush</defName>
+    <label>祖国 (FXHTS)</label>
+    <description>祖国 (FXHTS) - 这是库林斯的重型航天飞机，设计用于穿越系外行星。</description>
+    <graphicData>
+      <texPath>Kurin/Building/Motherland/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(13,12)</drawSize>
+    </graphicData>
+    <size>(3,9)</size>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <killedLeavings>
+      <ChunkSlagSteel>12</ChunkSlagSteel>
+      <Plasteel>100</Plasteel>
+      <Silver>1500</Silver>
+    </killedLeavings>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.90</fillPercent>
+    <blockWind>true</blockWind>
+    <rotatable>false</rotatable>
+    <building>
+      <claimable>false</claimable>
+    </building>
+    <comps>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinMilitaryShuttleCrash.CompProperties_CompKurinMilitaryShuttleCrash">
+        <crashScatterRadius>6</crashScatterRadius>
+        <crashScatterChunk>ShipChunk</crashScatterChunk>
+        <crashScatterChunkAmount>3~4</crashScatterChunkAmount>
+        <crashPeopleAmount>3~4</crashPeopleAmount>
+        <crashPeopleKind>Kurin_Soldier</crashPeopleKind>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Traders</value>
+				</li>
+				<!--<li Class="PatchOperationRemove">
+					<xpath>Defs/TraderKindDef/stockGenerators/li[thingDef="Kurin_Ultra_Component"]</xpath>
+				</li>-->
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

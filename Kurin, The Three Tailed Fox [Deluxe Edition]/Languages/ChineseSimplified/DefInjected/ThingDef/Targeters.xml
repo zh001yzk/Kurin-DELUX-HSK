@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Special_Targeter_Bombardment.label>魅狐轨道炮击呼叫器</Kurin_Special_Targeter_Bombardment.label>
+  <Kurin_Special_Targeter_Bombardment.description>魅狐轨道炮击呼叫器标记坐标，魅狐共和国星际巡洋舰便会立即炮击。这个东西只有魅狐军队的精锐部队才能使用，这样他们就可以请求帮助，立即发动毁灭者的攻击。如果使用者未经授权，那么支援将会停止。</Kurin_Special_Targeter_Bombardment.description>
+
+  <Kurin_Special_Targeter_PowerBeam.label>魅狐轨道能量束靶向器</Kurin_Special_Targeter_PowerBeam.label>
+  <Kurin_Special_Targeter_PowerBeam.description>魅狐轨道能量束靶向器标记坐标，魅狐共和国星际巡洋舰便会立即炮击。这个东西只有魅狐军队的精锐部队才能使用，这样他们就可以请求帮助，立即发动毁灭者的攻击。如果使用者未经授权，那么支援将会停止。</Kurin_Special_Targeter_PowerBeam.description>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Special_Rocket_Launcher_Typhoon.label>魅狐火箭筒（台风）</Kurin_Special_Rocket_Launcher_Typhoon.label>
+  <Kurin_Special_Rocket_Launcher_Typhoon.description>[FXTRL-A1] - [台风]\n\n~ “台风”是一种新式可重复使用的魅狐肩射导弹发射器，使用小型爆炸物发射。</Kurin_Special_Rocket_Launcher_Typhoon.description>
+  <Kurin_Special_Rocket_Launcher_Typhoon.tools.0.label>枪管</Kurin_Special_Rocket_Launcher_Typhoon.tools.0.label>
+
+  <Kurin_Special_Rocket_Launcher_Terminator.label>魅狐火箭筒（终结者）</Kurin_Special_Rocket_Launcher_Terminator.label>
+  <Kurin_Special_Rocket_Launcher_Terminator.description>[FXTRL-A2] - [终结者]\n\n~ “终结者”是一种现代单用途肩扛式灭弧导弹发射器，可发射6个中型爆炸弹丸。</Kurin_Special_Rocket_Launcher_Terminator.description>
+  <Kurin_Special_Rocket_Launcher_Terminator.tools.0.label>枪管</Kurin_Special_Rocket_Launcher_Terminator.tools.0.label>
+
+  <Kurin_Bullet_Rocket_Launcher_Typhoon.label>魅狐火箭筒导弹</Kurin_Bullet_Rocket_Launcher_Typhoon.label>
+  <Kurin_Bullet_Rocket_Launcher_Terminator.label>魅狐火箭筒导弹</Kurin_Bullet_Rocket_Launcher_Terminator.label>
+
+
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>FillKurinFabricator</defName>
+    <driverClass>KurinDeluxeEdition.FabricatorMeatConverter.JobDriver_FillKurinFabricator</driverClass>
+    <reportString>填充制造商。</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>EmptyKurinFabricator</defName>
+    <driverClass>KurinDeluxeEdition.FabricatorMeatConverter.JobDriver_EmptyKurinFabricator</driverClass>
+    <reportString>emptying fabricator.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>KurinHostagesCamp_FreeHostage</defName>
+    <driverClass>KurinDeluxeEdition.KurinQuests.KurinHostagesCamp.CompKurinHostagesCamp</driverClass>
+    <reportString>释放 TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+  <JobDef>
+    <defName>KurinCampAssault_FightMelee</defName>
+    <driverClass>KurinDeluxeEdition.KurinQuests.KurinCampAssault.JobDriver_FightMelee</driverClass>
+    <reportString>近战攻击 TargetA.</reportString>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <casualInterruptible>false</casualInterruptible>
+    <collideWithPawns>true</collideWithPawns>
+  </JobDef>
+</Defs>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="Kurin_WalkieTalkieBase" ParentName="ResourceBase" Abstract="True">
+    <graphicData>
+      <texPath>Kurin/Thing/WalkieTalkie/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>ThingWithComps</thingClass>
+    <thingCategories>
+      <li>Kurin_WalkieTalkie</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>350</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <Beauty>0</Beauty>
+      <Flammability>0.3</Flammability>
+    </statBases>
+    <allowedArchonexusCount>0</allowedArchonexusCount>
+    <generateCommonality>0</generateCommonality>
+    <techLevel>Industrial</techLevel>
+    <stackLimit>25</stackLimit>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseArtifact</useJob>
+        <useLabel>Send a signal</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_DestroySelf</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectArtifact">
+        <sound>Kurin_Sound_WalkieTalkie_Interact</sound>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_WalkieTalkieBase">
+    <defName>Kurin_WalkieTalkie_Rain</defName>
+    <label>魅狐对讲机 (rain weather)</label>
+    <description>魅狐的一次性通信设备。当使用该对讲机时，它会向Kurin Republic Star Cruiser发送一个信号，将一些天气变化的炮弹投放到用户位置上方的大气中。\n\n此对讲机可用于雨天。</description>
+    <thingClass>ThingWithComps</thingClass>
+    <comps>
+      <li Class="CompProperties_UseEffectArtifact">
+        <compClass>KurinDeluxeEdition.WalkieTalkie.CompCallRainWeather</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_WalkieTalkieBase">
+    <defName>Kurin_WalkieTalkie_Snow</defName>
+    <label>魅狐对讲机 (snow weather)</label>
+    <description>魅狐的一次性通信设备。当使用该对讲机时，它会向Kurin Republic Star Cruiser发送一个信号，将一些天气变化的炮弹投放到用户位置上方的大气中。\n\n此对讲机可用于雪天气。</description>
+    <thingClass>ThingWithComps</thingClass>
+    <comps>
+      <li Class="CompProperties_UseEffectArtifact">
+        <compClass>KurinDeluxeEdition.WalkieTalkie.CompCallSnowWeather</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  <SoundDef>
+    <defName>Kurin_Sound_WalkieTalkie_Interact</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Kurin/WalkieTalkie_Interact</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

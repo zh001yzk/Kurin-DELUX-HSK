@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Assault_Rifle.label>魅狐突击步枪</Kurin_Gun_Assault_Rifle.label>
+  <Kurin_Gun_Assault_Rifle.description>[FXAR-A1] - [搭档]\n\n~ “搭档”是魅狐们的新式突击步枪。</Kurin_Gun_Assault_Rifle.description>
+  <Kurin_Gun_Assault_Rifle.tools.0.label>枪托</Kurin_Gun_Assault_Rifle.tools.0.label>
+  <Kurin_Gun_Assault_Rifle.tools.1.label>枪管</Kurin_Gun_Assault_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Tactical_Rifle.label>魅狐突击步枪子弹</Kurin_Bullet_Tactical_Rifle.label>
+
+
+</LanguageData>

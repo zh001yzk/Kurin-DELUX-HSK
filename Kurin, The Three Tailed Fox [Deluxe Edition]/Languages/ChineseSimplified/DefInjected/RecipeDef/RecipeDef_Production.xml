@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Materials -->
+
+  <Make_Kurin_Fabricator_ChemfuelFromWood.label>用木头打印化学燃料</Make_Kurin_Fabricator_ChemfuelFromWood.label>
+  <Make_Kurin_Fabricator_ChemfuelFromWood.description>用原木打印化学燃料。</Make_Kurin_Fabricator_ChemfuelFromWood.description>
+  <Make_Kurin_Fabricator_ChemfuelFromWood.jobString>正在用木头打印化学燃料。</Make_Kurin_Fabricator_ChemfuelFromWood.jobString>
+
+  <Make_Kurin_Fabricator_ChemfuelFromOrganics.label>用有机物打印化学燃料</Make_Kurin_Fabricator_ChemfuelFromOrganics.label>
+  <Make_Kurin_Fabricator_ChemfuelFromOrganics.description>用有机原料打印化学燃料。</Make_Kurin_Fabricator_ChemfuelFromOrganics.description>
+  <Make_Kurin_Fabricator_ChemfuelFromOrganics.jobString>正在用有机物打印化学燃料。</Make_Kurin_Fabricator_ChemfuelFromOrganics.jobString>
+
+  <Make_Kurin_Fabricator_ChemfuelFromCorpse.label>用尸体打印化学燃料</Make_Kurin_Fabricator_ChemfuelFromCorpse.label>
+  <Make_Kurin_Fabricator_ChemfuelFromCorpse.description>用尸体打印化学燃料。</Make_Kurin_Fabricator_ChemfuelFromCorpse.description>
+  <Make_Kurin_Fabricator_ChemfuelFromCorpse.jobString>正在用尸体打印化学燃料。</Make_Kurin_Fabricator_ChemfuelFromCorpse.jobString>
+
+
+  <!-- Food -->
+
+  <Make_Kurin_Fabricator_Milk.label>打印奶</Make_Kurin_Fabricator_Milk.label>
+  <Make_Kurin_Fabricator_Milk.description>打印一份奶。</Make_Kurin_Fabricator_Milk.description>
+  <Make_Kurin_Fabricator_Milk.jobString>正在打印奶。</Make_Kurin_Fabricator_Milk.jobString>
+
+  <Make_Kurin_Fabricator_Chocolate.label>打印巧克力</Make_Kurin_Fabricator_Chocolate.label>
+  <Make_Kurin_Fabricator_Chocolate.description>打印一份巧克力。</Make_Kurin_Fabricator_Chocolate.description>
+  <Make_Kurin_Fabricator_Chocolate.jobString>正在打印巧克力。</Make_Kurin_Fabricator_Chocolate.jobString>
+
+  <Make_Kurin_Fabricator_Beer.label>打印啤酒</Make_Kurin_Fabricator_Beer.label>
+  <Make_Kurin_Fabricator_Beer.description>打印一份啤酒。</Make_Kurin_Fabricator_Beer.description>
+  <Make_Kurin_Fabricator_Beer.jobString>正在打印啤酒。</Make_Kurin_Fabricator_Beer.jobString>
+
+  <Make_Kurin_Fabricator_GoJuice.label>打印活力水</Make_Kurin_Fabricator_GoJuice.label>
+  <Make_Kurin_Fabricator_GoJuice.description>打印一份活力水。</Make_Kurin_Fabricator_GoJuice.description>
+  <Make_Kurin_Fabricator_GoJuice.jobString>正在打印活力水。</Make_Kurin_Fabricator_GoJuice.jobString>
+
+  <Make_Kurin_Fabricator_GoJuice_Bulk.label>打印活力水 (x4)</Make_Kurin_Fabricator_GoJuice_Bulk.label>
+  <Make_Kurin_Fabricator_GoJuice_Bulk.description>打印一份活力水 (x4)。</Make_Kurin_Fabricator_GoJuice_Bulk.description>
+  <Make_Kurin_Fabricator_GoJuice_Bulk.jobString>正在打印活力水 (x4)。</Make_Kurin_Fabricator_GoJuice_Bulk.jobString>
+
+
+  <!-- Components -->
+
+  <Make_Kurin_Fabricator_ComponentIndustrial.label>打印零部件</Make_Kurin_Fabricator_ComponentIndustrial.label>
+  <Make_Kurin_Fabricator_ComponentIndustrial.description>打印一份零部件。</Make_Kurin_Fabricator_ComponentIndustrial.description>
+  <Make_Kurin_Fabricator_ComponentIndustrial.jobString>正在打印零部件。</Make_Kurin_Fabricator_ComponentIndustrial.jobString>
+
+  <Make_Kurin_Fabricator_ComponentIndustrial_Bulk.label>打印零部件 (x4)</Make_Kurin_Fabricator_ComponentIndustrial_Bulk.label>
+  <Make_Kurin_Fabricator_ComponentIndustrial_Bulk.description>打印一份零部件 (x4)。</Make_Kurin_Fabricator_ComponentIndustrial_Bulk.description>
+  <Make_Kurin_Fabricator_ComponentIndustrial_Bulk.jobString>正在打印零部件。</Make_Kurin_Fabricator_ComponentIndustrial_Bulk.jobString>
+
+  <Make_Kurin_Fabricator_ComponentSpacer.label>打印高级零部件</Make_Kurin_Fabricator_ComponentSpacer.label>
+  <Make_Kurin_Fabricator_ComponentSpacer.description>打印一份高级零部件。</Make_Kurin_Fabricator_ComponentSpacer.description>
+  <Make_Kurin_Fabricator_ComponentSpacer.jobString>正在打印高级零部件。</Make_Kurin_Fabricator_ComponentSpacer.jobString>
+
+  <Make_Kurin_Fabricator_ComponentSpacer_Bulk.label>打印高级零部件 (x4)</Make_Kurin_Fabricator_ComponentSpacer_Bulk.label>
+  <Make_Kurin_Fabricator_ComponentSpacer_Bulk.description>打印一份高级零部件 (x4)。</Make_Kurin_Fabricator_ComponentSpacer_Bulk.description>
+  <Make_Kurin_Fabricator_ComponentSpacer_Bulk.jobString>正在打印高级零部件。</Make_Kurin_Fabricator_ComponentSpacer_Bulk.jobString>
+
+
+  <!-- Weapon -->
+
+  <Make_Kurin_Fabricator_Gun_Pistol.label>打印魅狐手枪</Make_Kurin_Fabricator_Gun_Pistol.label>
+  <Make_Kurin_Fabricator_Gun_Pistol.description>打印一份魅狐手枪。</Make_Kurin_Fabricator_Gun_Pistol.description>
+  <Make_Kurin_Fabricator_Gun_Pistol.jobString>正在打印魅狐手枪。</Make_Kurin_Fabricator_Gun_Pistol.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Hunting_Shotgun.label>打印魅狐猎枪</Make_Kurin_Fabricator_Gun_Hunting_Shotgun.label>
+  <Make_Kurin_Fabricator_Gun_Hunting_Shotgun.description>打印一份魅狐猎枪。</Make_Kurin_Fabricator_Gun_Hunting_Shotgun.description>
+  <Make_Kurin_Fabricator_Gun_Hunting_Shotgun.jobString>正在打印魅狐猎枪。</Make_Kurin_Fabricator_Gun_Hunting_Shotgun.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Heavy_SMG.label>打印魅狐重型冲锋枪</Make_Kurin_Fabricator_Gun_Heavy_SMG.label>
+  <Make_Kurin_Fabricator_Gun_Heavy_SMG.description>打印一份魅狐重型冲锋枪。</Make_Kurin_Fabricator_Gun_Heavy_SMG.description>
+  <Make_Kurin_Fabricator_Gun_Heavy_SMG.jobString>正在打印魅狐重型冲锋枪。</Make_Kurin_Fabricator_Gun_Heavy_SMG.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Auto_Shotgun.label>打印魅狐自动霰弹枪</Make_Kurin_Fabricator_Gun_Auto_Shotgun.label>
+  <Make_Kurin_Fabricator_Gun_Auto_Shotgun.description>打印一份魅狐自动霰弹枪。</Make_Kurin_Fabricator_Gun_Auto_Shotgun.description>
+  <Make_Kurin_Fabricator_Gun_Auto_Shotgun.jobString>正在打印魅狐自动霰弹枪。</Make_Kurin_Fabricator_Gun_Auto_Shotgun.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Assault_Rifle.label>打印魅狐突击步枪</Make_Kurin_Fabricator_Gun_Assault_Rifle.label>
+  <Make_Kurin_Fabricator_Gun_Assault_Rifle.description>打印一份魅狐突击步枪。</Make_Kurin_Fabricator_Gun_Assault_Rifle.description>
+  <Make_Kurin_Fabricator_Gun_Assault_Rifle.jobString>正在打印魅狐突击步枪。</Make_Kurin_Fabricator_Gun_Assault_Rifle.jobString>
+
+    <Make_Kurin_Fabricator_Gun_Sniper_Rifle.label>打印魅狐狙击步枪</Make_Kurin_Fabricator_Gun_Sniper_Rifle.label>
+  <Make_Kurin_Fabricator_Gun_Sniper_Rifle.description>打印一份魅狐狙击步枪。</Make_Kurin_Fabricator_Gun_Sniper_Rifle.description>
+  <Make_Kurin_Fabricator_Gun_Sniper_Rifle.jobString>正在打印魅狐狙击步枪。</Make_Kurin_Fabricator_Gun_Sniper_Rifle.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Heavy_Assault_Rifle.label>打印魅狐重型突击步枪</Make_Kurin_Fabricator_Gun_Heavy_Assault_Rifle.label>
+  <Make_Kurin_Fabricator_Gun_Heavy_Assault_Rifle.description>打印一份魅狐重型突击步枪。</Make_Kurin_Fabricator_Gun_Heavy_Assault_Rifle.description>
+  <Make_Kurin_Fabricator_Gun_Heavy_Assault_Rifle.jobString>正在打印魅狐重型突击步枪。</Make_Kurin_Fabricator_Gun_Heavy_Assault_Rifle.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle.label>打印魅狐重型狙击步枪</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle.label>
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle.description>打印一份魅狐重型狙击步枪。</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle.description>
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle.jobString>正在打印魅狐重型狙击步枪。</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher.label>打印魅狐榴弹发射器</Make_Kurin_Fabricator_Gun_Grenade_Launcher.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher.description>打印一份魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher.jobString>正在打印魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_IM.label>打印魅狐榴弹发射器（燃烧弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_IM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_IM.description>打印一份魅狐榴弹发射器（燃烧弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_IM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_IM.jobString>正在打印魅狐榴弹发射器（燃烧弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_IM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_FEM.label>打印魅狐榴弹发射器（灭火弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_FEM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_FEM.description>打印一份魅狐榴弹发射器（灭火弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_FEM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_FEM.jobString>正在打印魅狐榴弹发射器（灭火弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_FEM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_SM.label>打印魅狐榴弹发射器（烟雾弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_SM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_SM.description>打印一份魅狐榴弹发射器（烟雾弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_SM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_SM.jobString>正在打印魅狐榴弹发射器（烟雾弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_SM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_EMPM.label>打印魅狐榴弹发射器（EMP弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_EMPM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_EMPM.description>打印一份魅狐榴弹发射器（EMP弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_EMPM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_EMPM.jobString>正在打印魅狐榴弹发射器（EMP弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_EMPM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Flamethrower.label>打印魅狐火焰喷射器</Make_Kurin_Fabricator_Gun_Flamethrower.label>
+  <Make_Kurin_Fabricator_Gun_Flamethrower.description>打印一份魅狐火焰喷射器。</Make_Kurin_Fabricator_Gun_Flamethrower.description>
+  <Make_Kurin_Fabricator_Gun_Flamethrower.jobString>正在打印魅狐火焰喷射器。</Make_Kurin_Fabricator_Gun_Flamethrower.jobString>
+  
+  <Make_Kurin_Fabricator_Gun_Charged_Rifle.label>打印魅狐电荷步枪</Make_Kurin_Fabricator_Gun_Charged_Rifle.label>
+  <Make_Kurin_Fabricator_Gun_Charged_Rifle.description>打印一份魅狐电荷步枪。</Make_Kurin_Fabricator_Gun_Charged_Rifle.description>
+  <Make_Kurin_Fabricator_Gun_Charged_Rifle.jobString>正在打印魅狐电荷步枪。</Make_Kurin_Fabricator_Gun_Charged_Rifle.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Sniper_Charged_Rifle.label>打印魅狐电荷狙击步枪</Make_Kurin_Fabricator_Gun_Sniper_Charged_Rifle.label>
+  <Make_Kurin_Fabricator_Gun_Sniper_Charged_Rifle.description>打印一份魅狐电荷狙击步枪。</Make_Kurin_Fabricator_Gun_Sniper_Charged_Rifle.description>
+  <Make_Kurin_Fabricator_Gun_Sniper_Charged_Rifle.jobString>正在打印魅狐电荷狙击步枪。</Make_Kurin_Fabricator_Gun_Sniper_Charged_Rifle.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Unmaker.label>打印魅狐毁灭者</Make_Kurin_Fabricator_Gun_Unmaker.label>
+  <Make_Kurin_Fabricator_Gun_Unmaker.description>打印一份魅狐毁灭者。</Make_Kurin_Fabricator_Gun_Unmaker.description>
+  <Make_Kurin_Fabricator_Gun_Unmaker.jobString>正在打印魅狐毁灭者。</Make_Kurin_Fabricator_Gun_Unmaker.jobString>
+
+  <Make_Kurin_Fabricator_Special_Rocket_Launcher.label>打印魅狐火箭筒</Make_Kurin_Fabricator_Special_Rocket_Launcher.label>
+  <Make_Kurin_Fabricator_Special_Rocket_Launcher.description>打印一份魅狐火箭筒。</Make_Kurin_Fabricator_Special_Rocket_Launcher.description>
+  <Make_Kurin_Fabricator_Special_Rocket_Launcher.jobString>正在打印魅狐火箭筒。</Make_Kurin_Fabricator_Special_Rocket_Launcher.jobString>
+
+  <Make_Kurin_Fabricator_Special_Targeter_Bombardment.label>打印魅狐轨道炮击呼叫器</Make_Kurin_Fabricator_Special_Targeter_Bombardment.label>
+  <Make_Kurin_Fabricator_Special_Targeter_Bombardment.description>打印一份魅狐轨道炮击呼叫器。</Make_Kurin_Fabricator_Special_Targeter_Bombardment.description>
+  <Make_Kurin_Fabricator_Special_Targeter_Bombardment.jobString>正在打印魅狐轨道炮击呼叫器。</Make_Kurin_Fabricator_Special_Targeter_Bombardment.jobString>
+
+  <Make_Kurin_Fabricator_Special_Targeter_PowerBeam.label>打印魅狐轨道能量束靶向器</Make_Kurin_Fabricator_Special_Targeter_PowerBeam.label>
+  <Make_Kurin_Fabricator_Special_Targeter_PowerBeam.description>打印一份魅狐轨道能量束靶向器。</Make_Kurin_Fabricator_Special_Targeter_PowerBeam.description>
+  <Make_Kurin_Fabricator_Special_Targeter_PowerBeam.jobString>正在打印魅狐轨道能量束靶向器。</Make_Kurin_Fabricator_Special_Targeter_PowerBeam.jobString>
+
+
+  <!-- Apparel -->
+
+  <Make_Kurin_Fabricator_OnSkin_Spacer_Crew_Suit.label>打印魅狐宇航服</Make_Kurin_Fabricator_OnSkin_Spacer_Crew_Suit.label>
+  <Make_Kurin_Fabricator_OnSkin_Spacer_Crew_Suit.description>打印一份魅狐宇航服。</Make_Kurin_Fabricator_OnSkin_Spacer_Crew_Suit.description>
+  <Make_Kurin_Fabricator_OnSkin_Spacer_Crew_Suit.jobString>正在打印魅狐宇航服。</Make_Kurin_Fabricator_OnSkin_Spacer_Crew_Suit.jobString>
+
+  <Make_Kurin_Fabricator_Power_Armor.label>打印魅狐动力装甲★</Make_Kurin_Fabricator_Power_Armor.label>
+  <Make_Kurin_Fabricator_Power_Armor.description>打印一份魅狐动力装甲★。</Make_Kurin_Fabricator_Power_Armor.description>
+  <Make_Kurin_Fabricator_Power_Armor.jobString>正在打印魅狐动力装甲★。</Make_Kurin_Fabricator_Power_Armor.jobString>
+
+  <Make_Kurin_Fabricator_Power_Armor_Helmet.label>打印魅狐动力头盔★</Make_Kurin_Fabricator_Power_Armor_Helmet.label>
+  <Make_Kurin_Fabricator_Power_Armor_Helmet.description>打印一份魅狐动力头盔★。</Make_Kurin_Fabricator_Power_Armor_Helmet.description>
+  <Make_Kurin_Fabricator_Power_Armor_Helmet.jobString>正在打印魅狐动力头盔★。</Make_Kurin_Fabricator_Power_Armor_Helmet.jobString>
+
+
+  <!-- Bionics -->
+
+  <Make_Kurin_Fabricator_Kurin_Bionic_Ear.label>打印仿生魅狐耳朵</Make_Kurin_Fabricator_Kurin_Bionic_Ear.label>
+  <Make_Kurin_Fabricator_Kurin_Bionic_Ear.description>打印一份仿生魅狐耳朵。</Make_Kurin_Fabricator_Kurin_Bionic_Ear.description>
+  <Make_Kurin_Fabricator_Kurin_Bionic_Ear.jobString>正在打印仿生魅狐耳朵。</Make_Kurin_Fabricator_Kurin_Bionic_Ear.jobString>
+
+  <Make_Kurin_Fabricator_Kurin_Bionic_Tail.label>打印仿生魅狐尾巴</Make_Kurin_Fabricator_Kurin_Bionic_Tail.label>
+  <Make_Kurin_Fabricator_Kurin_Bionic_Tail.description>打印一份仿生魅狐尾巴。</Make_Kurin_Fabricator_Kurin_Bionic_Tail.description>
+  <Make_Kurin_Fabricator_Kurin_Bionic_Tail.jobString>正在打印仿生魅狐尾巴。</Make_Kurin_Fabricator_Kurin_Bionic_Tail.jobString>
+
+  <Make_Kurin_Fabricator_Kimiri_Bionic_Ear.label>打印仿生奇龙耳朵</Make_Kurin_Fabricator_Kimiri_Bionic_Ear.label>
+  <Make_Kurin_Fabricator_Kimiri_Bionic_Ear.description>打印一份仿生奇龙耳朵。</Make_Kurin_Fabricator_Kimiri_Bionic_Ear.description>
+  <Make_Kurin_Fabricator_Kimiri_Bionic_Ear.jobString>正在打印仿生奇龙耳朵。</Make_Kurin_Fabricator_Kimiri_Bionic_Ear.jobString>
+
+  <Make_Kurin_Fabricator_Kimiri_Bionic_Tail.label>打印仿生奇龙尾巴</Make_Kurin_Fabricator_Kimiri_Bionic_Tail.label>
+  <Make_Kurin_Fabricator_Kimiri_Bionic_Tail.description>打印一份仿生奇龙尾巴。</Make_Kurin_Fabricator_Kimiri_Bionic_Tail.description>
+  <Make_Kurin_Fabricator_Kimiri_Bionic_Tail.jobString>正在打印仿生奇龙尾巴。</Make_Kurin_Fabricator_Kimiri_Bionic_Tail.jobString>
+
+
+  <!-- Advanced Materials -->
+
+  <Make_Kurin_Fabricator_Synthread.label>打印合成纤维 (x25)</Make_Kurin_Fabricator_Synthread.label>
+  <Make_Kurin_Fabricator_Synthread.description>打印一份合成纤维 (x25)。</Make_Kurin_Fabricator_Synthread.description>
+  <Make_Kurin_Fabricator_Synthread.jobString>正在打印合成纤维。</Make_Kurin_Fabricator_Synthread.jobString>
+
+  <Make_Kurin_Fabricator_Synthread_Bulk.label>打印合成纤维 (x100)</Make_Kurin_Fabricator_Synthread_Bulk.label>
+  <Make_Kurin_Fabricator_Synthread_Bulk.description>打印一份合成纤维 (x100)。</Make_Kurin_Fabricator_Synthread_Bulk.description>
+  <Make_Kurin_Fabricator_Synthread_Bulk.jobString>正在打印合成纤维。</Make_Kurin_Fabricator_Synthread_Bulk.jobString>
+
+  <Make_Kurin_Fabricator_DevilstrandCloth.label>打印魔菇布 (x25)</Make_Kurin_Fabricator_DevilstrandCloth.label>
+  <Make_Kurin_Fabricator_DevilstrandCloth.description>打印一份魔菇布 (x25)。</Make_Kurin_Fabricator_DevilstrandCloth.description>
+  <Make_Kurin_Fabricator_DevilstrandCloth.jobString>正在打印魔菇布。</Make_Kurin_Fabricator_DevilstrandCloth.jobString>
+
+  <Make_Kurin_Fabricator_DevilstrandCloth_Bulk.label>打印魔菇布 (x100)</Make_Kurin_Fabricator_DevilstrandCloth_Bulk.label>
+  <Make_Kurin_Fabricator_DevilstrandCloth_Bulk.description>打印一份魔菇布 (x100)。</Make_Kurin_Fabricator_DevilstrandCloth_Bulk.description>
+  <Make_Kurin_Fabricator_DevilstrandCloth_Bulk.jobString>正在打印魔菇布。</Make_Kurin_Fabricator_DevilstrandCloth_Bulk.jobString>
+
+  <Make_Kurin_Fabricator_Neutroamine.label>打印中心胺 (x30)</Make_Kurin_Fabricator_Neutroamine.label>
+  <Make_Kurin_Fabricator_Neutroamine.description>打印一份中心胺 (x30)。</Make_Kurin_Fabricator_Neutroamine.description>
+  <Make_Kurin_Fabricator_Neutroamine.jobString>正在打印中心胺。</Make_Kurin_Fabricator_Neutroamine.jobString>
+
+  <Make_Kurin_Fabricator_Neutroamine_Bulk.label>打印中心胺 (x90)</Make_Kurin_Fabricator_Neutroamine_Bulk.label>
+  <Make_Kurin_Fabricator_Neutroamine_Bulk.description>打印一份中心胺 (x90)。</Make_Kurin_Fabricator_Neutroamine_Bulk.description>
+  <Make_Kurin_Fabricator_Neutroamine_Bulk.jobString>正在打印中心胺。</Make_Kurin_Fabricator_Neutroamine_Bulk.jobString>
+
+  <Make_Kurin_Fabricator_Plasteel.label>打印玻璃钢 (x25)</Make_Kurin_Fabricator_Plasteel.label>
+  <Make_Kurin_Fabricator_Plasteel.description>打印一份玻璃钢 (x25)。</Make_Kurin_Fabricator_Plasteel.description>
+  <Make_Kurin_Fabricator_Plasteel.jobString>正在打印玻璃钢。</Make_Kurin_Fabricator_Plasteel.jobString>
+
+  <Make_Kurin_Fabricator_Plasteel_Bulk.label>打印玻璃钢 (x100)</Make_Kurin_Fabricator_Plasteel_Bulk.label>
+  <Make_Kurin_Fabricator_Plasteel_Bulk.description>打印一份玻璃钢 (x100)。</Make_Kurin_Fabricator_Plasteel_Bulk.description>
+  <Make_Kurin_Fabricator_Plasteel_Bulk.jobString>正在打印玻璃钢。</Make_Kurin_Fabricator_Plasteel_Bulk.jobString>
+
+  <Make_Kurin_Fabricator_Hyperweave.label>打印超织物 (x25)</Make_Kurin_Fabricator_Hyperweave.label>
+  <Make_Kurin_Fabricator_Hyperweave.description>打印一份超织物 (x25)。</Make_Kurin_Fabricator_Hyperweave.description>
+  <Make_Kurin_Fabricator_Hyperweave.jobString>正在打印超织物。</Make_Kurin_Fabricator_Hyperweave.jobString>
+
+  <Make_Kurin_Fabricator_Hyperweave_Bulk.label>打印超织物 (x100)</Make_Kurin_Fabricator_Hyperweave_Bulk.label>
+  <Make_Kurin_Fabricator_Hyperweave_Bulk.description>打印一份超织物 (x100)。</Make_Kurin_Fabricator_Hyperweave_Bulk.description>
+  <Make_Kurin_Fabricator_Hyperweave_Bulk.jobString>正在打印超织物。</Make_Kurin_Fabricator_Hyperweave_Bulk.jobString>
+
+
+ <!-- Advanced Tools -->
+
+  <Make_Kurin_Fabricator_MechSerumHealer.label>打印治愈机械液</Make_Kurin_Fabricator_MechSerumHealer.label>
+  <Make_Kurin_Fabricator_MechSerumHealer.description>打印一份治愈机械液。</Make_Kurin_Fabricator_MechSerumHealer.description>
+  <Make_Kurin_Fabricator_MechSerumHealer.jobString>正在打印治愈机械液。</Make_Kurin_Fabricator_MechSerumHealer.jobString>
+
+  <Make_Kurin_Fabricator_MechSerumResurrector.label>打印复活机械液</Make_Kurin_Fabricator_MechSerumResurrector.label>
+  <Make_Kurin_Fabricator_MechSerumResurrector.description>打印一份复活机械液。</Make_Kurin_Fabricator_MechSerumResurrector.description>
+  <Make_Kurin_Fabricator_MechSerumResurrector.jobString>正在打印复活机械液。</Make_Kurin_Fabricator_MechSerumResurrector.jobString>
+
+
+  <!-- Modifications -->
+
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_To_HE.label>改装魅狐重型狙击步枪</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_To_HE.label>
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_To_HE.description>给魅狐重型狙击步枪装上高爆弹。</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_To_HE.description>
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_To_HE.jobString>正在改装魅狐重型狙击步枪。</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_To_HE.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_From_HE.label>改装魅狐重型狙击步枪</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_From_HE.label>
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_From_HE.description>给魅狐重型狙击步枪装上穿甲弹。</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_From_HE.description>
+  <Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_From_HE.jobString>正在改装魅狐重型狙击步枪。</Make_Kurin_Fabricator_Gun_Heavy_Sniper_Rifle_From_HE.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_IM.label>改装魅狐榴弹发射器</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_IM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_IM.description>将魅狐榴弹发射器改装成魅狐榴弹发射器（燃烧弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_IM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_IM.jobString>正在改装魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_IM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_FEM.label>改装魅狐榴弹发射器</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_FEM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_FEM.description>将魅狐榴弹发射器改装成魅狐榴弹发射器（灭火弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_FEM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_FEM.jobString>正在改装魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_FEM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_SM.label>改装魅狐榴弹发射器</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_SM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_SM.description>将魅狐榴弹发射器改装成魅狐榴弹发射器（烟雾弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_SM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_SM.jobString>正在改装魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_SM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_EMPM.label>改装魅狐榴弹发射器</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_EMPM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_EMPM.description>将魅狐榴弹发射器改装成魅狐榴弹发射器（EMP弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_EMPM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_EMPM.jobString>正在改装魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_To_EMPM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_IM.label>改装魅狐榴弹发射器（燃烧弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_IM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_IM.description>将魅狐榴弹发射器（燃烧弹）改装成魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_IM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_IM.jobString>正在改装魅狐榴弹发射器（燃烧弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_IM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_FEM.label>改装魅狐榴弹发射器（灭火弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_FEM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_FEM.description>将魅狐榴弹发射器（灭火弹）改装成魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_FEM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_FEM.jobString>正在改装魅狐榴弹发射器（灭火弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_FEM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_SM.label>改装魅狐榴弹发射器（烟雾弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_SM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_SM.description>将魅狐榴弹发射器（烟雾弹）改装成魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_SM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_SM.jobString>正在改装魅狐榴弹发射器（烟雾弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_SM.jobString>
+
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_EMPM.label>改装魅狐榴弹发射器（EMP弹）</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_EMPM.label>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_EMPM.description>将魅狐榴弹发射器（EMP弹）改装成魅狐榴弹发射器。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_EMPM.description>
+  <Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_EMPM.jobString>正在改装魅狐榴弹发射器（EMP弹）。</Make_Kurin_Fabricator_Gun_Grenade_Launcher_From_EMPM.jobString>
+
+
+</LanguageData>

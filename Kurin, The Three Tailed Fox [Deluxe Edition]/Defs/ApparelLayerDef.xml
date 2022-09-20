@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ApparelLayerDef>
+    <defName>Kurin_Underwear</defName>
+    <label>内衣</label>
+    <drawOrder>-3</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>Kurin_Stocking</defName>
+    <label>裤袜</label>
+    <drawOrder>-2</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>Kurin_Legs</defName>
+    <label>腿部</label>
+    <drawOrder>-1</drawOrder>
+  </ApparelLayerDef>
+</Defs>

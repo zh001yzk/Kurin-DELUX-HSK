@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>EmptyKurinFabricator</defName>
+    <label>empty </label>
+    <verb>empty </verb>
+    <gerund>emptying </gerund>
+    <giverClass>KurinDeluxeEdition.FabricatorMeatConverter.WorkGiver_EmptyKurinFabricator</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>66</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>FillKurinFabricator</defName>
+    <label>填满</label>
+    <verb>填满</verb>
+    <gerund>正在填满</gerund>
+    <giverClass>KurinDeluxeEdition.FabricatorMeatConverter.WorkGiver_FillKurinFabricator</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>65</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+</Defs>

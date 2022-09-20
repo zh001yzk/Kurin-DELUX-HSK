@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Races</value>
+				</li>
+				<!-- general -->
+				<li Class="PatchOperationAttributeSet">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin" or defName="Kimiri"]</xpath>
+					<attribute>ParentName</attribute>
+					<value>SK_BasePawn</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin" or defName="Kimiri"]</xpath>
+					<value>						
+						<li Class="CombatExtended.RacePropertiesExtensionCE">
+							<bodyShape>Humanoid</bodyShape>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin" or defName="Kimiri"]/comps</xpath>
+					<value>
+						<li>
+							<compClass>CombatExtended.CompPawnGizmo</compClass>
+						</li>	
+					</value>
+				</li>
+				<!-- stats -->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin"]/statBases</xpath>
+					<value>
+						<GermResistance>0.1</GermResistance>
+						<GermContainment>0.1</GermContainment>
+						<NightVisionEfficiency>0.3</NightVisionEfficiency>
+						<MeleeDodgeChance>0.35</MeleeDodgeChance>
+						<MeleeCritChance>0.1</MeleeCritChance>
+						<MeleeParryChance>0.2</MeleeParryChance>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kimiri"]/statBases</xpath>
+					<value>
+						<GermResistance>0.1</GermResistance>
+						<GermContainment>0.1</GermContainment>
+						<NightVisionEfficiency>0.1</NightVisionEfficiency>
+						<MeleeDodgeChance>0.2</MeleeDodgeChance>
+						<MeleeCritChance>0.3</MeleeCritChance>
+						<MeleeParryChance>0.3</MeleeParryChance>
+					</value>
+				</li>
+				<!-- tools -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kurin"]/tools</xpath>
+					<value>
+						<tools>
+							<li  Class="CombatExtended.ToolCE">
+								<label>left fist</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>8.2</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							</li>
+							<li  Class="CombatExtended.ToolCE">
+								<label>right fist</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>8.2</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							</li>
+							<li  Class="CombatExtended.ToolCE">
+								<label>teeth</label>
+								<capacities>
+									<li>Bite</li>
+								</capacities>
+								<power>8.2</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+								<chanceFactor>0.3</chanceFactor>
+								<soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+								<soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+								<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							</li>
+							<li  Class="CombatExtended.ToolCE">
+								<label>head</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>5</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+								<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+								<chanceFactor>0.2</chanceFactor>
+								<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+							</li>
+						</tools>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kimiri"]/tools</xpath>
+					<value>
+						<tools>
+							<li  Class="CombatExtended.ToolCE">
+								<label>left fist</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>8.2</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							</li>
+							<li  Class="CombatExtended.ToolCE">
+								<label>right fist</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>8.2</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							</li>
+							<li  Class="CombatExtended.ToolCE">
+								<label>teeth</label>
+								<capacities>
+									<li>Bite</li>
+								</capacities>
+								<power>8.2</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+								<chanceFactor>0.3</chanceFactor>
+								<soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+								<soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+								<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.01</armorPenetrationSharp>
+							</li>
+							<li  Class="CombatExtended.ToolCE">
+								<label>tail</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>20</power>
+								<cooldownTime>3</cooldownTime>
+								<linkedBodyPartsGroup>Kimiri_Tail</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>24</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>6</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>left horn</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>14</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>right horn</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>14</power>
+								<cooldownTime>2</cooldownTime>
+								<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+								<surpriseAttack>
+									<extraMeleeDamages>
+										<li>
+											<def>Stun</def>
+											<amount>14</amount>
+										</li>
+									</extraMeleeDamages>
+								</surpriseAttack>
+								<armorPenetrationBlunt>2</armorPenetrationBlunt>
+							</li>
+						</tools>
+					</value>
+				</li>
+
+
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

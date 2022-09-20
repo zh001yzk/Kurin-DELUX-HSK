@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.MouthTypeDef>
+    <defName>Kimiri_Mouth</defName>
+    <texPath>Kimiri/Face/Mouth</texPath>
+    <raceName>Kimiri</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+</Defs>

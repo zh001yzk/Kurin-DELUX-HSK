@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>KurinHostagesCamp_WorldObject</defName>
+    <worldObjectClass>Site</worldObjectClass>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconPriority>70</expandingIconPriority>
+    <comps>
+      <li Class="WorldObjectCompProperties_Timeout" />
+      <li Class="WorldObjectCompProperties_FormCaravan" />
+      <li Class="WorldObjectCompProperties_TimedForcedExit" />
+      <li Class="WorldObjectCompProperties_EnterCooldown" />
+      <li Class="WorldObjectCompProperties_TimedDetectionRaids" />
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinHostagesCamp.WorldObjectCompProperties_WorldObjectCompKurinHostagesCamp" />
+    </comps>
+    <IncidentTargetTags>
+      <li>Map_Misc</li>
+    </IncidentTargetTags>
+  </WorldObjectDef>
+  <WorldObjectDef>
+    <defName>KurinCampAssault_WorldObject</defName>
+    <worldObjectClass>KurinDeluxeEdition.KurinQuests.KurinCampAssault.Site_KurinCampAssault</worldObjectClass>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconPriority>70</expandingIconPriority>
+    <comps>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.WorldObjectCompProperties_FormCaravanComp_KurinCampAssault" />
+      <li Class="WorldObjectCompProperties_Timeout" />
+    </comps>
+    <IncidentTargetTags>
+      <li>Map_Misc</li>
+    </IncidentTargetTags>
+  </WorldObjectDef>
+</Defs>

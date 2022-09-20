@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GenStepDef>
+    <defName>KurinHostagesCamp_GenStep</defName>
+    <linkWithSite>KurinHostagesCamp_SitePart</linkWithSite>
+    <order>398</order>
+    <genStep Class="KurinDeluxeEdition.KurinQuests.KurinHostagesCamp.GenStep_KurinHostagesCamp" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinHostagesCamp_Power_GenStep</defName>
+    <linkWithSite>KurinHostagesCamp_SitePart</linkWithSite>
+    <order>399</order>
+    <genStep Class="GenStep_Power" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinCampAssault_GenStep</defName>
+    <linkWithSite>KurinCampAssault_SitePart</linkWithSite>
+    <order>450</order>
+    <genStep Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.GenStep_KurinCampAssault" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinCampAssault_Power_GenStep</defName>
+    <linkWithSite>KurinCampAssault_SitePart</linkWithSite>
+    <order>451</order>
+    <genStep Class="GenStep_Power" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinCampDefence_GenStep</defName>
+    <linkWithSite>KurinCampDefence_SitePart</linkWithSite>
+    <order>480</order>
+    <genStep Class="KurinDeluxeEdition.KurinQuests.KurinCampDefence.GenStep_KurinCampDefence" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinCampDefence_Power_GenStep</defName>
+    <linkWithSite>KurinCampDefence_SitePart</linkWithSite>
+    <order>481</order>
+    <genStep Class="GenStep_Power" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinReceptionCamp_GenStep</defName>
+    <linkWithSite>KurinReceptionCamp_SitePart</linkWithSite>
+    <order>430</order>
+    <genStep Class="KurinDeluxeEdition.KurinQuests.KurinReceptionCamp.GenStep_KurinReceptionCamp" />
+  </GenStepDef>
+  <GenStepDef>
+    <defName>KurinReceptionCamp_Power_GenStep</defName>
+    <linkWithSite>KurinReceptionCamp_SitePart</linkWithSite>
+    <order>431</order>
+    <genStep Class="GenStep_Power" />
+  </GenStepDef>
+</Defs>

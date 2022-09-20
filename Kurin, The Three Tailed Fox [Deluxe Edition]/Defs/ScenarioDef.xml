@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>Kurin_Scenario</defName>
+    <label>魅狐，新的开始。（经典）</label>
+    <description> 魅狐是由繁华界的基因工程技术而诞生的种族。原本是为了改良人类而设计的种族。但由于对这种反人类的实验感到反感，研究人员和种族解放组织入侵了机械装置并破坏了设施，带着魅狐们流亡到了遥远的行星上。\n\n在新的行星上，魅狐在人工智能和机械人的保护下繁荣了数百年，并与其他人类势力进行互动，被认可为新的势力。然而，当魅狐以他们特有的制造能力制造出优质商品进行贸易并赚了许多钱时，人类势力眼红了，试图通过战争来掠夺财富。没有战斗经验，害怕战争的魅狐们决定去沃尔佩库尔避难，那里居住着像他们这样的异人种。\n\n全部人口登上移民船的魅狐，开始被人类势力指使的海盗攻击，为了甩开追来的海盗，魅狐强行让移民船进行长时间的星际飞行。由于长时间的飞行，移民船不堪重负，最终迫降在了边缘世界。\n\n在坠毁的星球上，他们没有失去希望并开始建立自己的势力。 他们的目的是乘坐宇宙飞船并修理失事的移民船，与族人一起前往沃尔佩库尔。\n\n然而，魅狐们迫降在边缘世界的消息却传到了海盗们的耳中，很快海盗们就会再次入侵。魅狐们分散在星球上以尽量减少损失，并开始为将来做准备。三名魅狐躲避海盗，为建立能够聚集族人的基地而出发了。</description>
+    <scenario>
+      <summary>The kurin pioneers set off with the hope of rebuilding their species.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Kurin_Faction_Player</factionDef>
+      </playerFaction>
+      <parts>
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>2400</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Steel</thingDef>
+          <count>1250</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>1250</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Gun_Assault_Rifle</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Overhead_Goggles</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Middle_Body_Armor</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <animalKind>Fox_Red</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>"Okay, I've put everything down here. Good luck."</text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>Kurin_Scenario_KTTFDE_1</defName>
+    <label>魅狐，新的开始。（4人）</label>
+    <description>幸存的魅狐开始殖民这颗行星，他们的移民船由于巨大的破坏被迫着陆。魅狐们损失了部分舰船，但绝大部分的同胞都存活了下来。当军舰击退太空海盗时，移民船跃迁到最近的行星，而那颗行星位于边缘世界，远离魅狐的家乡。\n\n幸存下来的魅狐们与军舰的联系被切断了，然而没有人知道该怎么办，因为没有护卫舰，即使修好剩余的舰船，在新的航行中也可能毫无抵抗地被俘虏。没有人想被奴役，所以他们只是记住必须修理好舰船。不过当魅狐们在边缘世界上时，他们或多或少是安全的。魅狐的母星已成废墟，所以不会有任何援助。\n\n魅狐们在这颗边缘星球上度过了6个月时（魅狐母星的算法），魅狐的总统收到了来自行星附近的加密信号，原来是他们的军舰找到了他们！那是三艘名为“毁灭者”号的库林共和国星际巡洋舰，虽然有一些损伤，但功能齐全，结果竟然脱离了舰队的主力，自己现在也不知道在哪里。\n\n还有希望，魅狐的军事舰队没有被全部摧毁。在这支增援部队的帮助下，魅狐们得到了一些装备和星际巡洋舰的飞行穿梭机。\n\n一小群魅狐建立了一个新的殖民地，他们接下来会做些什么？</description>
+    <scenario>
+      <summary>Small group of kurins has founded a new settlement, what will they do next?</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Kurin_Faction_Player</factionDef>
+      </playerFaction>
+      <parts>
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>4</pawnCount>
+          <pawnChoiceCount>4</pawnChoiceCount>
+        </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>1000</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>40</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>25</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>25</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Chemfuel</thingDef>
+          <count>150</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Overhead_Goggles</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Middle_Body_Armor</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <animalKind>Fox_Red</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <!-- Game starting researches -->
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Kurin_ApparelT1</project>
+        </li>
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>增援部队抵达后，魅狐共和国决定恢复并继续他们的旅程。魅狐定居点分散在地球上可进入的部分，魅狐殖民者正在努力建造目前可建造的魅狐共和国级星际护卫舰“伊卡洛斯”，以加强目前的魅狐空间迁移舰队和随后的疏散。据推测，大多数护卫舰将同时建造并准备发射。\n\n一个独立的魅狐殖民者团体已经在你的控制之下，你可以乘坐伊卡洛斯号和共和国一起逃走，也可以乘坐普通飞船漫无目的地飞行。无论如何。祝你好运</text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>Kurin_Scenario_KTTFDE_2</defName>
+    <label>魅狐，新的开始。（8人）</label>
+    <description>幸存的魅狐开始殖民这颗行星，他们的移民船由于巨大的破坏被迫着陆。魅狐们损失了部分舰船，但绝大部分的同胞都存活了下来。当军舰击退太空海盗时，移民船跃迁到最近的行星，而那颗行星位于边缘世界，远离魅狐的家乡。\n\n幸存下来的魅狐们与军舰的联系被切断了，然而没有人知道该怎么办，因为没有护卫舰，即使修好剩余的舰船，在新的航行中也可能毫无抵抗地被俘虏。没有人想被奴役，所以他们只是记住必须修理好舰船。不过当魅狐们在边缘世界上时，他们或多或少是安全的。魅狐的母星已成废墟，所以不会有任何援助。\n\n魅狐们在这颗边缘星球上度过了6个月时（魅狐母星的算法），魅狐的总统收到了来自行星附近的加密信号，原来是他们的军舰找到了他们！那是三艘名为“毁灭者”号的库林共和国星际巡洋舰，虽然有一些损伤，但功能齐全，结果竟然脱离了舰队的主力，自己现在也不知道在哪里。\n\n还有希望，魅狐的军事舰队没有被全部摧毁。在这支增援部队的帮助下，魅狐们得到了一些装备和星际巡洋舰的飞行穿梭机。\n\n一小群魅狐建立了一个新的殖民地，他们接下来会做些什么？</description>
+    <scenario>
+      <summary>Small group of kurins has founded a new settlement, what will they do next?</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Kurin_Faction_Player</factionDef>
+      </playerFaction>
+      <parts>
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>8</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>1000</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>80</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>25</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>25</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Chemfuel</thingDef>
+          <count>150</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Overhead_Goggles</thingDef>
+          <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Middle_Body_Armor</thingDef>
+          <stuff>Steel</stuff>
+          <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <animalKind>Fox_Red</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <!-- Game starting researches -->
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Kurin_ApparelT1</project>
+        </li>
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>增援部队抵达后，魅狐共和国决定恢复并继续他们的旅程。魅狐定居点分散在地球上可进入的部分，魅狐殖民者正在努力建造目前可建造的魅狐共和国级星际护卫舰“伊卡洛斯”，以加强目前的魅狐空间迁移舰队和随后的疏散。据推测，大多数护卫舰将同时建造并准备发射。\n\n一个独立的魅狐殖民者团体已经在你的控制之下，你可以乘坐伊卡洛斯号和共和国一起逃走，也可以乘坐普通飞船漫无目的地飞行。无论如何。祝你好运</text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+  <ScenarioDef>
+    <defName>Kurin_Scenario_KTTFDE_3</defName>
+    <label>魅狐，新的开始。（3人）</label>
+    <description>幸存的魅狐开始殖民这颗行星，他们的移民船由于巨大的破坏被迫着陆。魅狐们损失了部分舰船，但绝大部分的同胞都存活了下来。当军舰击退太空海盗时，移民船跃迁到最近的行星，而那颗行星位于边缘世界，远离魅狐的家乡。\n\n幸存下来的魅狐们与军舰的联系被切断了，然而没有人知道该怎么办，因为没有护卫舰，即使修好剩余的舰船，在新的航行中也可能毫无抵抗地被俘虏。没有人想被奴役，所以他们只是记住必须修理好舰船。不过当魅狐们在边缘世界上时，他们或多或少是安全的。魅狐的母星已成废墟，所以不会有任何援助。\n\n魅狐们在这颗边缘星球上度过了6个月时（魅狐母星的算法），魅狐的总统收到了来自行星附近的加密信号，原来是他们的军舰找到了他们！那是三艘名为“毁灭者”号的库林共和国星际巡洋舰，虽然有一些损伤，但功能齐全，结果竟然脱离了舰队的主力，自己现在也不知道在哪里。\n\n还有希望，魅狐的军事舰队没有被全部摧毁。在这支增援部队的帮助下，魅狐们得到了一些装备和星际巡洋舰的飞行穿梭机。\n\n一小群魅狐建立了一个新的殖民地，他们接下来会做些什么？</description>
+    <scenario>
+      <summary>Small group of kurins has founded a new settlement, what will they do next?</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Kurin_Faction_Player</factionDef>
+      </playerFaction>
+      <parts>
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>3</pawnChoiceCount>
+        </li>
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>15</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Kurin_Middle_Body_Armor</thingDef>
+          <stuff>Steel</stuff>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <animalKind>Fox_Red</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>增援部队抵达后，魅狐共和国决定恢复并继续他们的旅程。魅狐定居点分散在地球上可进入的部分，魅狐殖民者正在努力建造目前可建造的魅狐共和国级星际护卫舰“伊卡洛斯”，以加强目前的魅狐空间迁移舰队和随后的疏散。据推测，大多数护卫舰将同时建造并准备发射。\n\n一个独立的魅狐殖民者团体已经在你的控制之下，你可以乘坐伊卡洛斯号和共和国一起逃走，也可以乘坐普通飞船漫无目的地飞行。无论如何。祝你好运</text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

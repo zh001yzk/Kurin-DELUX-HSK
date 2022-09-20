@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Heavy_Sniper_Rifle.label>魅狐重型狙击步枪（穿甲弹）</Kurin_Gun_Heavy_Sniper_Rifle.label>
+  <Kurin_Gun_Heavy_Sniper_Rifle.description>[FXHSR-A1] - [骷髅黑客]\n\n~ “骷髅黑客 A1”是冷酷无情的新式魅狐重新狙击步枪（装有穿甲弹）。</Kurin_Gun_Heavy_Sniper_Rifle.description>
+  <Kurin_Gun_Heavy_Sniper_Rifle.tools.0.label>枪托</Kurin_Gun_Heavy_Sniper_Rifle.tools.0.label>
+  <Kurin_Gun_Heavy_Sniper_Rifle.tools.1.label>枪管</Kurin_Gun_Heavy_Sniper_Rifle.tools.1.label>
+
+  <Kurin_Gun_Heavy_Sniper_Rifle_HE.label>魅狐重型狙击步枪（高爆弹）</Kurin_Gun_Heavy_Sniper_Rifle_HE.label>
+  <Kurin_Gun_Heavy_Sniper_Rifle_HE.description>[FXHSR-A2] - [骷髅黑客]\n\n~ “骷髅黑客 A2”是冷酷无情的新式魅狐重新狙击步枪（装有高爆弹）。</Kurin_Gun_Heavy_Sniper_Rifle_HE.description>
+  <Kurin_Gun_Heavy_Sniper_Rifle_HE.tools.0.label>枪托</Kurin_Gun_Heavy_Sniper_Rifle_HE.tools.0.label>
+  <Kurin_Gun_Heavy_Sniper_Rifle_HE.tools.1.label>枪管</Kurin_Gun_Heavy_Sniper_Rifle_HE.tools.1.label>
+
+  <Kurin_Bullet_Heavy_Sniper_Rifle.label>重型狙击步枪-穿甲弹</Kurin_Bullet_Heavy_Sniper_Rifle.label>
+  <Kurin_Bullet_Heavy_Sniper_Rifle_HE.label>重型狙击步枪-高爆弹</Kurin_Bullet_Heavy_Sniper_Rifle_HE.label>
+
+
+</LanguageData>

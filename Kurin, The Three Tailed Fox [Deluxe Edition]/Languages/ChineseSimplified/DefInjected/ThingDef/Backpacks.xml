@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tear 2 -->
+
+  <Kurin_Backpack_Civil.label>魅狐民用背包</Kurin_Backpack_Civil.label>
+  <Kurin_Backpack_Civil.description>宽敞舒适的魅狐民用背包。</Kurin_Backpack_Civil.description>
+
+
+  <!-- Tear 4 -->
+
+  <Kurin_Backpack_Military.label>魅狐军用背包</Kurin_Backpack_Military.label>
+  <Kurin_Backpack_Military.description>便捷舒适的魅狐军用背包。有着额外的工具以便提高急救质量。</Kurin_Backpack_Military.description>
+
+
+</LanguageData>

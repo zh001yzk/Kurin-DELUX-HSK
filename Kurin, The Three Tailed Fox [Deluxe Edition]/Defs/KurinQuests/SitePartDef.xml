@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SitePartDef>
+    <defName>KurinHostagesCamp_SitePart</defName>
+    <label>魅狐人质营地</label>
+    <description>一些同志被敌对派别劫持为人质，他们被关押在这里。</description>
+    <arrivedLetter>Be careful while rescuing the hostages! The enemies may try to kill them if you begin the fight too far from their cell.</arrivedLetter>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/Prisoner</expandingIconTexture>
+    <!-- Kurin/World/KurinHostagesCamp/Texture -->
+    <applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <forceExitAndRemoveMapCountdownDurationDays>3</forceExitAndRemoveMapCountdownDurationDays>
+  </SitePartDef>
+  <SitePartDef>
+    <defName>KurinCampAssault_SitePart</defName>
+    <label>魅狐正在袭击营地</label>
+    <description>共和国将袭击营地。你可以参加战斗。</description>
+    <arrivedLetter>Try to not get in comrades' way, friendly fire possible during an assault.</arrivedLetter>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <workerClass>KurinDeluxeEdition.KurinQuests.KurinCampAssault.SitePartWorker_KurinCampAssault</workerClass>
+    <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+    <expandingIconTexture>Kurin/World/KurinCampAssault/Texture</expandingIconTexture>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <requiresFaction>true</requiresFaction>
+    <wantsThreatPoints>false</wantsThreatPoints>
+    <forceExitAndRemoveMapCountdownDurationDays>3</forceExitAndRemoveMapCountdownDurationDays>
+  </SitePartDef>
+  <SitePartDef>
+    <defName>KurinCampDefence_SitePart</defName>
+    <label>魅狐正在保卫营地</label>
+    <description>海盗们要袭击营地。你可以干涉和拯救同志。</description>
+    <arrivedLetter>The assault of the kurin camp has begun! Hurry up and help kurins to fight off the attack.</arrivedLetter>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <workerClass>KurinDeluxeEdition.KurinQuests.KurinCampDefence.SitePartWorker_KurinCampDefence</workerClass>
+    <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+    <expandingIconTexture>Kurin/World/KurinCampAssault/Texture</expandingIconTexture>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <increasesPopulation>true</increasesPopulation>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <forceExitAndRemoveMapCountdownDurationDays>3</forceExitAndRemoveMapCountdownDurationDays>
+    <tags>
+      <li>KurinCampDefence_SitePart</li>
+    </tags>
+  </SitePartDef>
+  <SitePartDef>
+    <defName>KurinReceptionCamp_SitePart</defName>
+    <label>魅狐接待营</label>
+    <description>共和国为招募新兵建立了临时营地。</description>
+    <arrivedLetter>The Republic needs any recruits, just accept a letter for pawns that you want to left to the Republic.</arrivedLetter>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <workerClass>KurinDeluxeEdition.KurinQuests.KurinReceptionCamp.SitePartWorker_KurinReceptionCamp</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/Sites/SleepingPawns</expandingIconTexture>
+    <applyFactionColorToSiteTexture>false</applyFactionColorToSiteTexture>
+    <handlesWorldObjectTimeoutInspectString>true</handlesWorldObjectTimeoutInspectString>
+    <forceExitAndRemoveMapCountdownDurationDays>1</forceExitAndRemoveMapCountdownDurationDays>
+    <tags>
+      <li>KurinReceptionCamp_SitePart</li>
+    </tags>
+  </SitePartDef>
+</Defs>

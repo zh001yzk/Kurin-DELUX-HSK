@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.HeadTypeDef>
+    <defName>Kimiri_Head</defName>
+    <texPath>Kimiri/Head</texPath>
+    <raceName>Kimiri</raceName>
+    <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.HeadTypeDef>
+</Defs>

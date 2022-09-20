@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="SK_BaseBullet">
+    <defName>Bullet_Unmakerblast_Standard</defName>
+    <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+    <label>爆破炮弹</label>
+    <graphicData>
+      <texPath>Kurin/Projectile/Unmaker_Bullet/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Thermobaric</damageDef>
+      <damageAmountBase>175</damageAmountBase>
+      <speed>30</speed>
+      <flyOverhead>false</flyOverhead>
+      <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      <explosionRadius>6</explosionRadius>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>200</damageAmountBase>
+        <explosiveDamageType>EMP</explosiveDamageType>
+        <explosiveRadius>6</explosiveRadius>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

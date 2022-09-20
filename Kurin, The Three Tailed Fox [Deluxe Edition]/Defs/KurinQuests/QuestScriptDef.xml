@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <QuestScriptDef>
+    <defName>KurinQuest_KurinCampDefence</defName>
+    <rootSelectionWeight>0.0</rootSelectionWeight>
+    <rootMinPoints>100</rootMinPoints>
+    <rootIncreasesPopulation>true</rootIncreasesPopulation>
+    <autoAccept>true</autoAccept>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Kurin camp defence</li>
+        <li>questName-&gt;The comrades are under siege</li>
+        <li>questName-&gt;The comrades are cornered</li>
+        <li>questName-&gt;The comrades in trouble</li>
+        <li>questName-&gt;Saving the comrades from [asker_nameDef]</li>
+        <li>questName-&gt;A siege from [asker_faction_name]</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription(asker_factionLeader==True)-&gt;You intercepted a message. [asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], said to [asker_possessive] people to continue to siege a kurin temporary camp.\nFrom the message it became known their location, and that kurin comrades are outnumbered, and that kurins lost communication with their headquarters.\nThe pirates need some time to run out supplies and morale of kurins before an assault, so you have this "some time" to interfere. They will be very grateful for salvation.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+          <parms>
+            <pointsFactorTwoStar>1.5</pointsFactorTwoStar>
+            <pointsFactorThreeStar>2</pointsFactorThreeStar>
+          </parms>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_AdjustPointsForDistantFight</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_RandomNode">
+          <nodes>
+            <li Class="QuestNode_GetPawn">
+              <storeAs>asker</storeAs>
+              <mustBeFactionLeader>true</mustBeFactionLeader>
+              <allowPermanentEnemyFaction>true</allowPermanentEnemyFaction>
+              <mustBeOfKind>PirateBoss</mustBeOfKind>
+              <!-- <selectionWeight>1.0</selectionWeight> -->
+            </li>
+          </nodes>
+        </li>
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+        </li>
+        <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+          <storeAs>sitePartDefs</storeAs>
+          <storeFactionAs>siteFaction</storeFactionAs>
+          <sitePartsTags>
+            <li>
+              <tag>KurinCampDefence_SitePart</tag>
+            </li>
+          </sitePartsTags>
+        </li>
+        <li Class="QuestNode_GetDefaultSitePartsParams">
+          <tile>$siteTile</tile>
+          <faction>$siteFaction</faction>
+          <sitePartDefs>$sitePartDefs</sitePartDefs>
+          <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GenerateSite</def>
+          <parms>
+            <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+          </parms>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+        <li Class="QuestNode_WorldObjectTimeout">
+          <worldObject>$site</worldObject>
+          <isQuestTimeout>true</isQuestTimeout>
+          <delayTicks>$(randInt(7,15)*60000)</delayTicks>
+          <inSignalDisable>site.MapGenerated</inSignalDisable>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestExpired"> The kurin camp has fallen to the pirate assault forces. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_NoWorldObject">
+          <worldObject>$site</worldObject>
+          <node Class="QuestNode_End" />
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <letterDef>PositiveEvent</letterDef>
+                <label TKey="LetterLabelQuestSuccessed">Pirates defeated</label>
+                <text TKey="LetterTextQuestSuccessed">All pirates in the area have been defeated.</text>
+              </li>
+              <li Class="KurinDeluxeEdition.KurinQuests.KurinCampDefence.QuestNode_KurinCampDefence">
+                <inSignal>site.AllEnemiesDefeated</inSignal>
+                <recruitChance>0.3</recruitChance>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_End">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <outcome>Success</outcome>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <QuestScriptDef>
+    <defName>KurinQuest_KurinReceptionCamp</defName>
+    <rootSelectionWeight>0.0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <expireDaysRange>4~8</expireDaysRange>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Kurin reception camp</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription(askerIsNull==true)-&gt;Republic of Kurin has founded a temporary camp in your region for making new recruits. You can use the opportunity for getting rid of unwanted/useless colonists, if you don't want to just send them away or sell with corresponding mood/relation debuffs.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_IsSet">
+          <name>asker</name>
+          <elseNode Class="QuestNode_RandomNode">
+            <nodes>
+              <li Class="QuestNode_Set">
+                <name>askerIsNull</name>
+                <value>true</value>
+                <selectionWeight>1.0</selectionWeight>
+              </li>
+            </nodes>
+          </elseNode>
+        </li>
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+        </li>
+        <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+          <storeAs>sitePartDefs</storeAs>
+          <storeFactionAs>siteFaction</storeFactionAs>
+          <sitePartsTags>
+            <li>
+              <tag>KurinReceptionCamp_SitePart</tag>
+            </li>
+          </sitePartsTags>
+        </li>
+        <li Class="QuestNode_GetDefaultSitePartsParams">
+          <tile>$siteTile</tile>
+          <faction>$siteFaction</faction>
+          <sitePartDefs>$sitePartDefs</sitePartDefs>
+          <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GenerateSite</def>
+          <parms>
+            <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+          </parms>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+        <li Class="QuestNode_WorldObjectTimeout">
+          <worldObject>$site</worldObject>
+          <isQuestTimeout>true</isQuestTimeout>
+          <delayTicks>$(randInt(7,15)*60000)</delayTicks>
+          <inSignalDisable>site.MapGenerated</inSignalDisable>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestExpired"> The kurin camp has packed up and moved on. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_NoWorldObject">
+          <worldObject>$site</worldObject>
+          <node Class="QuestNode_End" />
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <letterDef>PositiveEvent</letterDef>
+                <label TKey="LetterLabelQuestSuccessed">Very well, comrade!</label>
+                <text TKey="LetterTextQuestSuccessed">Very well, comrade! In the camp you can get rid of.. ahem, give your "less productive" colonists to Republic of Kurin. Just accept a recruiting letter for the pawns you want to be recruited by the Republic. That's all. The pawns will change their faction to the Republic, and then you should leave the camp, bye-bye!</text>
+              </li>
+              <li Class="KurinDeluxeEdition.KurinQuests.KurinReceptionCamp.QuestNode_KurinReceptionCamp">
+                <inSignal>site.AllEnemiesDefeated</inSignal>
+                <recruitChance>1.0</recruitChance>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_End">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <outcome>Success</outcome>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <QuestScriptDef>
+    <defName>KurinQuest_BanditCamp_Republic</defName>
+    <rootSelectionWeight>1.0</rootSelectionWeight>
+    <rootMinPoints>350</rootMinPoints>
+    <canGiveRoyalFavor>false</canGiveRoyalFavor>
+    <expireDaysRange>4~8</expireDaysRange>
+    <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_BanditCamp</successHistoryEvent>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;The [bandit] [camp]</li>
+        <li>questName-&gt;The [camp] of [bandit]</li>
+        <li>questName-&gt;[asker_nameDef] and the [camp]</li>
+        <li>camp-&gt;Camp</li>
+        <li>camp-&gt;Encampment</li>
+        <li>camp-&gt;Outpost</li>
+        <li>bandit-&gt;Bandit</li>
+        <li>bandit-&gt;Outlaw</li>
+        <li>bandit-&gt;Desperado</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+          <parms>
+            <pointsFactorTwoStar>1.5</pointsFactorTwoStar>
+            <pointsFactorThreeStar>2</pointsFactorThreeStar>
+          </parms>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_AdjustPointsForDistantFight</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetPawn">
+          <storeAs>asker</storeAs>
+          <mustBeFactionLeader>true</mustBeFactionLeader>
+          <mustBeOfKind>Kurin_Elite_Soldier</mustBeOfKind>
+          <mustBeNonHostileToPlayer>true</mustBeNonHostileToPlayer>
+          <!-- <selectionWeight>1.0</selectionWeight> -->
+        </li>
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+        </li>
+        <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+          <storeAs>sitePartDefs</storeAs>
+          <storeFactionAs>siteFaction</storeFactionAs>
+          <sitePartsTags>
+            <li>
+              <tag>BanditCamp</tag>
+            </li>
+          </sitePartsTags>
+          <mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
+        </li>
+        <li Class="QuestNode_GetDefaultSitePartsParams">
+          <tile>$siteTile</tile>
+          <faction>$siteFaction</faction>
+          <sitePartDefs>$sitePartDefs</sitePartDefs>
+          <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+        </li>
+        <li Class="QuestNode_GetSiteThreatPoints">
+          <storeAs>sitePoints</storeAs>
+          <sitePartsParams>$sitePartsParams</sitePartsParams>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+          <parms>
+            <points>$sitePoints</points>
+          </parms>
+        </li>
+        <li Class="QuestNode_Multiply">
+          <value1>$rewardValue</value1>
+          <value2>1.75</value2>
+          <storeAs>rewardValue</storeAs>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GenerateSite</def>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+        <li Class="QuestNode_WorldObjectTimeout">
+          <worldObject>$site</worldObject>
+          <isQuestTimeout>true</isQuestTimeout>
+          <delayTicks>$(randInt(12,28)*60000)</delayTicks>
+          <inSignalDisable>site.MapGenerated</inSignalDisable>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestExpired">The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.Destroyed</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestFailed">Quest failed: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestFailed">After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+              </li>
+              <li Class="QuestNode_GiveRewards">
+                <parms>
+                  <allowGoodwill>true</allowGoodwill>
+                </parms>
+                <addCampLootReward>true</addCampLootReward>
+                <customLetterLabel TKey="LetterLabelPaymentArrived">Payment arrived</customLetterLabel>
+                <customLetterText TKey="LetterTextPaymentArrived">You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</customLetterText>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_End">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <outcome>Success</outcome>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <QuestScriptDef>
+    <defName>KurinQuest_BanditCamp_UFU</defName>
+    <rootSelectionWeight>1.0</rootSelectionWeight>
+    <rootMinPoints>350</rootMinPoints>
+    <canGiveRoyalFavor>false</canGiveRoyalFavor>
+    <expireDaysRange>4~8</expireDaysRange>
+    <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_BanditCamp</successHistoryEvent>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;The [bandit] [camp]</li>
+        <li>questName-&gt;The [camp] of [bandit]</li>
+        <li>questName-&gt;[asker_nameDef] and the [camp]</li>
+        <li>camp-&gt;Camp</li>
+        <li>camp-&gt;Encampment</li>
+        <li>camp-&gt;Outpost</li>
+        <li>bandit-&gt;Bandit</li>
+        <li>bandit-&gt;Outlaw</li>
+        <li>bandit-&gt;Desperado</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-&gt;[asker_nameFull], [asker_faction_leaderTitle] of [asker_faction_name], has sent us a message. Apparently, [siteFaction_pawnsPlural] based in a nearby camp have been raiding their caravans. The camp is controlled by [siteFaction_name].\n[asker_nameDef] is asking us to destroy the camp, which means eliminating all enemies and turrets. [asker_label] says that [sitePart0_description].</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+          <parms>
+            <pointsFactorTwoStar>1.5</pointsFactorTwoStar>
+            <pointsFactorThreeStar>2</pointsFactorThreeStar>
+          </parms>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_AdjustPointsForDistantFight</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetPawn">
+          <storeAs>asker</storeAs>
+          <mustBeFactionLeader>true</mustBeFactionLeader>
+          <mustBeOfKind>Kurin_Commander_UFU</mustBeOfKind>
+          <mustBeNonHostileToPlayer>true</mustBeNonHostileToPlayer>
+          <!-- <selectionWeight>1.0</selectionWeight> -->
+        </li>
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+        </li>
+        <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+          <storeAs>sitePartDefs</storeAs>
+          <storeFactionAs>siteFaction</storeFactionAs>
+          <sitePartsTags>
+            <li>
+              <tag>BanditCamp</tag>
+            </li>
+          </sitePartsTags>
+          <mustBeHostileToFactionOf>$asker</mustBeHostileToFactionOf>
+        </li>
+        <li Class="QuestNode_GetDefaultSitePartsParams">
+          <tile>$siteTile</tile>
+          <faction>$siteFaction</faction>
+          <sitePartDefs>$sitePartDefs</sitePartDefs>
+          <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+        </li>
+        <li Class="QuestNode_GetSiteThreatPoints">
+          <storeAs>sitePoints</storeAs>
+          <sitePartsParams>$sitePartsParams</sitePartsParams>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+          <parms>
+            <points>$sitePoints</points>
+          </parms>
+        </li>
+        <li Class="QuestNode_Multiply">
+          <value1>$rewardValue</value1>
+          <value2>1.75</value2>
+          <storeAs>rewardValue</storeAs>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GenerateSite</def>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+        <li Class="QuestNode_WorldObjectTimeout">
+          <worldObject>$site</worldObject>
+          <isQuestTimeout>true</isQuestTimeout>
+          <delayTicks>$(randInt(12,28)*60000)</delayTicks>
+          <inSignalDisable>site.MapGenerated</inSignalDisable>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestExpired">The bandit camp has packed up and moved on. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.Destroyed</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestFailed">Quest failed: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestFailed">After being discovered, the bandit camp has dispersed. The quest [resolvedQuestName] has ended.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Notify_PlayerRaidedSomeone">
+                <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+              </li>
+              <li Class="QuestNode_GiveRewards">
+                <parms>
+                  <allowGoodwill>true</allowGoodwill>
+                </parms>
+                <addCampLootReward>true</addCampLootReward>
+                <customLetterLabel TKey="LetterLabelPaymentArrived">Payment arrived</customLetterLabel>
+                <customLetterText TKey="LetterTextPaymentArrived">You have defeated the bandit camp!\n\nThe payment from [asker_faction_name] has arrived.</customLetterText>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_End">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <outcome>Success</outcome>
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <QuestScriptDef>
+    <defName>KurinQuest_DownedRefugeeRescue_Republic</defName>
+    <rootSelectionWeight>1.0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootIncreasesPopulation>true</rootIncreasesPopulation>
+    <autoAccept>true</autoAccept>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Saving [refugee_nameDef]</li>
+        <li>questName-&gt;The rescue of [refugee_nameDef]</li>
+        <li>questName-&gt;[refugee_nameDef]'s rescue</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], says that [asker_possessive] friend has been wounded while traveling. The victim is [refugee_nameIndef], a [refugee_age]-year-old [refugee_title].\n[asker_nameDef] has nobody to spare to rescue [refugee_nameDef], but says that if you can make it to [refugee_nameDef]'s position and rescue [refugee_objective], [refugee_pronoun] will join you.\n[asker_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+        <li>pawnInvolvedInQuestInfo(priority=1)-&gt;[refugee_pawnInvolvedInQuestInfo]</li>
+        <li>pawnInvolvedInQuestInfo-&gt;</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+          <parms>
+            <pointsFactorTwoStar>1.5</pointsFactorTwoStar>
+            <pointsFactorThreeStar>2</pointsFactorThreeStar>
+          </parms>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_AdjustPointsForDistantFight</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetPawn">
+          <storeAs>asker</storeAs>
+          <mustBeFactionLeader>true</mustBeFactionLeader>
+          <mustBeOfKind>Kurin_Elite_Soldier</mustBeOfKind>
+          <mustBeNonHostileToPlayer>true</mustBeNonHostileToPlayer>
+          <!-- <selectionWeight>1.0</selectionWeight> -->
+        </li>
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+        </li>
+        <li Class="QuestNode_ViolentQuestsAllowed">
+          <node Class="QuestNode_Set">
+            <name>siteThreatChance</name>
+            <value>1.0</value>
+          </node>
+        </li>
+        <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+          <storeAs>sitePartDefs</storeAs>
+          <storeFactionAs>siteFaction</storeFactionAs>
+          <sitePartsTags>
+            <li>
+              <tag>DownedRefugee</tag>
+            </li>
+            <li>
+              <tag>DownedRefugeeQuestThreat</tag>
+              <chance>$siteThreatChance</chance>
+            </li>
+          </sitePartsTags>
+        </li>
+        <li Class="QuestNode_GetDefaultSitePartsParams">
+          <tile>$siteTile</tile>
+          <faction>$siteFaction</faction>
+          <sitePartDefs>$sitePartDefs</sitePartDefs>
+          <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GenerateSite</def>
+          <parms>
+            <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+          </parms>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+        <li Class="QuestNode_WorldObjectTimeout">
+          <worldObject>$site</worldObject>
+          <isQuestTimeout>true</isQuestTimeout>
+          <delayTicks>$(randInt(7,15)*60000)</delayTicks>
+          <inSignalDisable>site.MapGenerated</inSignalDisable>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestExpired">[refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_AddPawnReward">
+          <pawn>$refugee</pawn>
+          <inSignalChoiceUsed>site.MapGenerated</inSignalChoiceUsed>
+          <rewardDetailsHidden>true</rewardDetailsHidden>
+        </li>
+        <li Class="QuestNode_NoWorldObject">
+          <worldObject>$site</worldObject>
+          <node Class="QuestNode_End" />
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <QuestScriptDef>
+    <defName>KurinQuest_DownedRefugeeRescue_UFU</defName>
+    <rootSelectionWeight>1.0</rootSelectionWeight>
+    <rootMinPoints>0</rootMinPoints>
+    <rootIncreasesPopulation>true</rootIncreasesPopulation>
+    <autoAccept>true</autoAccept>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-&gt;Saving [refugee_nameDef]</li>
+        <li>questName-&gt;The rescue of [refugee_nameDef]</li>
+        <li>questName-&gt;[refugee_nameDef]'s rescue</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription(asker_factionLeader==True)-&gt;[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], says that [asker_possessive] friend has been wounded while traveling. The victim is [refugee_nameIndef], a [refugee_age]-year-old [refugee_title].\n[asker_nameDef] has nobody to spare to rescue [refugee_nameDef], but says that if you can make it to [refugee_nameDef]'s position and rescue [refugee_objective], [refugee_pronoun] will join you.\n[asker_nameDef] says that [allSitePartsDescriptionsExceptFirst][pawnInvolvedInQuestInfo]</li>
+        <li>pawnInvolvedInQuestInfo(priority=1)-&gt;[refugee_pawnInvolvedInQuestInfo]</li>
+        <li>pawnInvolvedInQuestInfo-&gt;</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+          <parms>
+            <pointsFactorTwoStar>1.5</pointsFactorTwoStar>
+            <pointsFactorThreeStar>2</pointsFactorThreeStar>
+          </parms>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GetDefaultRewardValueFromPoints</def>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_AdjustPointsForDistantFight</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetPawn">
+          <storeAs>asker</storeAs>
+          <mustBeFactionLeader>true</mustBeFactionLeader>
+          <mustBeOfKind>Kurin_Commander_UFU</mustBeOfKind>
+          <mustBeNonHostileToPlayer>true</mustBeNonHostileToPlayer>
+          <!-- <selectionWeight>1.0</selectionWeight> -->
+        </li>
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>siteTile</storeAs>
+          <preferCloserTiles>true</preferCloserTiles>
+        </li>
+        <li Class="QuestNode_ViolentQuestsAllowed">
+          <node Class="QuestNode_Set">
+            <name>siteThreatChance</name>
+            <value>1.0</value>
+          </node>
+        </li>
+        <li Class="QuestNode_GetSitePartDefsByTagsAndFaction">
+          <storeAs>sitePartDefs</storeAs>
+          <storeFactionAs>siteFaction</storeFactionAs>
+          <sitePartsTags>
+            <li>
+              <tag>DownedRefugee</tag>
+            </li>
+            <li>
+              <tag>DownedRefugeeQuestThreat</tag>
+              <chance>$siteThreatChance</chance>
+            </li>
+          </sitePartsTags>
+        </li>
+        <li Class="QuestNode_GetDefaultSitePartsParams">
+          <tile>$siteTile</tile>
+          <faction>$siteFaction</faction>
+          <sitePartDefs>$sitePartDefs</sitePartDefs>
+          <storeSitePartsParamsAs>sitePartsParams</storeSitePartsParamsAs>
+        </li>
+        <li Class="QuestNode_SubScript">
+          <def>Util_GenerateSite</def>
+          <parms>
+            <hiddenSitePartsPossible>true</hiddenSitePartsPossible>
+          </parms>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+        <li Class="QuestNode_WorldObjectTimeout">
+          <worldObject>$site</worldObject>
+          <isQuestTimeout>true</isQuestTimeout>
+          <delayTicks>$(randInt(7,15)*60000)</delayTicks>
+          <inSignalDisable>site.MapGenerated</inSignalDisable>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestExpired">Quest expired: [resolvedQuestName]</label>
+                <text TKey="LetterTextQuestExpired">[refugee_nameDef]'s signal has been lost, and [refugee_pronoun] can no longer be rescued. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        <li Class="QuestNode_AddPawnReward">
+          <pawn>$refugee</pawn>
+          <inSignalChoiceUsed>site.MapGenerated</inSignalChoiceUsed>
+          <rewardDetailsHidden>true</rewardDetailsHidden>
+        </li>
+        <li Class="QuestNode_NoWorldObject">
+          <worldObject>$site</worldObject>
+          <node Class="QuestNode_End" />
+        </li>
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  <!--
+<QuestScriptDef>
+	<defName>KurinQuest_SupplyRequest</defName>
+	<rootSelectionWeight>1.1</rootSelectionWeight>
+	<rootMinProgressScore>8</rootMinProgressScore>
+	<defaultChallengeRating>1</defaultChallengeRating>
+	<expireDaysRange>4~8</expireDaysRange>
+	<questNameRules>
+		<rulesStrings>
+			<li>questName->Offer from [settlement_label]</li>
+			<li>questName->Deal with [settlement_label]</li>
+			<li>questName->Exchange with [settlement_label]</li>
+			<li>questName->Supplies for [settlement_label]</li>
+		</rulesStrings>
+	</questNameRules>
+	<questDescriptionRules>
+		<rulesStrings>
+			<li>questDescription->A nearby settlement, [settlement_label], has a special trade request. They would like to purchase:\n  [requestedThingCount]x [requestedThing_label] [qualityInfo](worth [requestedThingMarketValue_money])\nIf you want to make the trade, send a caravan with the requested items. The estimated travel time is [estimatedTravelTime_duration].</li>
+			<li>qualityInfo(requestedThingHasQuality==True,priority=1)->of normal+ quality </li>
+			<li>qualityInfo-></li>
+		</rulesStrings>
+	</questDescriptionRules>
+	<root Class="QuestNode_Sequence">
+		<nodes>
+			<li Class="QuestNode_GetMap" />
+			
+			<li Class="QuestNode_GetPawn">
+				<storeAs>asker</storeAs>
+				<mustBeFactionLeader>true</mustBeFactionLeader>
+				<mustBeOfKind>Kurin_Elite_Soldier</mustBeOfKind>
+				<mustBeNonHostileToPlayer>true</mustBeNonHostileToPlayer>
+				<hostileWeight>0.15</hostileWeight>
+				<selectionWeight>1.0</selectionWeight>
+			</li>	
+			<li Class="KurinDeluxeEdition.QuestNode_GetNearbySettlement">
+				<allowActiveTradeRequest>false</allowActiveTradeRequest>
+				<maxTileDistance>32</maxTileDistance>
+				<storeAs>settlement</storeAs>
+				<factionDef>Kurin_Faction_Republic</factionDef>
+				<storeFactionLeaderAs>asker</storeFactionLeaderAs>
+				<storeFactionAs>faction</storeFactionAs>
+			</li>
+			<li Class="QuestNode_GetFactionOf">
+				<thing>$asker</thing>
+				<storeAs>faction</storeAs>
+			</li>
+			<li Class="QuestNode_Letter">
+				<inSignal>faction.BecameHostileToPlayer</inSignal>
+				<label TKey="LetterLabelQuestFailed">Quest failed: [resolvedQuestName]</label>
+				<text TKey="LetterTextQuestFailed">[faction_name] became hostile to you.</text>
+			</li>
+			<li Class="QuestNode_End">
+				<inSignal>faction.BecameHostileToPlayer</inSignal>
+				<outcome>Fail</outcome>
+			</li>
+			<li Class="QuestNode_TradeRequest_RandomOfferDuration">
+				<settlement>$settlement</settlement>
+				<storeAs>timeout</storeAs>
+				<storeEstimatedTravelTimeAs>estimatedTravelTime</storeEstimatedTravelTimeAs>
+			</li>
+			<li Class="QuestNode_TradeRequest_GetRequestedThing">
+				<storeThingAs>requestedThing</storeThingAs>
+				<storeThingCountAs>requestedThingCount</storeThingCountAs>
+				<storeMarketValueAs>requestedThingMarketValue</storeMarketValueAs>
+				<storeHasQualityAs>requestedThingHasQuality</storeHasQualityAs>
+				<dontRequest>
+					<li>Leather_Patch</li>
+				</dontRequest>
+			</li>
+			<li Class="QuestNode_TradeRequest_Initiate">
+				<settlement>$settlement</settlement>
+				<requestedThingDef>$requestedThing</requestedThingDef>
+				<requestedThingCount>$requestedThingCount</requestedThingCount>
+				<duration>$timeout</duration>
+			</li>
+			<li Class="QuestNode_GetMapWealth">
+				<map>$map</map>
+				<storeAs>mapWealth</storeAs>
+			</li>
+			<li Class="QuestNode_EvaluateSimpleCurve">
+				<value>$mapWealth</value>
+				<storeAs>wealthRewardValueFactor</storeAs>
+				<curve>
+					<points>
+						<li>0, 1.15</li>
+						<li>50000, 1</li>
+						<li>300000, 0.85</li>
+					</points>
+				</curve>
+			</li>
+			<li Class="QuestNode_Set">
+				<name>rewardValue</name>
+				<value>$($requestedThingMarketValue * $wealthRewardValueFactor * randFloat(1.5, 2.1))</value>
+			</li>
+			<li Class="QuestNode_Equal">
+				<value1>$requestedThing</value1>
+				<value2>Leather_Human</value2>
+				<node Class="QuestNode_Multiply">
+					<value1>$rewardValue</value1>
+					<value2>1.7</value2>
+					<storeAs>rewardValue</storeAs>
+				</node>
+			</li>
+			<li Class="QuestNode_GiveRewards">
+				<inSignal>settlement.TradeRequestFulfilled</inSignal>
+					<parms>
+						<allowGoodwill>true</allowGoodwill>
+						<allowRoyalFavor>true</allowRoyalFavor>
+						<chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
+						<giveToCaravan>true</giveToCaravan>
+						<disallowedThingDefs>
+							<li>$requestedThing</li>
+						</disallowedThingDefs>
+					</parms>
+				<useDifficultyFactor>false</useDifficultyFactor>
+				<nodeIfChosenPawnSignalUsed Class="QuestNode_Letter">
+					<letterDef>ChoosePawn</letterDef>
+					<label TKey="LetterLabelFavorReceiver">[asker_faction_royalFavorLabel]</label>
+					<text TKey="LetterTextFavorReceiver">Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request?</text>
+					<chosenPawnSignal>ChosenPawnForReward</chosenPawnSignal>
+					<useColonistsFromCaravanArg>true</useColonistsFromCaravanArg>
+				</nodeIfChosenPawnSignalUsed>
+			</li>
+			<li Class="QuestNode_Delay">
+				<delayTicks>$timeout</delayTicks>
+				<isQuestTimeout>true</isQuestTimeout>
+				<outSignalComplete>TradeRequestTimeout</outSignalComplete>
+			</li>
+			<li Class="QuestNode_End">
+				<inSignal>settlement.TradeRequestFulfilled</inSignal>
+				<outcome>Success</outcome>
+				<sendStandardLetter>true</sendStandardLetter>
+			</li>
+			<li Class="QuestNode_End">
+				<inSignal>TradeRequestTimeout</inSignal>
+				<outcome>Fail</outcome>
+			</li>
+		</nodes>
+	</root>
+</QuestScriptDef>
+-->
+</Defs>

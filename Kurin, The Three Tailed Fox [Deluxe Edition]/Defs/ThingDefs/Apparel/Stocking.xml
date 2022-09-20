@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="Kurin_StockingBase" ParentName="Kurin_ApparelBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+    </recipeMaker>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <Mass>0.1</Mass>
+      <EquipDelay>2</EquipDelay>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Bulk>0.5</Bulk>
+      <WornBulk>0.25</WornBulk>
+      <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Kurin_Stocking</li>
+      </layers>
+      <tags>
+        <li>Kurin_Stocking</li>
+        <li>RoyalTier5</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <thingCategories>
+      <li>Kurin_Apparel_Stocking</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_StockingBase">
+    <defName>Kurin_Stockings_White</defName>
+    <label>魅狐白色丝袜</label>
+    <description>可爱的白色丝袜，更加突显魅狐的魅力。</description>
+    <graphicData>
+      <texPath>Kurin/Apparel/Stocking/White_Stockings/Texture</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_StockingBase">
+    <defName>Kurin_Stockings_Brown</defName>
+    <label>魅狐黑色丝袜</label>
+    <description>可爱的黑色丝袜，更加突显魅狐的魅力。</description>
+    <graphicData>
+      <texPath>Kurin/Apparel/Stocking/Brown_Stockings/Texture</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Kurin/Apparel/Stocking/Brown_Stockings/Texture</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_StockingBase">
+    <defName>Kurin_Stockings_Striped</defName>
+    <label>魅狐条纹丝袜</label>
+    <description>独特的条纹丝袜，更加突显魅狐的魅力。</description>
+    <graphicData>
+      <texPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_StockingBase">
+    <defName>Kurin_Stockings_Garterbelt</defName>
+    <label>魅狐吊带丝袜</label>
+    <description>迷人的吊带丝袜，更加突显魅狐的魅力。</description>
+    <graphicData>
+      <texPath>Kurin/Apparel/Stocking/Garterbelt_Stockings/Texture</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Kurin/Apparel/Stocking/Garterbelt_Stockings/Texture</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="Kurin_StockingBase">
+    <defName>Kurin_Stockings_Pantyhose</defName>
+    <label>魅狐连裤袜</label>
+    <description>迷人的连裤袜，更加突显魅狐的魅力。</description>
+    <graphicData>
+      <texPath>Kurin/Apparel/Stocking/Pantyhose/Texture</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Kurin/Apparel/Stocking/Pantyhose/Texture</wornGraphicPath>
+      <tags>
+        <li>Kurin_Stocking</li>
+        <li>Kimiri_Stocking</li>
+        <li>RoyalTier5</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+</Defs>

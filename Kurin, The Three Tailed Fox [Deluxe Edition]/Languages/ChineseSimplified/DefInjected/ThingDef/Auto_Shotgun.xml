@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Auto_Shotgun.label>魅狐自动霰弹枪</Kurin_Gun_Auto_Shotgun.label>
+  <Kurin_Gun_Auto_Shotgun.description>[FXAS-A1] - [友谊]\n\n~“友谊”是魅狐们的现代自动霰弹枪。</Kurin_Gun_Auto_Shotgun.description>
+  <Kurin_Gun_Auto_Shotgun.tools.0.label>枪托</Kurin_Gun_Auto_Shotgun.tools.0.label>
+  <Kurin_Gun_Auto_Shotgun.tools.1.label>枪管</Kurin_Gun_Auto_Shotgun.tools.1.label>
+
+  <Kurin_Bullet_Auto_Shotgun.label>自动霰弹枪子弹</Kurin_Bullet_Auto_Shotgun.label>
+
+
+</LanguageData>

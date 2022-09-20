@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Ammo12mmRailgun</defName>
+    <label>12mm轨道炮</label>
+    <parent>AmmoAdvanced</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberRailgunHighCaliber</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <!--<CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12mmRailgunK</defName>
+    <label>12mm Railgun K</label>
+    <ammoTypes>
+      <Ammo_12mmRailgun_Sabot>Bullet_12mmRailgun_K_Sabot</Ammo_12mmRailgun_Sabot>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>-->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+    <defName>Ammo_12mmRailgun_Sabot</defName>
+    <label>12mm轨道炮弹(Sabot)</label>
+    <description>鳍式稳定碳化钨穿甲弹，带废弃弹托，专为大口径轨道炮武器设计。</description>
+    <statBases>
+      <Mass>0.051</Mass>
+      <Bulk>0.04</Bulk>
+      <MarketValue>0.33</MarketValue>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting</li>
+    </tradeTags>
+    <thingCategories>
+      <li>Ammo12mmRailgun</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+    <graphicData>
+		<texPath>Things/Ammo/GrenadeLauncher/EMP</texPath>
+      <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+    </graphicData>
+    <ammoClass>Sabot</ammoClass>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef ParentName="SK_BaseBullet">
+    <defName>Bullet_12mmRailgun_K_Sabot</defName>
+    <label>12mm轨道炮弹K(Sabot)</label>
+    <graphicData>
+      <texPath>Things/Projectile/Charged/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <armorPenetrationSharp>65</armorPenetrationSharp>
+      <armorPenetrationBlunt>1350</armorPenetrationBlunt>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_12mmRailgun_Sabot</defName>
+    <label>制作12mm轨道枪子弹(Sabot) x20</label>
+    <description>制作20个 12x72mm轨道炮弹(Sabot) 。</description>
+    <jobString>制作12mm轨道枪子弹(Sabot)</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+          </categories>
+        </filter>
+        <count>22</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hexcell</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MagneticMaterial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+      <thingDefs>
+        <li>Hexcell</li>
+        <li>MagneticMaterial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_12mmRailgun_Sabot>20</Ammo_12mmRailgun_Sabot>
+    </products>
+    <researchPrerequisite>ChargedShot</researchPrerequisite>
+  </RecipeDef>
+</Defs>

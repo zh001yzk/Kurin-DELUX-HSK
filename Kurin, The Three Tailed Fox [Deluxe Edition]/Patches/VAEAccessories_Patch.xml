@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded — Accessories</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/KurinDeluxeEdition.PowerArmor.KurinPowerArmorThingDef[defName="Kurin_Power_Armor"]</xpath>
+					<value>
+	<verbs>
+		<li>
+			<label>kurin power armor HE grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+		<li>
+			<label>kurin power armor stun grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor_Stun</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+		<li>
+			<label>kurin power armor smoke grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor_Smoke</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+		<li>
+			<label>kurin power armor EMP grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor_EMP</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+	</verbs>
+	<comps>
+		<li Class="CompProperties_Reloadable">
+			<maxCharges>5</maxCharges>
+			<ammoDef>Kurin_Power_Armor_Ammo</ammoDef>
+			<ammoCountToRefill>5</ammoCountToRefill>
+			<baseReloadTicks>60</baseReloadTicks>
+			<soundReload>Kurin_Sound_Power_Armor_Reload</soundReload>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>charge</chargeNoun>
+			<destroyOnEmpty>false</destroyOnEmpty>
+			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+		</li>
+	</comps>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded — Accessories</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/KurinDeluxeEdition.PowerArmor.KurinPowerArmorThingDef[defName="Kurin_Heavy_Power_Armor"]</xpath>
+					<value>
+	<verbs>
+		<li>
+			<label>kurin power armor HE grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+		<li>
+			<label>kurin power armor stun grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor_Stun</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+		<li>
+			<label>kurin power armor smoke grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor_Smoke</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+		<li>
+			<label>kurin power armor EMP grenade</label>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<onlyManualCast>true</onlyManualCast>
+			<defaultProjectile>Kurin_Bullet_Power_Armor_EMP</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>24.9</range>
+			<forcedMissRadius>0.9</forcedMissRadius>
+			<soundCast>Kurin_Sound_Power_Armor</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</li>
+	</verbs>
+	<comps>
+		<li Class="CompProperties_Reloadable">
+			<maxCharges>10</maxCharges>
+			<ammoDef>Kurin_Power_Armor_Ammo</ammoDef>
+			<ammoCountToRefill>10</ammoCountToRefill>
+			<baseReloadTicks>60</baseReloadTicks>
+			<soundReload>Kurin_Sound_Power_Armor_Reload</soundReload>
+			<hotKey>Misc4</hotKey>
+			<chargeNoun>charge</chargeNoun>
+			<destroyOnEmpty>false</destroyOnEmpty>
+			<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+		</li>
+	</comps>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Apparel Expanded — Accessories</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Power_Armor</defName>
+	<label>kurin power armor HE grenade</label>
+	<thingClass>Projectile_Explosive</thingClass>
+	<projectile>
+		<damageDef>Bomb</damageDef>
+		<explosionRadius>2.9</explosionRadius>
+		<postExplosionSpawnThingDef>Filth_RubbleRock</postExplosionSpawnThingDef>
+		<postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+		<soundExplode>Kurin_Sound_Power_Armor_Explosion</soundExplode>
+		<explosionEffect>GiantExplosion</explosionEffect>
+		<explosionDelay>150</explosionDelay>
+		<speed>40</speed>
+		<arcHeightFactor>0.3</arcHeightFactor>
+		<shadowSize>0.6</shadowSize>
+	</projectile>
+	<graphicData>
+		<texPath>Kurin/Projectile/Power_Armor_Bullet_HE/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Power_Armor_Stun</defName>
+	<label>kurin power armor smoke grenade</label>
+	<thingClass>Projectile_Explosive</thingClass>
+	<projectile>
+		<damageDef>Stun</damageDef>
+		<explosionRadius>2.9</explosionRadius>
+		<soundExplode>Kurin_Sound_Grenade_Launcher_FEM_Explosion</soundExplode>
+		<explosionDelay>150</explosionDelay>
+		<speed>40</speed>
+		<arcHeightFactor>0.3</arcHeightFactor>
+		<shadowSize>0.6</shadowSize>
+	</projectile>
+	<graphicData>
+		<texPath>Kurin/Projectile/Power_Armor_Bullet_Stun/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Power_Armor_Smoke</defName>
+	<label>kurin power armor smoke grenade</label>
+	<thingClass>Projectile_Explosive</thingClass>
+	<projectile>
+		<damageDef>Smoke</damageDef>
+		<explosionRadius>2.9</explosionRadius>
+		<postExplosionSpawnThingDef>Gas_Smoke</postExplosionSpawnThingDef>
+		<postExplosionSpawnChance>1</postExplosionSpawnChance>
+		<soundExplode>Kurin_Sound_Grenade_Launcher_SM_Explosion</soundExplode>
+		<explosionDelay>150</explosionDelay>
+		<speed>40</speed>
+		<arcHeightFactor>0.3</arcHeightFactor>
+		<shadowSize>0.6</shadowSize>
+	</projectile>
+	<graphicData>
+		<texPath>Kurin/Projectile/Power_Armor_Bullet_Smoke/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Power_Armor_EMP</defName>
+	<label>kurin power armor EMP grenade</label>
+	<thingClass>Projectile_Explosive</thingClass>
+	<projectile>
+		<damageDef>EMP</damageDef>
+		<explosionRadius>2.9</explosionRadius>
+		<soundExplode>Explosion_EMP</soundExplode>
+		<explosionDelay>150</explosionDelay>
+		<speed>40</speed>
+		<arcHeightFactor>0.3</arcHeightFactor>
+		<shadowSize>0.6</shadowSize>
+	</projectile>
+	<graphicData>
+		<texPath>Kurin/Projectile/Power_Armor_Bullet_EMP/Texture</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="ResourceBase">
+	<defName>Kurin_Power_Armor_Ammo</defName>
+	<label>kurin power armor's ammo</label>
+	<description>Multitask ammo for grenade launcher of kurin power armor.</description>
+	<graphicData>
+		<texPath>Kurin/Thing/Power_Armor_Ammo</texPath>
+		<graphicClass>Graphic_StackCount</graphicClass>
+	</graphicData>
+	<costList>
+		<Plasteel>5</Plasteel>
+		<Chemfuel>10</Chemfuel>
+		<ComponentIndustrial>1</ComponentIndustrial>
+	</costList>
+	<soundInteract>Metal_Drop</soundInteract>
+	<soundDrop>Standard_Drop</soundDrop>
+	<stackLimit>50</stackLimit>
+	<healthAffectsPrice>false</healthAffectsPrice>
+	<techLevel>Spacer</techLevel>
+	<statBases>
+		<MaxHitPoints>70</MaxHitPoints>
+		<Mass>2.3</Mass>
+		<Flammability>0</Flammability>
+		<DeteriorationRate>1.0</DeteriorationRate>
+	</statBases>
+	<thingCategories>
+		<li>Kurin_Special</li>
+	</thingCategories>
+	<tradeTags>
+		<li>ExoticMisc</li>
+	</tradeTags>
+	<allowedArchonexusCount>0</allowedArchonexusCount>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>8</Crafting>
+		</skillRequirements>
+		<researchPrerequisite>Kurin_ApparelT5</researchPrerequisite>
+		<recipeUsers Inherit="False">
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+    </recipeMaker>
+</ThingDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

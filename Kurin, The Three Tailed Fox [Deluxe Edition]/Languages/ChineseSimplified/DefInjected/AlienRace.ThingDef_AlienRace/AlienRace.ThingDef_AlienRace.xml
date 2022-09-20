@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin.label>魅狐</Kurin.label>
+  <Kurin.description>魅狐，是拥有三根尾巴的狐狸种族</Kurin.description>
+  <Kurin.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Kurin.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Kurin.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Kurin.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Kurin.tools.0.label>左拳</Kurin.tools.0.label>
+  <Kurin.tools.1.label>右拳</Kurin.tools.1.label>
+  <Kurin.tools.2.label>牙齿</Kurin.tools.2.label>
+  <Kurin.tools.3.label>头部</Kurin.tools.3.label>
+
+  <Kimiri.label>奇龙</Kimiri.label>
+  <Kimiri.description>奇龙 - 由魅狐所创造的基因工程版的龙人。奇龙和他们的同志魅狐一样，在社会是平等的，但由于奇龙的脑部能力较弱，所以他们通常从事对体力要求很高的工作。\n\n奇龙擅长采矿，种植和管理动物，他们也喜欢和别人交谈。\n\n奇龙不像龙人那样可以剪毛和挤奶，但他们有着强大的再生能力和强健的皮肤与骨骼。\n\n此外，奇龙是雌雄同体。他们体内有着男性与女性的生殖器，每个个体都可以选择自己的性别。</Kimiri.description>
+  <Kimiri.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Kimiri.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Kimiri.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Kimiri.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Kimiri.tools.0.label>左拳</Kimiri.tools.0.label>
+  <Kimiri.tools.1.label>右拳</Kimiri.tools.1.label>
+  <Kimiri.tools.2.label>牙齿</Kimiri.tools.2.label>
+  <Kimiri.tools.3.label>尾巴</Kimiri.tools.3.label>
+  <Kimiri.tools.4.label>左角</Kimiri.tools.4.label>
+  <Kimiri.tools.5.label>右角</Kimiri.tools.5.label>
+
+
+</LanguageData>

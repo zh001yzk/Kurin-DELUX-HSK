@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Cake is a Lie</value>
+				</li>
+				<!--<li Class="PatchOperationRemove">
+					<xpath>Defs/ThingDef[defName="Kurin_Ultra_Component"]</xpath>
+				</li>-->
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/RecipeDef[defName="Make_Kurin_Cake" or defName="Make_Kurin_Cake_Bulk"]</xpath>
+					<value>
+						<recipeUsers>
+							<li>ElectricOven</li>
+						</recipeUsers>
+						<researchPrerequisite>Bakery_C1</researchPrerequisite>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Cake"]/ingestible</xpath>
+					<value>
+						<outcomeDoers>
+							<li Class="IngestionOutcomeDoer_GiveHediff">
+								<hediffDef>HadKurinCake</hediffDef>
+								<severity>1</severity>
+							</li>
+						</outcomeDoers>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="Make_Kurin_Cake"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Milk</li>
+									</thingDefs>
+								</filter>
+								<count>3</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Chocolate</li>
+									</thingDefs>
+								</filter>
+								<count>5</count>
+							</li>
+							<li>
+								<filter>
+									<categories>
+										<li>EggsUnfertilized</li>
+									</categories>
+								</filter>
+								<count>1</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Sugar</li>
+									</thingDefs>
+								</filter>
+								<count>0.5</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Flour</li>
+									</thingDefs>
+								</filter>
+								<count>0.4</count>
+							</li>
+							<li>
+								<filter>
+									<categories>
+										<li>FruitFoodRaw</li>
+									</categories>
+								</filter>
+								<count>0.2</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="Make_Kurin_Cake_Bulk"]/ingredients</xpath>
+					<value>
+						<ingredients>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Milk</li>
+									</thingDefs>
+								</filter>
+								<count>12</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Chocolate</li>
+									</thingDefs>
+								</filter>
+								<count>20</count>
+							</li>
+							<li>
+								<filter>
+									<categories>
+										<li>EggsUnfertilized</li>
+									</categories>
+								</filter>
+								<count>4</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Sugar</li>
+									</thingDefs>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Flour</li>
+									</thingDefs>
+								</filter>
+								<count>1.6</count>
+							</li>
+							<li>
+								<filter>
+									<categories>
+										<li>FruitFoodRaw</li>
+									</categories>
+								</filter>
+								<count>1</count>
+							</li>
+						</ingredients>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="Make_Kurin_Cake" or defName="Make_Kurin_Cake_Bulk"]/fixedIngredientFilter</xpath>
+					<value>
+						<fixedIngredientFilter>
+							<categories>
+								<li>FruitFoodRaw</li>
+								<li>EggsUnfertilized</li>
+							</categories>
+							<thingDefs>
+								<li>Flour</li>
+								<li>Sugar</li>
+								<li>Chocolate</li>
+								<li>Milk</li>
+							</thingDefs>
+							<specialFiltersToDisallow>
+								<li>AllowRotten</li>
+							</specialFiltersToDisallow>
+						</fixedIngredientFilter>
+					</value>
+				</li>
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

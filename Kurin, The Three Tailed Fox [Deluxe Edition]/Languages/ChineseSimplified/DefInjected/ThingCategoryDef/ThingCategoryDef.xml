@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Apparel.label>魅狐服饰</Kurin_Apparel.label>
+  <Kurin_Apparel_Underwear.label>魅狐内衣服饰</Kurin_Apparel_Underwear.label>
+  <Kurin_Apparel_Stocking.label>魅狐丝袜服饰</Kurin_Apparel_Stocking.label>
+  <Kurin_Apparel_OnSkin.label>魅狐贴身服饰</Kurin_Apparel_OnSkin.label>
+  <Kurin_Apparel_Middle.label>魅狐中间层服饰</Kurin_Apparel_Middle.label>
+  <Kurin_Apparel_Shell.label>魅狐外层服饰</Kurin_Apparel_Shell.label>
+  <Kurin_Apparel_Overhead.label>魅狐头顶服饰</Kurin_Apparel_Overhead.label>
+  <Kurin_Apparel_Legs.label>魅狐腿部服饰</Kurin_Apparel_Legs.label>
+  <Kurin_Apparel_Skirt.label>魅狐短裙</Kurin_Apparel_Skirt.label>
+  <Kurin_Apparel_Long_Skirt.label>魅狐长裙</Kurin_Apparel_Long_Skirt.label>
+  <Kurin_Apparel_Backpack.label>魅狐背包</Kurin_Apparel_Backpack.label>
+  <Kurin_Apparel_Military.label>魅狐军队服饰</Kurin_Apparel_Military.label>
+  <Kurin_Weapon.label>魅狐武器</Kurin_Weapon.label>
+  <Kurin_Weapon_Melee.label>魅狐近战武器</Kurin_Weapon_Melee.label>
+  <Kurin_Weapon_Ranged.label>魅狐远程武器</Kurin_Weapon_Ranged.label>
+  <Kurin_Special.label>魅狐特殊物品</Kurin_Special.label>
+
+
+</LanguageData>

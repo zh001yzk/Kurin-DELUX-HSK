@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Ship Parts</value>
+				</li>
+				<li Class="PatchOperationAttributeSet">
+					<xpath>Defs/ThingDef[@ParentName="BuildingBase"]/comps/li[@Class="KurinDeluxeEdition.SpaceShip.CompProperties_CompKurinSpaceShipPart"]/../..</xpath>
+					<attribute>ParentName</attribute>
+					<value>ShipBase</value>
+				</li>
+				<!-- beam -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Beam"]/costList</xpath>
+					<value>
+						<costList>
+							<BiosyntheticMaterial>15</BiosyntheticMaterial>
+							<MagneticMaterial>15</MagneticMaterial>
+							<ComponentUltra>15</ComponentUltra>
+							<AdvMechanism>5</AdvMechanism>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Beam"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>SolidMetallic</li>
+						</stuffCategories>
+						<costStuffCount>150</costStuffCount>
+					</value>
+				</li>
+				<!-- cryptoSleep -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Cryptosleep_Casket"]/costList</xpath>
+					<value>
+						<costList>
+							<Glass>25</Glass>
+							<BiosyntheticMaterial>20</BiosyntheticMaterial>
+							<ComponentUltra>8</ComponentUltra>
+							<Microchips>2</Microchips>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Cryptosleep_Casket"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>SolidMetallic</li>
+						</stuffCategories>
+						<costStuffCount>60</costStuffCount>
+					</value>
+				</li>
+				<!-- turret -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Turret"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>10</MagneticMaterial>
+							<AdvMechanism>5</AdvMechanism>
+							<BiosyntheticMaterial>15</BiosyntheticMaterial>
+							<ComponentUltra>4</ComponentUltra>
+							<Microchips>2</Microchips>
+							<Heavy_Component>8</Heavy_Component>
+							<Plasma_Component>5</Plasma_Component>
+							<Weapon_Parts>20</Weapon_Parts>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Turret"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>SolidMetallic</li>
+						</stuffCategories>
+						<costStuffCount>120</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Turret"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipBasics</li>
+							<li>Autoturrets_E1</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<!-- computer -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Computer"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>20</MagneticMaterial>
+							<ComponentUltra>7</ComponentUltra>
+							<BioMicrochips>2</BioMicrochips>
+							<AIPersonaCore>1</AIPersonaCore>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Computer"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>RareMetallic</li>
+						</stuffCategories>
+						<costStuffCount>50</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Computer"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipComputerCore</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<!-- reactor -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Reactor"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>30</MagneticMaterial>
+							<BiosyntheticMaterial>20</BiosyntheticMaterial>
+							<ComponentUltra>6</ComponentUltra>
+							<AdvMechanism>8</AdvMechanism>
+							<Microchips>5</Microchips>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Reactor"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>SolidMetallic</li>
+						</stuffCategories>
+						<costStuffCount>120</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Reactor"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipReactor</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<!-- engine -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Engine"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>20</MagneticMaterial>
+							<ComponentUltra>8</ComponentUltra>
+							<BiosyntheticMaterial>15</BiosyntheticMaterial>
+							<AdvMechanism>15</AdvMechanism>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Engine"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>SolidMetallic</li>
+						</stuffCategories>
+						<costStuffCount>100</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Engine"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipEngine</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<!-- APU -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_APU"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>20</MagneticMaterial>
+							<BiosyntheticMaterial>14</BiosyntheticMaterial>
+							<ComponentUltra>4</ComponentUltra>
+							<AdvMechanism>8</AdvMechanism>
+							<Microchips>4</Microchips>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_APU"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>SolidMetallic</li>
+						</stuffCategories>
+						<costStuffCount>100</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_APU"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipReactor</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_APU"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
+					<value>
+						<li Class="CompProperties_Refuelable">
+							<fuelConsumptionRate>25.0</fuelConsumptionRate>
+							<fuelCapacity>225.0</fuelCapacity>
+							<fuelFilter>
+								<thingDefs>
+									<li>UraniumPellets</li>
+								</thingDefs>
+							</fuelFilter>
+							<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+						</li>
+					</value>
+				</li>
+				<!-- MTM -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_MTM"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>15</MagneticMaterial>
+							<ComponentUltra>6</ComponentUltra>
+							<Microchips>4</Microchips>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_MTM"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>RareMetallic</li>
+						</stuffCategories>
+						<costStuffCount>30</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_MTM"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipBasics</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<!-- communication -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Communication_Module"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>20</MagneticMaterial>
+							<BiosyntheticMaterial>6</BiosyntheticMaterial>
+							<ComponentUltra>4</ComponentUltra>
+							<Microchips>4</Microchips>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Communication_Module"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>RareMetallic</li>
+						</stuffCategories>
+						<costStuffCount>30</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Communication_Module"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipSensorCluster</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				<!-- storage -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Storage_Module"]/costList</xpath>
+					<value>
+						<costList>
+							<MagneticMaterial>20</MagneticMaterial>
+							<BiosyntheticMaterial>14</BiosyntheticMaterial>
+							<ComponentUltra>4</ComponentUltra>
+							<Microchips>6</Microchips>
+						</costList>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Storage_Module"]</xpath>
+					<value>
+						<stuffCategories>
+							<li>RareMetallic</li>
+						</stuffCategories>
+						<costStuffCount>100</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Kurin_Ship_Storage_Module"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ShipBasics</li>
+							<li>Storage_D1</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

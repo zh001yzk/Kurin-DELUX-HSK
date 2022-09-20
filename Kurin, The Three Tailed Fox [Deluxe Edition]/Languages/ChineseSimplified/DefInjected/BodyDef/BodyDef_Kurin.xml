@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin.label>魅狐</Kurin.label>
+  <Kurin.corePart.parts.4.customLabel>左尾</Kurin.corePart.parts.4.customLabel>
+  <Kurin.corePart.parts.5.customLabel>中尾</Kurin.corePart.parts.5.customLabel>
+  <Kurin.corePart.parts.6.customLabel>右尾</Kurin.corePart.parts.6.customLabel>
+  <Kurin.corePart.parts.9.customLabel>左肺</Kurin.corePart.parts.9.customLabel>
+  <Kurin.corePart.parts.10.customLabel>右肺</Kurin.corePart.parts.10.customLabel>
+  <Kurin.corePart.parts.11.customLabel>左肾</Kurin.corePart.parts.11.customLabel>
+  <Kurin.corePart.parts.12.customLabel>右肾</Kurin.corePart.parts.12.customLabel>
+  <Kurin.corePart.parts.14.parts.0.parts.1.customLabel>左眼</Kurin.corePart.parts.14.parts.0.parts.1.customLabel>
+  <Kurin.corePart.parts.14.parts.0.parts.2.customLabel>右眼</Kurin.corePart.parts.14.parts.0.parts.2.customLabel>
+  <Kurin.corePart.parts.14.parts.0.parts.3.customLabel>左耳</Kurin.corePart.parts.14.parts.0.parts.3.customLabel>
+  <Kurin.corePart.parts.14.parts.0.parts.4.customLabel>右耳</Kurin.corePart.parts.14.parts.0.parts.4.customLabel>
+  <Kurin.corePart.parts.15.customLabel>左肩</Kurin.corePart.parts.15.customLabel>
+  <Kurin.corePart.parts.15.parts.0.customLabel>左锁骨</Kurin.corePart.parts.15.parts.0.customLabel>
+  <Kurin.corePart.parts.15.parts.1.customLabel>左臂</Kurin.corePart.parts.15.parts.1.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.0.customLabel>左肱骨</Kurin.corePart.parts.15.parts.1.parts.0.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.1.customLabel>左桡骨</Kurin.corePart.parts.15.parts.1.parts.1.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.2.customLabel>左手</Kurin.corePart.parts.15.parts.1.parts.2.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.2.parts.0.customLabel>左小指</Kurin.corePart.parts.15.parts.1.parts.2.parts.0.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.2.parts.1.customLabel>左无名指</Kurin.corePart.parts.15.parts.1.parts.2.parts.1.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.2.parts.2.customLabel>左中指</Kurin.corePart.parts.15.parts.1.parts.2.parts.2.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.2.parts.3.customLabel>左食指</Kurin.corePart.parts.15.parts.1.parts.2.parts.3.customLabel>
+  <Kurin.corePart.parts.15.parts.1.parts.2.parts.4.customLabel>左拇指</Kurin.corePart.parts.15.parts.1.parts.2.parts.4.customLabel>
+  <Kurin.corePart.parts.16.customLabel>右肩</Kurin.corePart.parts.16.customLabel>
+  <Kurin.corePart.parts.16.parts.0.customLabel>右锁骨</Kurin.corePart.parts.16.parts.0.customLabel>
+  <Kurin.corePart.parts.16.parts.1.customLabel>右臂</Kurin.corePart.parts.16.parts.1.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.0.customLabel>右肱骨</Kurin.corePart.parts.16.parts.1.parts.0.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.1.customLabel>右桡骨</Kurin.corePart.parts.16.parts.1.parts.1.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.2.customLabel>右手</Kurin.corePart.parts.16.parts.1.parts.2.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.2.parts.0.customLabel>右小指</Kurin.corePart.parts.16.parts.1.parts.2.parts.0.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.2.parts.1.customLabel>右无名指</Kurin.corePart.parts.16.parts.1.parts.2.parts.1.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.2.parts.2.customLabel>右中指</Kurin.corePart.parts.16.parts.1.parts.2.parts.2.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.2.parts.3.customLabel>右食指</Kurin.corePart.parts.16.parts.1.parts.2.parts.3.customLabel>
+  <Kurin.corePart.parts.16.parts.1.parts.2.parts.4.customLabel>右拇指</Kurin.corePart.parts.16.parts.1.parts.2.parts.4.customLabel>
+  <Kurin.corePart.parts.18.customLabel>左腿</Kurin.corePart.parts.18.customLabel>
+  <Kurin.corePart.parts.18.parts.0.customLabel>左股骨</Kurin.corePart.parts.18.parts.0.customLabel>
+  <Kurin.corePart.parts.18.parts.1.customLabel>左胫骨</Kurin.corePart.parts.18.parts.1.customLabel>
+  <Kurin.corePart.parts.18.parts.2.customLabel>左脚</Kurin.corePart.parts.18.parts.2.customLabel>
+  <Kurin.corePart.parts.18.parts.2.parts.0.customLabel>左小趾</Kurin.corePart.parts.18.parts.2.parts.0.customLabel>
+  <Kurin.corePart.parts.18.parts.2.parts.1.customLabel>左次小趾</Kurin.corePart.parts.18.parts.2.parts.1.customLabel>
+  <Kurin.corePart.parts.18.parts.2.parts.2.customLabel>左三趾</Kurin.corePart.parts.18.parts.2.parts.2.customLabel>
+  <Kurin.corePart.parts.18.parts.2.parts.3.customLabel>左二趾</Kurin.corePart.parts.18.parts.2.parts.3.customLabel>
+  <Kurin.corePart.parts.18.parts.2.parts.4.customLabel>左大拇趾</Kurin.corePart.parts.18.parts.2.parts.4.customLabel>
+  <Kurin.corePart.parts.19.customLabel>右腿</Kurin.corePart.parts.19.customLabel>
+  <Kurin.corePart.parts.19.parts.0.customLabel>右股骨</Kurin.corePart.parts.19.parts.0.customLabel>
+  <Kurin.corePart.parts.19.parts.1.customLabel>右胫骨</Kurin.corePart.parts.19.parts.1.customLabel>
+  <Kurin.corePart.parts.19.parts.2.customLabel>右脚</Kurin.corePart.parts.19.parts.2.customLabel>
+  <Kurin.corePart.parts.19.parts.2.parts.0.customLabel>右小趾</Kurin.corePart.parts.19.parts.2.parts.0.customLabel>
+  <Kurin.corePart.parts.19.parts.2.parts.1.customLabel>右次小趾</Kurin.corePart.parts.19.parts.2.parts.1.customLabel>
+  <Kurin.corePart.parts.19.parts.2.parts.2.customLabel>右三趾</Kurin.corePart.parts.19.parts.2.parts.2.customLabel>
+  <Kurin.corePart.parts.19.parts.2.parts.3.customLabel>右二趾</Kurin.corePart.parts.19.parts.2.parts.3.customLabel>
+  <Kurin.corePart.parts.19.parts.2.parts.4.customLabel>右大拇趾</Kurin.corePart.parts.19.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

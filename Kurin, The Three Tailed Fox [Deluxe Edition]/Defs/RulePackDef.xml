@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>Kurin_NamerFaction</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;Foxed Guild</li>
+        <li>r_name-&gt;Foxed Union</li>
+        <li>r_name-&gt;Foxed Alliance</li>
+        <li>r_name-&gt;Union of Three Tailed</li>
+        <li>r_name-&gt;Alliance of Three Tailed</li>
+        <li>r_name-&gt;League of Three Tailed</li>
+        <li>r_name-&gt;League of Toothy Foxes</li>
+        <li>r_name-&gt;Three Tailed Faction</li>
+        <li>r_name-&gt;Three Tailed Republic</li>
+        <li>r_name-&gt;Three Tailed Salesfoxes</li>
+        <li>r_name-&gt;Three Tailed Armageddon</li>
+        <li>r_name-&gt;Kimiria</li>
+        <li>r_name-&gt;Kurinia</li>
+        <li>r_name-&gt;Sacred Foxes</li>
+        <li>r_name-&gt;Kemomimi House</li>
+        <li>r_name-&gt;House of Nimble Ear</li>
+        <li>r_name-&gt;Toothy Armageddon</li>
+        <li>r_name-&gt;Fluffy Eared Magnificence</li>
+        <li>r_name-&gt;Fluffy Tailed Magnificence</li>
+        <li>r_name-&gt;Foxy Bargainers</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Kurin_NamerPerson_Female</defName>
+    <include>
+      <li>Kurin_NameUtility_Female</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;[KurinFirstNameFemale] [KurinLastName]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Kurin_NameUtility_Female</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>KurinFirstF-&gt;Names/KurinFirstF</li>
+        <!-- <li>KurinNick->Names/KurinNick</li> -->
+        <li>KurinLast-&gt;Names/KurinLast</li>
+      </rulesFiles>
+      <rulesStrings>
+        <li>KurinFirstNameFemale-&gt;[KurinFirstF]</li>
+        <!-- <li>KurinNickName->[KurinNick]</li> -->
+        <li>KurinLastName-&gt;[KurinLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Kurin_NamerPerson_Male</defName>
+    <include>
+      <li>Kurin_NameUtility_Male</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;[KurinFirstNameMale] [KurinLastName]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>Kurin_NameUtility_Male</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>KurinFirstM-&gt;Names/KurinFirstM</li>
+        <!-- <li>KurinNick->Names/KurinNick</li> -->
+        <li>KurinLast-&gt;Names/KurinLast</li>
+      </rulesFiles>
+      <rulesStrings>
+        <li>KurinFirstNameMale-&gt;[KurinFirstM]</li>
+        <!-- <li>KurinNickName->[KurinNick]</li> -->
+        <li>KurinLastName-&gt;[KurinLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

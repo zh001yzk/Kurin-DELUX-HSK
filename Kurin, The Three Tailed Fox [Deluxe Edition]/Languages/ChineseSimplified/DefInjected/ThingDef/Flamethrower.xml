@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Flamethrower.label>魅狐火焰喷射器</Kurin_Gun_Flamethrower.label>
+  <Kurin_Gun_Flamethrower.description>[FXF-A1] - [火柴]\n\n〜“火柴”是魅狐们的一种先进而残忍的火焰喷射器。让火焰净化一切！</Kurin_Gun_Flamethrower.description>
+  <Kurin_Gun_Flamethrower.tools.0.label>枪托</Kurin_Gun_Flamethrower.tools.0.label>
+  <Kurin_Gun_Flamethrower.tools.1.label>枪管</Kurin_Gun_Flamethrower.tools.1.label>
+
+  <Kurin_Bullet_Flamethrower.label>喷射火焰</Kurin_Bullet_Flamethrower.label>
+
+
+</LanguageData>

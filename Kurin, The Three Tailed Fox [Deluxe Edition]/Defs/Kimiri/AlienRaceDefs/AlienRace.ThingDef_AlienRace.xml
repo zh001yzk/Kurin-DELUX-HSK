@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Kimiri</defName>
+    <label>奇龙</label>
+    <description>奇龙 - 由魅狐所创造的基因工程版的龙人。奇龙和他们的同志魅狐一样，在社会是平等的，但由于奇龙的脑部能力较弱，所以他们通常从事对体力要求很高的工作。\n\n奇龙擅长采矿，种植和管理动物，他们也喜欢和别人交谈。\n\n奇龙不像龙人那样可以剪毛和挤奶，但他们有着强大的再生能力和强健的皮肤与骨骼。\n\n此外，奇龙是雌雄同体。他们体内有着男性与女性的生殖器，每个个体都可以选择自己的性别。</description>
+    <alienRace>
+      <!--General Settings-->
+      <generalSettings>
+        <maleGenderProbability>0.33</maleGenderProbability>
+        <immuneToXenophobia>false</immuneToXenophobia>
+        <immuneToAge>true</immuneToAge>
+        <canLayDown>true</canLayDown>
+        <humanRecipeImport>true</humanRecipeImport>
+        <maxDamageForSocialfight>4</maxDamageForSocialfight>
+        <forcedRaceTraitEntries>
+          <li>
+            <defName>Kimiri_Trait</defName>
+            <chance>100</chance>
+          </li>
+          <li>
+            <defName>Bisexual</defName>
+            <chance>100</chance>
+          </li>
+        </forcedRaceTraitEntries>
+        <disallowedTraits>
+          <li>
+            <defName>Pyromaniac</defName>
+          </li>
+          <li>
+            <defName>DislikesMen</defName>
+          </li>
+          <li>
+            <defName>DislikesWomen</defName>
+          </li>
+          <li>
+            <defName>AnnoyingVoice</defName>
+          </li>
+          <li>
+            <defName>CreepyBreathing</defName>
+          </li>
+          <li>
+            <defName>Xenophobia</defName>
+            <degree>1</degree>
+          </li>
+          <li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+          </li>
+          <li>
+            <defName>Industriousness</defName>
+            <degree>-2</degree>
+          </li>
+          <li>
+            <defName>Nerves</defName>
+            <degree>-2</degree>
+          </li>
+          <li>
+            <defName>NaturalMood</defName>
+            <degree>-2</degree>
+          </li>
+        </disallowedTraits>
+        <factionRelations>
+          <li>
+            <factions>
+              <li>Kurin_Faction_Republic</li>
+            </factions>
+            <goodwill>
+              <min>100</min>
+              <max>100</max>
+            </goodwill>
+          </li>
+          <li>
+            <factions>
+              <li>Kurin_Faction_UFU</li>
+            </factions>
+            <goodwill>
+              <min>0</min>
+              <max>0</max>
+            </goodwill>
+          </li>
+        </factionRelations>
+        <alienPartGenerator>
+          <alienbodytypes>
+            <li>Thin</li>
+          </alienbodytypes>
+          <atlasScale>4</atlasScale>
+          <aliencrowntypes>
+            <li>Kimiri_Head_Pink</li>
+            <li>Kimiri_Head_Turquoise</li>
+            <li>Kimiri_Head_Violet</li>
+          </aliencrowntypes>
+          <headOffset>(-0.10, -0.13)</headOffset>
+          <useGenderedHeads>false</useGenderedHeads>
+          <useGenderedBodies>false</useGenderedBodies>
+          <customDrawSize>(1.0, 1.0)</customDrawSize>
+          <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+          <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+          <bodyAddons>
+            <li>
+              <path>Kimiri/Tail/Texture</path>
+              <bodyPart>kimiri tail</bodyPart>
+              <inFrontOfBody>false</inFrontOfBody>
+              <drawnInBed>false</drawnInBed>
+              <colorChannel>skin</colorChannel>
+              <drawSize>1</drawSize>
+              <defaultOffset>Tail</defaultOffset>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Thin>(-0.4, 0.25)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Thin>(0, 0.53)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Thin>(-0.44, 0.25)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Kimiri/Horn/Left/Texture</path>
+              <bodyPart>kimiri left horn</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <drawSize>1</drawSize>
+              <angle>0</angle>
+              <defaultOffset>Head</defaultOffset>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Thin>(0, -0.3)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Thin>(0, -0.14)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Thin>(0.06, -0.28)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+            <li>
+              <path>Kimiri/Horn/Right/Texture</path>
+              <bodyPart>kimiri right horn</bodyPart>
+              <inFrontOfBody>true</inFrontOfBody>
+              <colorChannel>skin</colorChannel>
+              <drawSize>1</drawSize>
+              <angle>0</angle>
+              <defaultOffset>Head</defaultOffset>
+              <offsets>
+                <south>
+                  <bodyTypes>
+                    <Thin>(0, -0.3)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </south>
+                <north>
+                  <bodyTypes>
+                    <Thin>(0, -0.14)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </north>
+                <east>
+                  <bodyTypes>
+                    <Thin>(0.06, -0.28)</Thin>
+                  </bodyTypes>
+                  <crownTypes>
+                    <Kimiri_Head>(0,0)</Kimiri_Head>
+                  </crownTypes>
+                </east>
+              </offsets>
+            </li>
+          </bodyAddons>
+          <colorChannels>
+            <li>
+              <name>skin</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                  </li>
+                </options>
+              </first>
+            </li>
+            <li>
+              <name>hair</name>
+              <first Class="ColorGenerator_Options">
+                <options>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.86,0.86,0.86,1)</only>
+                    <!-- #dbdbdb -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.85,0.51,0.47,1)</only>
+                    <!-- #d88177 -->
+                  </li>
+                  <li>
+                    <weight>8</weight>
+                    <only>RGBA(0.66,0.56,0.55,1)</only>
+                    <!-- #a9908b -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.82,0.71,0.58,1)</only>
+                    <!-- #d1b494 -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.33,0.27,0.26,1)</only>
+                    <!-- #544543 -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.24,0.24,0.24,1)</only>
+                    <!-- #3d3d3d -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.30,0.30,0.30,1)</only>
+                    <!-- #4d4d4d -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.36,0.36,0.36,1)</only>
+                    <!-- #5c5c5c -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.91,0.76,0.73,1)</only>
+                    <!-- #e8c2b9 -->
+                  </li>
+                  <li>
+                    <weight>3</weight>
+                    <only>RGBA(0.47,0.34,0.35,1)</only>
+                    <!-- #775758 -->
+                  </li>
+                  <!--====================================================================================================-->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.58,0.51,0.28,1)</only>
+                    <!-- #948247 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.28,0.58,0.46,1)</only>
+                    <!-- #479475 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.28,0.55,0.58,1)</only>
+                    <!-- #478c94 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.28,0.40,0.58,1)</only>
+                    <!-- #476694 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.30,0.28,0.58,1)</only>
+                    <!-- #4d4794 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.47,0.28,0.58,1)</only>
+                    <!-- #784794 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.58,0.28,0.55,1)</only>
+                    <!-- #94478c -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.58,0.28,0.43,1)</only>
+                    <!-- #94476e -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.58,0.28,0.28,1)</only>
+                    <!-- #944747 -->
+                  </li>
+                  <!--====================================================================================================-->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.80,0.69,0.55,1)</only>
+                    <!-- #cdaf8c -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.65,0.80,0.55,1)</only>
+                    <!-- #a6cd8c -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.55,0.80,0.63,1)</only>
+                    <!-- #8ccda0 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.55,0.80,0.78,1)</only>
+                    <!-- #8ccdc6 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.55,0.66,0.80,1)</only>
+                    <!-- #8ca9cd -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.55,0.55,0.80,1)</only>
+                    <!-- #8d8ccd -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.63,0.55,0.80,1)</only>
+                    <!-- #a18ccd -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.75,0.55,0.80,1)</only>
+                    <!-- #c08ccd -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.80,0.55,0.69,1)</only>
+                    <!-- #cd8cb1 -->
+                  </li>
+                  <!--====================================================================================================-->
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.96,0.96,0.70,1)</only>
+                    <!-- #f5f5b3 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.45,0.56,0.32,1)</only>
+                    <!-- #728e52 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.68,0.65,0.42,1)</only>
+                    <!-- #aea66a -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.69,0.53,0.31,1)</only>
+                    <!-- #af8850 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.74,0.73,0.57,1)</only>
+                    <!-- #bdba91 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.90,0.89,0.57,1)</only>
+                    <!-- #e5e391 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.63,0.69,0.39,1)</only>
+                    <!-- #a0af64 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.42,0.62,0.39,1)</only>
+                    <!-- #6c9f63 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.70,0.38,0.38,1)</only>
+                    <!-- #b36161 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.66,0.27,0.27,1)</only>
+                    <!-- #a84444 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.48,0.41,0.50,1)</only>
+                    <!-- #7a697f -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.49,0.36,0.30,1)</only>
+                    <!-- #7d5c4d -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.53,0.35,0.24,1)</only>
+                    <!-- #88583d -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.44,0.30,0.25,1)</only>
+                    <!-- #704c40 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.73,0.41,0.25,1)</only>
+                    <!-- #bb683f -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.73,0.59,0.35,1)</only>
+                    <!-- #ba9658 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.73,0.37,0.60,1)</only>
+                    <!-- #b95f9a -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.61,0.29,0.37,1)</only>
+                    <!-- #9b4b5f -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.50,0.38,0.38,1)</only>
+                    <!-- #7f6161 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.41,0.36,0.30,1)</only>
+                    <!-- #695c4d -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.59,0.31,0.30,1)</only>
+                    <!-- #96504c -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.76,0.55,0.36,1)</only>
+                    <!-- #c18d5c -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.32,0.50,0.69,1)</only>
+                    <!-- #517fb0 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(1,1,0.45,1)</only>
+                    <!-- #ffff73 -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.59,0.76,1,1)</only>
+                    <!-- #97c1ff -->
+                  </li>
+                  <li>
+                    <weight>1</weight>
+                    <only>RGBA(0.59,0.61,1,1)</only>
+                    <!-- #979cff -->
+                  </li>
+                </options>
+              </first>
+            </li>
+          </colorChannels>
+        </alienPartGenerator>
+      </generalSettings>
+      <!--Graphic Settings-->
+      <graphicPaths>
+        <li>
+          <head>Kimiri/Head/</head>
+          <body>Kimiri/Body/</body>
+        </li>
+      </graphicPaths>
+      <!--Style Settings-->
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>true</hasStyle>
+            <styleTagsOverride>
+              <li>Kimiri_Hair</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
+          <key>TattooDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
+      <!--Relation Settings-->
+      <relationSettings>
+        <!--
+			<relationChanceModifierChild>0</relationChanceModifierChild>
+			<relationChanceModifierExLover>0</relationChanceModifierExLover>
+			<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+			<relationChanceModifierFiance>0</relationChanceModifierFiance>
+			<relationChanceModifierLover>0</relationChanceModifierLover>
+			<relationChanceModifierParent>0</relationChanceModifierParent>
+			<relationChanceModifierSibling>0</relationChanceModifierSibling>
+			<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			-->
+      </relationSettings>
+      <!--Thought Settings-->
+      <thoughtSettings>
+        <cannotReceiveThoughts>
+          <li>Naked</li>
+          <li>SharedBed</li>
+          <li>AteKibble</li>
+          <li>AteInsectMeatDirect</li>
+          <li>AteInsectMeatAsIngredient</li>
+          <li>AteRawFood</li>
+          <li>AteWithoutTable</li>
+          <li>EnvironmentDark</li>
+          <li>DeadMansApparel</li>
+        </cannotReceiveThoughts>
+      </thoughtSettings>
+      <!--Restriction Settings-->
+      <raceRestriction>
+        <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
+        <whiteApparelList>
+          <li>Apparel_ShieldBelt</li>
+          <li>Apparel_SmokepopBelt</li>
+        </whiteApparelList>
+        <apparelList>
+          <li>Kurin_Power_Armor</li>
+          <li>Kurin_Power_Armor_Helmet</li>
+          <li>Kurin_Power_Armor_Thermal_Uderwear</li>
+          <li>Kurin_Backpack_Civil</li>
+          <li>Kurin_Backpack_Worker</li>
+          <li>Kurin_Backpack_Military</li>
+          <li>Kurin_Middle_Scarf</li>
+          <li>Kurin_Middle_Body_Armor</li>
+          <li>Kurin_Legs_Shorts</li>
+          <li>Kurin_Legs_Pants</li>
+          <li>Kurin_Legs_Skirt</li>
+          <!--<li>Kurin_Legs_Long_Skirt</li>-->
+          <li>Kurin_OnSkin_Shirt</li>
+          <li>Kurin_OnSkin_T_Shirt</li>
+          <li>Kurin_OnSkin_Hot_Pants</li>
+          <li>Kurin_OnSkin_Pajama_A</li>
+          <li>Kurin_OnSkin_Pajama_B</li>
+          <li>Kurin_OnSkin_Pajama_C</li>
+          <li>Kurin_OnSkin_One_Piece_Dress</li>
+          <li>Kurin_OnSkin_Open_Shoulder_Knit</li>
+          <li>Kurin_OnSkin_Hoodie</li>
+          <li>Kurin_OnSkin_Casual_Wear</li>
+          <li>Kurin_OnSkin_Armored_Gothic_Dress</li>
+          <li>Kurin_OnSkin_Gothic_Dress</li>
+          <li>Kurin_OnSkin_Work_Jumpsuit</li>
+          <li>Kurin_OnSkin_Traditional_Simple_Dress</li>
+          <li>Kurin_OnSkin_Traditional_Fancy_Dress</li>
+          <li>Kurin_OnSkin_Spaceship_Crew_Suit</li>
+          <li>Kurin_Overhead_Winter_Hat</li>
+          <li>Kurin_Overhead_Summer_Hat</li>
+          <li>Kurin_Overhead_Cap</li>
+          <li>Kurin_Overhead_Casual_Hair_Pin</li>
+          <li>Kurin_Overhead_Goggles</li>
+          <li>Kurin_Overhead_Sunglasses</li>
+          <li>Kurin_Overhead_Gothic_Hair_Pin</li>
+          <li>Kurin_Overhead_Bikini_Armor_Headgear</li>
+          <li>Kurin_Overhead_Traditional_Hair_Pin</li>
+          <li>Kurin_Overhead_Cute_Hair_Pin</li>
+          <li>Kurin_Overhead_Military_Helmet_A</li>
+          <li>Kurin_Overhead_Military_Helmet_B</li>
+          <li>Kurin_Shell_Cardigan</li>
+          <li>Kurin_Shell_Duster</li>
+          <li>Kurin_Shell_Winter_Padding</li>
+          <li>Kurin_Stockings_White</li>
+          <li>Kurin_Stockings_Brown</li>
+          <li>Kurin_Stockings_Striped</li>
+          <li>Kurin_Stockings_Garterbelt</li>
+          <li>Kurin_Stockings_Pantyhose</li>
+          <li>Kurin_Underwear_White</li>
+          <li>Kurin_Underwear_Black</li>
+          <li>Kurin_Underwear_Red</li>
+          <li>Kurin_Underwear_Striped</li>
+          <li>Kurin_Underwear_Slim</li>
+          <li>Kimiri_OnSkin_Swimsuit_Armor</li>
+          <li>Kimiri_OnSkin_Short_Jumpsuit</li>
+        </apparelList>
+      </raceRestriction>
+    </alienRace>
+    <!--Stat Bases-->
+    <statBases>
+      <MarketValue>2625</MarketValue>
+      <MoveSpeed>5.0</MoveSpeed>
+      <Flammability>0.5</Flammability>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
+      <LeatherAmount>75</LeatherAmount>
+      <MeatAmount>135</MeatAmount>
+      <RoyalFavorValue>3</RoyalFavorValue>
+      <CarryingCapacity>75</CarryingCapacity>
+      <ToxicSensitivity>0.3</ToxicSensitivity>
+      <NegotiationAbility>1.3</NegotiationAbility>
+      <SocialImpact>1.3</SocialImpact>
+      <ImmunityGainSpeed>1.3</ImmunityGainSpeed>
+      <EatingSpeed>1.15</EatingSpeed>
+      <PlantWorkSpeed>1.3</PlantWorkSpeed>
+      <PlantHarvestYield>1.3</PlantHarvestYield>
+      <MiningSpeed>1.3</MiningSpeed>
+      <MiningYield>1.3</MiningYield>
+      <ResearchSpeed>0.15</ResearchSpeed>
+      <GlobalLearningFactor>0.7</GlobalLearningFactor>
+    </statBases>
+    <!--Tools-->
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.3</chanceFactor>
+        <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+        <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+      </li>
+      <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>3</cooldownTime>
+        <linkedBodyPartsGroup>Kimiri_Tail</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>24</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>left horn</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right horn</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <!--Race-->
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>120</lifeExpectancy>
+      <useLeatherFrom>Human</useLeatherFrom>
+      <useMeatFrom>Human</useMeatFrom>
+      <nameGenerator>Kurin_NamerPerson_Male</nameGenerator>
+      <nameGeneratorFemale>Kurin_NamerPerson_Female</nameGeneratorFemale>
+      <hasGenders>true</hasGenders>
+      <body>Kimiri</body>
+      <baseBodySize>0.9</baseBodySize>
+      <baseHealthScale>2</baseHealthScale>
+      <baseHungerRate>0.9</baseHungerRate>
+      <foodType>OmnivoreHuman, OmnivoreAnimal, AnimalProduct, VegetarianRoughAnimal</foodType>
+      <gestationPeriodDays>48</gestationPeriodDays>
+      <meatMarketValue>0.8</meatMarketValue>
+      <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14, 0)</li>
+          <li>(16, 128)</li>
+          <li>(30, 64)</li>
+          <li>(40, 32)</li>
+          <li>(50, 16)</li>
+          <li>(60, 8)</li>
+          <li>(70, 4)</li>
+          <li>(80, 2)</li>
+          <li>(90, 1)</li>
+          <li>(100, 0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+        <li>Human</li>
+      </hediffGiverSets>
+    </race>
+    <!--Recipes-->
+    <recipes>
+      <li>Kimiri_InstallBionicEar</li>
+      <li>Kimiri_InstallBionicTail</li>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+      <li>CureScaria</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+    </recipes>
+    <!--Сomps-->
+    <comps />
+  </AlienRace.ThingDef_AlienRace>
+</Defs>

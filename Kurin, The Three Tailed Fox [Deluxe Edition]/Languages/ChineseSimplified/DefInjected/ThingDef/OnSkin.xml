@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tear 2 -->
+
+  <Kimiri_OnSkin_Short_Jumpsuit.label>奇龙连身短裤</Kimiri_OnSkin_Short_Jumpsuit.label>
+  <Kimiri_OnSkin_Short_Jumpsuit.description>自由舒适的连身裤适合任何季节，所以颇受奇龙的欢迎。</Kimiri_OnSkin_Short_Jumpsuit.description>
+
+
+  <!-- Tear 3 -->
+
+  <Kimiri_OnSkin_Swimsuit_Armor.label>奇龙泳装盔甲</Kimiri_OnSkin_Swimsuit_Armor.label>
+  <Kimiri_OnSkin_Swimsuit_Armor.description>奇龙喜欢泳装，所以盔甲也是泳装的形状。腿上的潜在伤口并不会困扰他们，因为美丽是需要代价的！</Kimiri_OnSkin_Swimsuit_Armor.description>
+
+
+  <!-- Tear 1 -->
+
+  <Kurin_OnSkin_Shirt.label>魅狐衬衫</Kurin_OnSkin_Shirt.label>
+  <Kurin_OnSkin_Shirt.description>有领口和纽扣的稍微有点大的衬衫，只要天气不热都可以穿。</Kurin_OnSkin_Shirt.description>
+
+  <Kurin_OnSkin_T_Shirt.label>魅狐T恤衫</Kurin_OnSkin_T_Shirt.label>
+  <Kurin_OnSkin_T_Shirt.description>适合炎热夏天穿的t恤。</Kurin_OnSkin_T_Shirt.description>
+
+  <Kurin_Legs_Shorts.label>魅狐短裤</Kurin_Legs_Shorts.label>
+  <Kurin_Legs_Shorts.description>舒适实用的魅狐短裤。</Kurin_Legs_Shorts.description>
+
+  <Kurin_Legs_Pants.label>魅狐长裤</Kurin_Legs_Pants.label>
+  <Kurin_Legs_Pants.description>舒适实用的魅狐长裤。</Kurin_Legs_Pants.description>
+
+
+  <!-- Tear 2 -->
+
+  <Kurin_OnSkin_Hot_Pants.label>魅狐热裤</Kurin_OnSkin_Hot_Pants.label>
+  <Kurin_OnSkin_Hot_Pants.description>轻便的热裤。在阳光强烈的，为了不让皮肤晒黑，防晒霜是必须的。</Kurin_OnSkin_Hot_Pants.description>
+
+  <Kurin_OnSkin_Pajama_A.label>魅狐睡衣A</Kurin_OnSkin_Pajama_A.label>
+  <Kurin_OnSkin_Pajama_A.description>一款非常舒适的睡衣。患有失眠症的魅狐也能保证一夜好眠。</Kurin_OnSkin_Pajama_A.description>
+
+  <Kurin_OnSkin_Pajama_B.label>魅狐睡衣B</Kurin_OnSkin_Pajama_B.label>
+  <Kurin_OnSkin_Pajama_B.description>一款非常舒适的睡衣。患有失眠症的魅狐也能保证一夜好眠。</Kurin_OnSkin_Pajama_B.description>
+
+  <Kurin_OnSkin_Pajama_C.label>魅狐睡衣C</Kurin_OnSkin_Pajama_C.label>
+  <Kurin_OnSkin_Pajama_C.description>一款非常舒适的睡衣。患有失眠症的魅狐也能保证一夜好眠。</Kurin_OnSkin_Pajama_C.description>
+
+  <Kurin_OnSkin_One_Piece_Dress.label>魅狐连衣裙</Kurin_OnSkin_One_Piece_Dress.label>
+  <Kurin_OnSkin_One_Piece_Dress.description>一件舒适轻便的连衣裙。看起来很清纯！</Kurin_OnSkin_One_Piece_Dress.description>
+
+  <Kurin_OnSkin_Open_Back_Knit.label>魅狐露背针织衫</Kurin_OnSkin_Open_Back_Knit.label>
+  <Kurin_OnSkin_Open_Back_Knit.description>有一个面开得很大的针织衫。魅狐们正在讨论该怎么穿这件衣服。</Kurin_OnSkin_Open_Back_Knit.description>
+
+  <Kurin_OnSkin_Open_Front_Knit.label>魅狐露胸针织衫</Kurin_OnSkin_Open_Front_Knit.label>
+  <Kurin_OnSkin_Open_Front_Knit.description>有一个面开得很大的针织衫。魅狐们正在讨论该怎么穿这件衣服。</Kurin_OnSkin_Open_Front_Knit.description>
+
+  <Kurin_OnSkin_Open_Shoulder_Knit.label>魅狐露肩针织衫</Kurin_OnSkin_Open_Shoulder_Knit.label>
+  <Kurin_OnSkin_Open_Shoulder_Knit.description>可爱的露肩针织衫。它很舒服，很柔软，所以穿着有可能打瞌睡。</Kurin_OnSkin_Open_Shoulder_Knit.description>
+
+  <Kurin_OnSkin_Hoodie.label>魅狐连帽衫</Kurin_OnSkin_Hoodie.label>
+  <Kurin_OnSkin_Hoodie.description>方便活动的大尺寸连帽衫。</Kurin_OnSkin_Hoodie.description>
+
+  <Kurin_OnSkin_Casual_Wear.label>魅狐休闲装</Kurin_OnSkin_Casual_Wear.label>
+  <Kurin_OnSkin_Casual_Wear.description>在魅狐中流行的休闲装。兼具了舒适性和时尚性。</Kurin_OnSkin_Casual_Wear.description>
+
+
+  <!-- Tear 3 -->
+
+  <Kurin_OnSkin_Armored_Gothic_Dress.label>魅狐哥特式裙甲</Kurin_OnSkin_Armored_Gothic_Dress.label>
+  <Kurin_OnSkin_Armored_Gothic_Dress.description>哥特式礼服加上衬裙制作的衣服。兼具了防御和美观。</Kurin_OnSkin_Armored_Gothic_Dress.description>
+
+  <Kurin_OnSkin_Gothic_Dress.label>魅狐哥特式裙</Kurin_OnSkin_Gothic_Dress.label>
+  <Kurin_OnSkin_Gothic_Dress.description>一件哥特式连衣裙。无论何时何地都显得古色古香。</Kurin_OnSkin_Gothic_Dress.description>
+
+  <Kurin_OnSkin_Bikini_Armor.label>魅狐比基尼盔甲</Kurin_OnSkin_Bikini_Armor.label>
+  <Kurin_OnSkin_Bikini_Armor.description>明明用了很多材料制作而成，但看起来却那么简陋。虽然看起来简陋但它非常结实，可以大大提高穿戴者的近距离战斗力。</Kurin_OnSkin_Bikini_Armor.description>
+
+  <Kurin_OnSkin_Nun_Dress.label>魅狐修女服</Kurin_OnSkin_Nun_Dress.label>
+  <Kurin_OnSkin_Nun_Dress.description>一款非常规设计的修女服。</Kurin_OnSkin_Nun_Dress.description>
+
+  <Kurin_OnSkin_Work_Jumpsuit.label>魅狐工作服</Kurin_OnSkin_Work_Jumpsuit.label>
+  <Kurin_OnSkin_Work_Jumpsuit.description>在红狐军械库工作的工程师制服。它有着用于存放各种工具和零件的口袋，由不受油或火花损坏或污染的材料制成，有利于工作。</Kurin_OnSkin_Work_Jumpsuit.description>
+
+  <Kurin_OnSkin_Traditional_Simple_Dress.label>魅狐传统服饰（朴素）</Kurin_OnSkin_Traditional_Simple_Dress.label>
+  <Kurin_OnSkin_Traditional_Simple_Dress.description>魅狐的传统服饰，纯白的裙子搭配粉红色的衬衫。</Kurin_OnSkin_Traditional_Simple_Dress.description>
+
+  <Kurin_OnSkin_Traditional_Fancy_Dress.label>魅狐传统服饰（华丽）</Kurin_OnSkin_Traditional_Fancy_Dress.label>
+  <Kurin_OnSkin_Traditional_Fancy_Dress.description>魅狐的传统服饰，蓝色裙子和带点的白衬衫。</Kurin_OnSkin_Traditional_Fancy_Dress.description>
+
+  <Kurin_OnSkin_Traditional_Luxury_Dress.label>魅狐传统服饰（奢华）</Kurin_OnSkin_Traditional_Luxury_Dress.label>
+  <Kurin_OnSkin_Traditional_Luxury_Dress.description>魅狐的传统服饰，棕色透视裙和衬衫给人留下深刻印象。</Kurin_OnSkin_Traditional_Luxury_Dress.description>
+
+  <Kurin_OnSkin_Cute_Dress.label>魅狐可爱服饰</Kurin_OnSkin_Cute_Dress.label>
+  <Kurin_OnSkin_Cute_Dress.description>非常可爱的服饰。在愉快的庆典时经常穿。</Kurin_OnSkin_Cute_Dress.description>
+
+  <Kurin_OnSkin_Seductive_White_Dress.label>魅狐白色旗袍</Kurin_OnSkin_Seductive_White_Dress.label>
+  <Kurin_OnSkin_Seductive_White_Dress.description>一件非常诱人的白色旗袍，搭配一条开襟裙。</Kurin_OnSkin_Seductive_White_Dress.description>
+
+  <Kurin_OnSkin_Seductive_Black_Dress.label>魅狐黑色旗袍</Kurin_OnSkin_Seductive_Black_Dress.label>
+  <Kurin_OnSkin_Seductive_Black_Dress.description>一件非常诱人的黑色旗袍，搭配一条开襟裙。</Kurin_OnSkin_Seductive_Black_Dress.description>
+
+
+  <!-- Tear 4 -->
+
+  <Kurin_OnSkin_Military_Uniform.label>魅狐军装</Kurin_OnSkin_Military_Uniform.label>
+  <Kurin_OnSkin_Military_Uniform.description>装有防弹板的战斗军服。轻便又温暖，并提供强大的防御能力。其符合人体工程学设计的结构也大大提高了穿戴者的远程战斗力。</Kurin_OnSkin_Military_Uniform.description>
+
+
+  <!-- Tear 5 -->
+
+  <Kurin_OnSkin_Spacer_Crew_Suit.label>魅狐宇航服</Kurin_OnSkin_Spacer_Crew_Suit.label>
+  <Kurin_OnSkin_Spacer_Crew_Suit.description>魅狐共和国星际巡洋舰的船员们穿着这些套装。它又舒适又性感，质量还优于任何其他魅狐服饰。</Kurin_OnSkin_Spacer_Crew_Suit.description>
+
+
+</LanguageData>

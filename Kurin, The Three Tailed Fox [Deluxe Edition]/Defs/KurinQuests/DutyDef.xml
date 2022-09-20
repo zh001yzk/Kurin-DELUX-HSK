@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DutyDef>
+    <defName>KurinHostagesCamp_ChillingDuty</defName>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_TakeCombatEnhancingDrug">
+          <onlyIfInDanger>true</onlyIfInDanger>
+        </li>
+        <li Class="JobGiver_AIDefendPoint">
+          <targetAcquireRadius>65</targetAcquireRadius>
+          <targetKeepRadius>72</targetKeepRadius>
+        </li>
+        <li Class="ThinkNode_ForbidOutsideFlagRadius">
+          <maxDistToSquadFlag>16</maxDistToSquadFlag>
+          <subNodes>
+            <li Class="ThinkNode_Subtree">
+              <treeDef>SatisfyBasicNeedsAndWork</treeDef>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="JobGiver_WanderCurrentRoom">
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  <DutyDef>
+    <defName>KurinCampAssault_AssaultDuty</defName>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_TakeCombatEnhancingDrug" />
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.JobGiver_AIFightEnemies_KurinCampAssault">
+          <targetAcquireRadius>65</targetAcquireRadius>
+          <targetKeepRadius>72</targetKeepRadius>
+        </li>
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.ThinkNode_JobGiver_GoToNearestEnemy" />
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.JobGiver_AISapper_KurinCampAssault">
+          <canMineNonMineables>false</canMineNonMineables>
+        </li>
+      </subNodes>
+    </thinkNode>
+    <constantThinkNode Class="ThinkNode_ConditionalCanPickupOpportunisticWeapon">
+      <subNodes>
+        <li Class="JobGiver_PickUpOpportunisticWeapon" />
+      </subNodes>
+    </constantThinkNode>
+  </DutyDef>
+  <DutyDef>
+    <defName>KurinCampAssault_DefendDuty</defName>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_TakeCombatEnhancingDrug">
+          <onlyIfInDanger>true</onlyIfInDanger>
+        </li>
+        <li Class="JobGiver_AIDefendPoint">
+          <targetAcquireRadius>80</targetAcquireRadius>
+          <targetKeepRadius>80</targetKeepRadius>
+        </li>
+        <li Class="JobGiver_FightFiresNearPoint">
+          <maxDistFromPoint>40</maxDistFromPoint>
+        </li>
+        <li Class="ThinkNode_ForbidOutsideFlagRadius">
+          <maxDistToSquadFlag>16</maxDistToSquadFlag>
+          <subNodes>
+            <li Class="ThinkNode_Subtree">
+              <treeDef>SatisfyBasicNeedsAndWork</treeDef>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="JobGiver_SelfTend" />
+        <li Class="JobGiver_WanderNearDutyLocation">
+          <wanderRadius>8</wanderRadius>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  <DutyDef>
+    <defName>KurinCampAssault_RetreatDuty</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_TakeWoundedGuest" />
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.ThinkNode_JobGiver_TakeBestThing" />
+        <li Class="JobGiver_AIDefendSelf">
+          <targetAcquireRadius>35</targetAcquireRadius>
+          <targetKeepRadius>40</targetKeepRadius>
+        </li>
+        <li Class="JobGiver_ExitMapBest">
+          <defaultLocomotion>Jog</defaultLocomotion>
+          <jobMaxDuration>500</jobMaxDuration>
+          <forceCanDigIfAnyHostileActiveThreat>true</forceCanDigIfAnyHostileActiveThreat>
+          <forceCanDigIfCantReachMapEdge>true</forceCanDigIfCantReachMapEdge>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+  <DutyDef>
+    <defName>KurinCampAssault_PlunderDuty</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.ThinkNode_JobGiver_DestroyTurrets" />
+        <li Class="JobGiver_TakeWoundedGuest" />
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.ThinkNode_JobGiver_Kidnap" />
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.ThinkNode_JobGiver_DestroyDoors" />
+        <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.ThinkNode_JobGiver_TakeBestThing" />
+        <li Class="JobGiver_AIDefendSelf">
+          <targetAcquireRadius>35</targetAcquireRadius>
+          <targetKeepRadius>40</targetKeepRadius>
+        </li>
+        <li Class="JobGiver_ExitMapBest">
+          <defaultLocomotion>Jog</defaultLocomotion>
+          <jobMaxDuration>500</jobMaxDuration>
+          <forceCanDigIfAnyHostileActiveThreat>true</forceCanDigIfAnyHostileActiveThreat>
+          <forceCanDigIfCantReachMapEdge>true</forceCanDigIfCantReachMapEdge>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+</Defs>

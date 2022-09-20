@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>Kurin_MeleeWeapon_Katana</defName>
+    <label>魅狐武士刀</label>
+    <description>传说中的魅狐之刃的复制品。在魅狐的中世纪时期，有一种佩戴这种刀的战士。其中有个战士历经险难、长途跋涉拯救了主君，于是他的名字被铭刻在魅狐的历史上。\n\n刀的名字是？ “楔丸”。</description>
+    <graphicData>
+      <texPath>Kurin/Weapon/Katana/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <soundInteract>Kurin_Sound_Katana_Interact</soundInteract>
+    <weaponTags Inherit="False">
+      <li>Kurin_Katana</li>
+    </weaponTags>
+    <costStuffCount>100</costStuffCount>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>2.1</Mass>
+      <Bulk>5.00</Bulk>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>0.80</cooldownTime>
+        <chanceFactor>0.10</chanceFactor>
+        <armorPenetrationBlunt>6</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <chanceFactor>0.50</chanceFactor>
+        <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+        <armorPenetrationSharp>10</armorPenetrationSharp>
+        <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>1.5</cooldownTime>
+        <chanceFactor>0.50</chanceFactor>
+        <armorPenetrationBlunt>8</armorPenetrationBlunt>
+        <armorPenetrationSharp>11</armorPenetrationSharp>
+        <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <equippedStatOffsets>
+      <MeleeCritChance>1.5</MeleeCritChance>
+      <MeleeParryChance>0.45</MeleeParryChance>
+      <MeleeDodgeChance>0.45</MeleeDodgeChance>
+    </equippedStatOffsets>
+    <recipeMaker>
+      <researchPrerequisite>Kurin_WeaponT1</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>11</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>Kurin_Weapon_Melee</li>
+    </thingCategories>
+  </ThingDef>
+  <SoundDef>
+    <defName>Kurin_Sound_Katana_Interact</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Kurin/Katana_Interact</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

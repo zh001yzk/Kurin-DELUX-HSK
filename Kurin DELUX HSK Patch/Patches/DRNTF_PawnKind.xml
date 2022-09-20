@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Pawns</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/PawnKindDef[
+						@ParentName="Kurin_NPCBase" or 
+						@ParentName="Kurin_NPCBase_UFU"]/apparelTags[li="Kurin_Military"]/../apparelRequired</xpath>
+					<value>
+						<li>Kurin_Backpack_Military</li>
+					</value>
+				</li>
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/PawnKindDef[
+					@ParentName="Kurin_NPCBase" or 
+					@ParentName="Kurin_NPCBase_UFU"]</xpath>
+				<value>
+					<li Class="CombatExtended.LoadoutPropertiesExtension">
+						<primaryMagazineCount>
+							<min>4</min>
+							<max>6</max>
+						</primaryMagazineCount>
+						<sidearms>
+							<li>
+								<generateChance>0.5</generateChance>
+								<sidearmMoney>
+									<min>20</min>
+									<max>120</max>
+								</sidearmMoney>
+								<weaponTags>
+									<li>CE_Sidearm_Melee</li>
+								</weaponTags>
+							</li>
+						</sidearms>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Vigilante" or
+					defName="Kurin_Vigilante_UFU"]/weaponTags</xpath>
+				<value>
+					<weaponTags>
+						<li>CE_AI_Pistol</li>
+					</weaponTags>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Vigilante"]/weaponMoney/text()</xpath>
+				<value>1400~2000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Trader"]/weaponMoney/text()</xpath>
+				<value>1400~2000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Elite"]/weaponMoney/text()</xpath>
+				<value>2000~2200</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Soldier"]/weaponMoney/text()</xpath>
+				<value>2000~4000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Sniper"]/weaponMoney/text()</xpath>
+				<value>4500~5000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Grenadier"]/weaponMoney/text()</xpath>
+				<value>4500~5000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Flamethrower"]/weaponMoney/text()</xpath>
+				<value>7500~8000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Commander"]/weaponMoney/text()</xpath>
+				<value>3200~7200</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Elite_Soldier"]/weaponMoney/text()</xpath>
+				<value>13000~14000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Fox_In_Black"]/weaponMoney/text()</xpath>
+				<value>1500~2000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Refugee"]/weaponMoney/text()</xpath>
+				<value>400~1000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Vigilante_UFU"]/weaponMoney/text()</xpath>
+				<value>1400~2000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Trader_UFU"]/weaponMoney/text()</xpath>
+				<value>1500~2000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Elite_UFU"]/weaponMoney/text()</xpath>
+				<value>2000~3200</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Soldier_UFU"]/weaponMoney/text()</xpath>
+				<value>2000~3000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Sniper_UFU"]/weaponMoney/text()</xpath>
+				<value>13600~15000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Grenadier_UFU"]/weaponMoney/text()</xpath>
+				<value>4400~5000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Flamethrower_UFU"]/weaponMoney/text()</xpath>
+				<value>7500~10000</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Kurin_Commander_UFU"]/weaponMoney/text()</xpath>
+				<value>3200~3600</value>
+			</li>
+
+			<li Class="PatchOperation.LogText">
+				<value>Finished</value>
+			</li>
+		</operations>
+		</match>
+	</Operation>
+</Patch>

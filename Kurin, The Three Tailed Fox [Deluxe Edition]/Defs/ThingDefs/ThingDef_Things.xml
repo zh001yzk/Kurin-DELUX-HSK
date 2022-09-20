@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MealCooked">
+    <defName>Kurin_Cake</defName>
+    <label>魅狐蛋糕</label>
+    <description>库林斯的蛋糕。\n\n-妈妈，我们为什么要挣扎？几乎每个人都恨我们，我们从不可避免的结局逃跑。我们怎能与如此强大的人类军队作战？\n\n-保持警惕，孩子。"고생 끝에 낙이 온다“.我们像龙一样，从一条小溪中崛起，只要我们在一起，就没有什么可以打破我们。\n\n-但我们并没有全部撤离！还有那些被留在后面的人。\n\n-他们留在我们的星球上，让我们能够逃脱。胜利需要付出代价。每一次，你都会付出更多。他们牺牲了自己的生命，希望我们能够恢复我们的物种，所以我们会这样做！\n\n\n three基本的库林格言：\n&lt;color=aqua&gt;“联合国大学专业综合课程，全世界专业综合课程”（一对一，一对一）\n“我们必须知道-我们将知道”\n“军事生活”（生活就是战斗）&lt;/color&gt;</description>
+    <graphicData>
+      <texPath>Kurin/Thing/Cake/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>10</Beauty>
+      <MarketValue>30</MarketValue>
+      <Nutrition>0.9</Nutrition>
+      <Mass>0.4</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <foodType>Meal</foodType>
+      <joy>0.5</joy>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <joyKind>Gluttonous</joyKind>
+      <ingestSound>Meal_Eat</ingestSound>
+      <ingestEffect>EatVegetarian</ingestEffect>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>Kurin_Ultra_Component</defName>
+    <label>魅狐超组分</label>
+    <description>老实说，“法律上”库林斯的技术水平介于中间世界和闪光世界之间，但事实上他们的上限高于闪光世界的上限。为什么库尔德人拥有如此先进的技术？他们有很好的工业间谍和先进的情报。库林人的规模和影响力迅速增长，一些人类世界对此非常恐惧，他们开始限制和压制库林金德人，之前的协议被打破，事件升级为经济战争，升级为军事对抗，迫使库林人离开自己的家园。如果他们不这样做，他们就会被彻底摧毁和奴役。\n\n诉讼费用。每次你多付一点钱。</description>
+    <graphicData>
+      <texPath>Kurin/Thing/Ultra_Component/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <techLevel>Ultra</techLevel>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>1000</MarketValue>
+      <Mass>12.36</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <allowedArchonexusCount>0</allowedArchonexusCount>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>inoshishi3.kttfde</li>
+			<li>skyarkhangel.hsk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperation.LogText">
+					<value>Patching Kurin Recipes</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/RecipeDef[
+						@Name="Kurin_MakeTableMachiningBase" or
+						@Name="Kurin_MakeFabricatorBase" or
+						@ParentName="Kurin_MakeTableMachiningBase" or
+						@ParentName="Kurin_MakeFabricatorBase" or
+						@ParentName="Kurin_MakeFabricatorTool" or
+						@ParentName="Kurin_MakeFabricatorAdvancedArmor" or
+						@ParentName="Kurin_MakeFabricatorAdvancedTool" or
+						@ParentName="Kurin_MakeFabricatorBionic" or
+						@ParentName="Kurin_MakeFabricatorWeapon" or
+						@ParentName="Kurin_MakeFabricatorTextile" or
+						@ParentName="Kurin_MakeFabricatorPack"]</xpath>
+				</li>
+				<li Class="PatchOperation.LogText">
+					<value>Finished</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

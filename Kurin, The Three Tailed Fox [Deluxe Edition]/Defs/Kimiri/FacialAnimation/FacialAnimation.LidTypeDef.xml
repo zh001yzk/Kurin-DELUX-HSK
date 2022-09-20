@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.LidTypeDef>
+    <defName>Kimiri_Lid_A</defName>
+    <texPath>Kimiri/Face/Lids/A</texPath>
+    <raceName>Kimiri</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <!-- <gender>Female</gender> -->
+  </FacialAnimation.LidTypeDef>
+  <!--================================================== OBSOLETE (old eyes by LidTypeDef) ==================================================-->
+  <!--
+<FacialAnimation.LidTypeDef>
+	<defName>Kimiri_Eye_Pink</defName>
+	<texPath>Kimiri/Face/Eyes/Pink</texPath>
+	<raceName>Kimiri</raceName>
+	<shader>Map/CutoutComplex</shader>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kimiri_Eye_Turquoise</defName>
+	<texPath>Kimiri/Face/Eyes/Turquoise</texPath>
+	<raceName>Kimiri</raceName>
+	<shader>Map/CutoutComplex</shader>
+</FacialAnimation.LidTypeDef>
+
+<FacialAnimation.LidTypeDef>
+	<defName>Kimiri_Eye_Violet</defName>
+	<texPath>Kimiri/Face/Eyes/Violet</texPath>
+	<raceName>Kimiri</raceName>
+	<shader>Map/CutoutComplex</shader>
+</FacialAnimation.LidTypeDef>
+-->
+</Defs>

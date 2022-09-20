@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+<SoundDef>
+	<defName>Pawn_Fox_Injured</defName>
+	<context>MapOnly</context>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Pawn_Fox_Injured</clipFolderPath>
+				</li>
+			</grains>
+			<volumeRange>20~33</volumeRange>
+			<distRange>0~50</distRange>
+			<sustainLoop>False</sustainLoop>
+			<muteWhenPaused>True</muteWhenPaused>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>Pawn_Fox_Death</defName>
+	<context>MapOnly</context>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Pawn_Fox_Death</clipFolderPath>
+				</li>
+			</grains>
+			<volumeRange>20~33</volumeRange>
+			<distRange>0~50</distRange>
+			<sustainLoop>False</sustainLoop>
+			<muteWhenPaused>True</muteWhenPaused>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>Pawn_Fox_Call</defName>
+	<context>MapOnly</context>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Pawn_Fox_Call</clipFolderPath>
+				</li>
+				</grains>
+			<volumeRange>20~25</volumeRange>
+			<distRange>0~50</distRange>
+			<sustainLoop>False</sustainLoop>
+			<muteWhenPaused>True</muteWhenPaused>
+		</li>
+	</subSounds>
+</SoundDef>
+
+<SoundDef>
+	<defName>Pawn_Fox_Angry</defName>
+	<context>MapOnly</context>
+	<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Pawn_Fox_Angry</clipFolderPath>
+				</li>
+			</grains>
+			<volumeRange>20~25</volumeRange>
+			<distRange>0~70</distRange>
+			<sustainLoop>False</sustainLoop>
+			<muteWhenPaused>True</muteWhenPaused>
+		</li>
+	</subSounds>
+</SoundDef>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="ThingBaseFox"]/race/lifeStageAges</xpath>
+		<value>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3333</minAge>
+          <soundWounded>Pawn_Fox_Injured</soundWounded>
+          <soundDeath>Pawn_Fox_Death</soundDeath>
+          <soundCall>Pawn_Fox_Call</soundCall>
+          <soundAngry>Pawn_Fox_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Kurin_Noose_Trap</defName>
+    <label>魅狐套索陷阱</label>
+    <description>魅狐的特殊套索陷阱，可以用少量的材料快速制作。陷阱激活时会束缚住受害者，但对大型敌人和机械生物没有作用。</description>
+    <thingClass>KurinDeluxeEdition.Building_Trap_KurinNooseTrap</thingClass>
+    <graphicData>
+      <texPath>Kurin/Building/Noose_Trap/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <damageData>
+        <rect>(0,0,1,0.15)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <Mass>4</Mass>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>800</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>-4</Beauty>
+      <TrapSpringChance>1.0</TrapSpringChance>
+    </statBases>
+    <costList>
+      <Cloth>5</Cloth>
+    </costList>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <isTrap>true</isTrap>
+      <trapDestroyOnSpring>true</trapDestroyOnSpring>
+      <expandHomeArea>false</expandHomeArea>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentTrap</li>
+    </placeWorkers>
+  </ThingDef>
+  <HediffDef ParentName="DiseaseBase">
+    <defName>Kurin_Noose_Trap_Hediff</defName>
+    <label>被套索缠住</label>
+    <labelNoun>套索</labelNoun>
+    <description>被套索缠住</description>
+    <defaultLabelColor>(0.84, 0.66, 0.60)</defaultLabelColor>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>8000</min>
+          <max>10000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

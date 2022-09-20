@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Surigum.label>魅狐手里剑</Kurin_Gun_Surigum.label>
+  <Kurin_Gun_Surigum.description>匕首形式的手里剑。范围有限但仍可进行远程攻击。</Kurin_Gun_Surigum.description>
+  <Kurin_Gun_Surigum.tools.0.label>剑身</Kurin_Gun_Surigum.tools.0.label>
+
+  <Kurin_Bullet_Surigum.label>手里剑</Kurin_Bullet_Surigum.label>
+
+
+</LanguageData>

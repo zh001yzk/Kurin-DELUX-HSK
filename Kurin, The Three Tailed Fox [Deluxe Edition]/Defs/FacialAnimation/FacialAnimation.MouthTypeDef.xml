@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FacialAnimation.MouthTypeDef>
+    <defName>Kurin_Mouth</defName>
+    <texPath>Kurin/Face/Mouth</texPath>
+    <raceName>Kurin</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+  <FacialAnimation.MouthTypeDef>
+    <defName>Kurin_One_Tailed_Mouth</defName>
+    <texPath>Kurin/Face/Mouth</texPath>
+    <raceName>Kurin_One_Tailed</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+</Defs>

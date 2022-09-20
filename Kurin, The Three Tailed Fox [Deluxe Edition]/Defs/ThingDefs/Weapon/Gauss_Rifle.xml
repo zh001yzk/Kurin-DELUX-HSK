@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12mmRailgunK</defName>
+    <label>12mm轨道炮K</label>
+    <ammoTypes>
+      <Ammo_12mmRailgun_Sabot>Bullet_12mmRailgun_K_Sabot</Ammo_12mmRailgun_Sabot>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ================== Projectiles ================== -->
+  <!--<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_12mmRailgun_K_Sabot</defName>
+		<label>12mm Railgun bullet K (Sabot)</label>
+		<graphicData>
+			<texPath>Things/Projectile/ChargeLanceShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>40</damageAmountBase>
+			<armorPenetrationSharp>70</armorPenetrationSharp>
+			<armorPenetrationBlunt>500</armorPenetrationBlunt>
+			<speed>150</speed>
+		</projectile>
+	</ThingDef>-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Kurin_Gun_Gauss_Rifle</defName>
+    <label>魅狐高斯步枪</label>
+    <description>[FXGR-A1] - [捕食者]\n\n~ “捕食者”魅狐的一种先进而残忍的高斯步枪。</description>
+    <graphicData>
+      <texPath>Kurin/Weapon/Gauss_Rifle/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Kurin_Sound_Gauss_Rifle_Interact</soundInteract>
+    <statBases>
+      <MaxHitPoints>125</MaxHitPoints>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>5.3</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>
+    </statBases>
+    <weaponTags Inherit="False">
+      <li>Kurin_Gauss_Rifle</li>
+    </weaponTags>
+    <costList>
+      <Plasteel>35</Plasteel>
+      <Steel>35</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>Kurin_WeaponT4</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>Kurin_Weapon_Ranged</li>
+    </thingCategories>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <weaponClasses>
+      <li>LongShots</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Kurin_Bullet_Gauss_Rifle</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>40.9</range>
+        <soundCast>Kurin_Sound_Gauss_Rifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <soundAiming>Kurin_Sound_Aiming</soundAiming>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Kurin_Bullet_Gauss_Rifle</defName>
+    <label>魅狐高斯步枪子弹</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>24</damageAmountBase>
+      <armorPenetrationBase>1.15</armorPenetrationBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>130</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Charged/ChargeLanceShot</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+  </ThingDef>
+  <SoundDef>
+    <defName>Kurin_Sound_Gauss_Rifle</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Kurin/Gauss_Rifle</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Kurin_Sound_Gauss_Rifle_Interact</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Kurin/Gauss_Rifle_Interact</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

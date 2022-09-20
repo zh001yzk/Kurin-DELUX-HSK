@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_InstallFakeEar.label>安装假魅狐耳朵</Kurin_InstallFakeEar.label>
+  <Kurin_InstallFakeEar.description>安装一个假魅狐耳朵。</Kurin_InstallFakeEar.description>
+  <Kurin_InstallFakeEar.jobString>正在安装假魅狐耳朵。</Kurin_InstallFakeEar.jobString>
+
+  <Kurin_InstallFakeTail.label>安装假魅狐尾巴</Kurin_InstallFakeTail.label>
+  <Kurin_InstallFakeTail.description>安装一个假魅狐尾巴。</Kurin_InstallFakeTail.description>
+  <Kurin_InstallFakeTail.jobString>正在安装假魅狐尾巴。</Kurin_InstallFakeTail.jobString>
+
+  <Kurin_InstallBionicEar.label>安装仿生魅狐耳朵</Kurin_InstallBionicEar.label>
+  <Kurin_InstallBionicEar.description>安装一个仿生魅狐耳朵。</Kurin_InstallBionicEar.description>
+  <Kurin_InstallBionicEar.jobString>正在安装仿生魅狐耳朵。</Kurin_InstallBionicEar.jobString>
+
+  <Kurin_InstallBionicTail.label>安装仿生魅狐尾巴</Kurin_InstallBionicTail.label>
+  <Kurin_InstallBionicTail.description>安装一个仿生魅狐尾巴。</Kurin_InstallBionicTail.description>
+  <Kurin_InstallBionicTail.jobString>正在安装仿生魅狐尾巴。</Kurin_InstallBionicTail.jobString>
+
+  <Kimiri_InstallBionicEar.label>安装仿生奇龙耳朵</Kimiri_InstallBionicEar.label>
+  <Kimiri_InstallBionicEar.description>安装一个仿生奇龙耳朵。</Kimiri_InstallBionicEar.description>
+  <Kimiri_InstallBionicEar.jobString>正在安装仿生奇龙耳朵。</Kimiri_InstallBionicEar.jobString>
+
+  <Kimiri_InstallBionicTail.label>安装仿生奇龙尾巴</Kimiri_InstallBionicTail.label>
+  <Kimiri_InstallBionicTail.description>安装一个仿生奇龙尾巴。</Kimiri_InstallBionicTail.description>
+  <Kimiri_InstallBionicTail.jobString>正在安装仿生奇龙尾巴。</Kimiri_InstallBionicTail.jobString>
+
+
+</LanguageData>

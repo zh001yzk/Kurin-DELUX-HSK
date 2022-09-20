@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Trait.degreeDatas.0.label>魅狐</Kurin_Trait.degreeDatas.0.label>
+  <Kurin_Trait.degreeDatas.0.description>一只魅狐。\n\n¯\_(ツ)_/¯</Kurin_Trait.degreeDatas.0.description>
+
+  <Kurin_Trait_StrangeKurin.degreeDatas.0.label>奇怪的魅狐</Kurin_Trait_StrangeKurin.degreeDatas.0.label>
+  <Kurin_Trait_StrangeKurin.degreeDatas.0.description>奇怪的魅狐... [PAWN_nameDef]像植物一样。</Kurin_Trait_StrangeKurin.degreeDatas.0.description>
+
+  <Kurin_Trait_UpgradedKurin.degreeDatas.0.label>进化的魅狐</Kurin_Trait_UpgradedKurin.degreeDatas.0.label>
+  <Kurin_Trait_UpgradedKurin.degreeDatas.0.description>[PAWN_nameDef]参与了一项改进其遗传密码的计划。</Kurin_Trait_UpgradedKurin.degreeDatas.0.description>
+
+  <Kimiri_Trait.degreeDatas.0.label>奇龙</Kimiri_Trait.degreeDatas.0.label>
+  <Kimiri_Trait.degreeDatas.0.description>一只奇龙。\n\n¯\_(ツ)_/¯</Kimiri_Trait.degreeDatas.0.description>
+
+
+</LanguageData>

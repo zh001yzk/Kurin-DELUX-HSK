@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SongDef>
+    <defName>Kurin_Credits_Song</defName>
+    <playOnMap>false</playOnMap>
+    <clipPath>Kurin/Credits_Song</clipPath>
+    <volume>1.05</volume>
+  </SongDef>
+</Defs>

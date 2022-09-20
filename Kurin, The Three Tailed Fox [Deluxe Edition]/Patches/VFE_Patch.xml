@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Light_Streetlamp"]/comps/li[@Class="CompProperties_Glower"]/glowColor</xpath>
+					<value>
+						<glowColor>(217,217,208,0)</glowColor>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="Table_LightEndTable"]/comps</xpath>
+					<value>
+						<li Class="CompProperties_Flickable"/>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

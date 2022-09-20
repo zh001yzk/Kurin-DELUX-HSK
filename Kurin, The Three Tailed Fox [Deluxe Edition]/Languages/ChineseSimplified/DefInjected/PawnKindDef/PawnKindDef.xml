@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 플레이어펙션 -->
+
+  <Kimiri_Colonist.label>奇龙殖民者</Kimiri_Colonist.label>
+  <Kimiri_Colonist.labelPlural>奇龙殖民者</Kimiri_Colonist.labelPlural>
+  <Kimiri_Colonist.labelMale>男性 奇龙殖民者</Kimiri_Colonist.labelMale>
+  <Kimiri_Colonist.labelMalePlural>男性 奇龙殖民者</Kimiri_Colonist.labelMalePlural>
+  <Kimiri_Colonist.labelFemale>女性 奇龙殖民者</Kimiri_Colonist.labelFemale>
+  <Kimiri_Colonist.labelFemalePlural>女性 奇龙殖民者</Kimiri_Colonist.labelFemalePlural>
+
+
+  <!-- 시민 -->
+
+  <Kimiri_Citizen.label>奇龙公民</Kimiri_Citizen.label>
+  <Kimiri_Citizen.labelPlural>奇龙公民</Kimiri_Citizen.labelPlural>
+  <Kimiri_Citizen.labelMale>男性 奇龙公民</Kimiri_Citizen.labelMale>
+  <Kimiri_Citizen.labelMalePlural>男性 奇龙公民</Kimiri_Citizen.labelMalePlural>
+  <Kimiri_Citizen.labelFemale>女性 奇龙公民</Kimiri_Citizen.labelFemale>
+  <Kimiri_Citizen.labelFemalePlural>女性 奇龙公民</Kimiri_Citizen.labelFemalePlural>
+
+
+  <!-- 엘리트 -->
+
+  <Kimiri_Elite.label>奇龙精英</Kimiri_Elite.label>
+  <Kimiri_Elite.labelPlural>奇龙精英</Kimiri_Elite.labelPlural>
+  <Kimiri_Elite.labelMale>男性 奇龙精英</Kimiri_Elite.labelMale>
+  <Kimiri_Elite.labelMalePlural>男性 奇龙精英</Kimiri_Elite.labelMalePlural>
+  <Kimiri_Elite.labelFemale>女性 奇龙精英</Kimiri_Elite.labelFemale>
+  <Kimiri_Elite.labelFemalePlural>女性 奇龙精英</Kimiri_Elite.labelFemalePlural>
+
+
+  <!-- 군인 (분대원) -->
+
+  <Kimiri_Swordsman.label>奇龙陆军剑兵</Kimiri_Swordsman.label>
+  <Kimiri_Swordsman.labelPlural>奇龙陆军剑兵</Kimiri_Swordsman.labelPlural>
+  <Kimiri_Swordsman.labelMale>男性 奇龙陆军剑兵</Kimiri_Swordsman.labelMale>
+  <Kimiri_Swordsman.labelMalePlural>男性 奇龙陆军剑兵</Kimiri_Swordsman.labelMalePlural>
+  <Kimiri_Swordsman.labelFemale>女性 奇龙陆军剑兵</Kimiri_Swordsman.labelFemale>
+  <Kimiri_Swordsman.labelFemalePlural>女性 奇龙陆军剑兵</Kimiri_Swordsman.labelFemalePlural>
+
+
+  <!-- 군인 (분대장) -->
+
+  <Kimiri_Elite_Swordsman.label>奇龙陆军精英剑兵</Kimiri_Elite_Swordsman.label>
+  <Kimiri_Elite_Swordsman.labelPlural>奇龙陆军精英剑兵</Kimiri_Elite_Swordsman.labelPlural>
+  <Kimiri_Elite_Swordsman.labelMale>男性 奇龙陆军精英剑兵</Kimiri_Elite_Swordsman.labelMale>
+  <Kimiri_Elite_Swordsman.labelMalePlural>男性 奇龙陆军精英剑兵</Kimiri_Elite_Swordsman.labelMalePlural>
+  <Kimiri_Elite_Swordsman.labelFemale>女性 奇龙陆军精英剑兵</Kimiri_Elite_Swordsman.labelFemale>
+  <Kimiri_Elite_Swordsman.labelFemalePlural>女性 奇龙陆军精英剑兵</Kimiri_Elite_Swordsman.labelFemalePlural>
+
+
+  <!-- 견습생 -->
+
+  <Kimiri_Probationer.label>奇龙缓刑犯</Kimiri_Probationer.label>
+  <Kimiri_Probationer.labelPlural>奇龙缓刑犯</Kimiri_Probationer.labelPlural>
+  <Kimiri_Probationer.labelMale>男性 奇龙缓刑犯</Kimiri_Probationer.labelMale>
+  <Kimiri_Probationer.labelMalePlural>男性 奇龙缓刑犯</Kimiri_Probationer.labelMalePlural>
+  <Kimiri_Probationer.labelFemale>女性 奇龙缓刑犯</Kimiri_Probationer.labelFemale>
+  <Kimiri_Probationer.labelFemalePlural>女性 奇龙缓刑犯</Kimiri_Probationer.labelFemalePlural>
+
+
+  <!-- 플레이어펙션 -->
+
+  <Kurin_Colonist.label>魅狐殖民者</Kurin_Colonist.label>
+  <Kurin_Colonist.labelPlural>魅狐殖民者</Kurin_Colonist.labelPlural>
+  <Kurin_Colonist.labelMale>男性 魅狐殖民者</Kurin_Colonist.labelMale>
+  <Kurin_Colonist.labelMalePlural>男性 魅狐殖民者</Kurin_Colonist.labelMalePlural>
+  <Kurin_Colonist.labelFemale>女性 魅狐殖民者</Kurin_Colonist.labelFemale>
+  <Kurin_Colonist.labelFemalePlural>女性 魅狐殖民者</Kurin_Colonist.labelFemalePlural>
+
+
+  <!-- 시민 -->
+
+  <Kurin_Citizen.label>魅狐公民</Kurin_Citizen.label>
+  <Kurin_Citizen.labelPlural>魅狐公民</Kurin_Citizen.labelPlural>
+  <Kurin_Citizen.labelMale>男性 魅狐公民</Kurin_Citizen.labelMale>
+  <Kurin_Citizen.labelMalePlural>男性 魅狐公民</Kurin_Citizen.labelMalePlural>
+  <Kurin_Citizen.labelFemale>女性 魅狐公民</Kurin_Citizen.labelFemale>
+  <Kurin_Citizen.labelFemalePlural>女性 魅狐公民</Kurin_Citizen.labelFemalePlural>
+
+
+  <!-- 자경단 -->
+
+  <Kurin_Vigilante.label>魅狐义警</Kurin_Vigilante.label>
+  <Kurin_Vigilante.labelPlural>魅狐义警</Kurin_Vigilante.labelPlural>
+  <Kurin_Vigilante.labelMale>男性 魅狐义警</Kurin_Vigilante.labelMale>
+  <Kurin_Vigilante.labelMalePlural>男性 魅狐义警</Kurin_Vigilante.labelMalePlural>
+  <Kurin_Vigilante.labelFemale>女性 魅狐义警</Kurin_Vigilante.labelFemale>
+  <Kurin_Vigilante.labelFemalePlural>女性 魅狐义警</Kurin_Vigilante.labelFemalePlural>
+
+
+  <!-- 상인 -->
+
+  <Kurin_Trader.label>魅狐商人</Kurin_Trader.label>
+  <Kurin_Trader.labelPlural>魅狐商人</Kurin_Trader.labelPlural>
+  <Kurin_Trader.labelMale>男性 魅狐商人</Kurin_Trader.labelMale>
+  <Kurin_Trader.labelMalePlural>男性 魅狐商人</Kurin_Trader.labelMalePlural>
+  <Kurin_Trader.labelFemale>女性 魅狐商人</Kurin_Trader.labelFemale>
+  <Kurin_Trader.labelFemalePlural>女性 魅狐商人</Kurin_Trader.labelFemalePlural>
+
+
+  <!-- 엘리트 -->
+
+  <Kurin_Elite.label>魅狐精英</Kurin_Elite.label>
+  <Kurin_Elite.labelPlural>魅狐精英</Kurin_Elite.labelPlural>
+  <Kurin_Elite.labelMale>男性 魅狐精英</Kurin_Elite.labelMale>
+  <Kurin_Elite.labelMalePlural>男性 魅狐精英</Kurin_Elite.labelMalePlural>
+  <Kurin_Elite.labelFemale>女性 魅狐精英</Kurin_Elite.labelFemale>
+  <Kurin_Elite.labelFemalePlural>女性 魅狐精英</Kurin_Elite.labelFemalePlural>
+
+
+  <!-- 군인 (분대원) -->
+
+  <Kurin_Soldier.label>魅狐陆军士兵</Kurin_Soldier.label>
+  <Kurin_Soldier.labelPlural>魅狐陆军士兵</Kurin_Soldier.labelPlural>
+  <Kurin_Soldier.labelMale>男性 魅狐陆军士兵</Kurin_Soldier.labelMale>
+  <Kurin_Soldier.labelMalePlural>男性 魅狐陆军士兵</Kurin_Soldier.labelMalePlural>
+  <Kurin_Soldier.labelFemale>女性 魅狐陆军士兵</Kurin_Soldier.labelFemale>
+  <Kurin_Soldier.labelFemalePlural>女性 魅狐陆军士兵</Kurin_Soldier.labelFemalePlural>
+
+
+  <!-- 군인 (저격수) -->
+
+  <Kurin_Sniper.label>魅狐陆军狙击手</Kurin_Sniper.label>
+  <Kurin_Sniper.labelPlural>魅狐陆军狙击手</Kurin_Sniper.labelPlural>
+  <Kurin_Sniper.labelMale>男性 魅狐陆军狙击手</Kurin_Sniper.labelMale>
+  <Kurin_Sniper.labelMalePlural>男性 魅狐陆军狙击手</Kurin_Sniper.labelMalePlural>
+  <Kurin_Sniper.labelFemale>女性 魅狐陆军狙击手</Kurin_Sniper.labelFemale>
+  <Kurin_Sniper.labelFemalePlural>女性 魅狐陆军狙击手</Kurin_Sniper.labelFemalePlural>
+
+
+  <!-- 군인 (척탄병) -->
+
+  <Kurin_Grenadier.label>魅狐陆军毁灭者</Kurin_Grenadier.label>
+  <Kurin_Grenadier.labelPlural>魅狐陆军毁灭者</Kurin_Grenadier.labelPlural>
+  <Kurin_Grenadier.labelMale>男性 魅狐陆军毁灭者</Kurin_Grenadier.labelMale>
+  <Kurin_Grenadier.labelMalePlural>男性 魅狐陆军毁灭者</Kurin_Grenadier.labelMalePlural>
+  <Kurin_Grenadier.labelFemale>女性 魅狐陆军毁灭者</Kurin_Grenadier.labelFemale>
+  <Kurin_Grenadier.labelFemalePlural>女性 魅狐陆军毁灭者</Kurin_Grenadier.labelFemalePlural>
+
+
+  <!-- 군인 (화염 방사기) -->
+
+  <Kurin_Flamethrower.label>魅狐陆军火焰喷射兵</Kurin_Flamethrower.label>
+  <Kurin_Flamethrower.labelPlural>魅狐陆军火焰喷射兵</Kurin_Flamethrower.labelPlural>
+  <Kurin_Flamethrower.labelMale>男性 魅狐陆军火焰喷射兵</Kurin_Flamethrower.labelMale>
+  <Kurin_Flamethrower.labelMalePlural>男性 魅狐陆军火焰喷射兵</Kurin_Flamethrower.labelMalePlural>
+  <Kurin_Flamethrower.labelFemale>女性 魅狐陆军火焰喷射兵</Kurin_Flamethrower.labelFemale>
+  <Kurin_Flamethrower.labelFemalePlural>女性 魅狐陆军火焰喷射兵</Kurin_Flamethrower.labelFemalePlural>
+
+
+  <!-- 군인 (분대장) -->
+
+  <Kurin_Commander.label>魅狐陆军司令</Kurin_Commander.label>
+  <Kurin_Commander.labelPlural>魅狐陆军司令</Kurin_Commander.labelPlural>
+  <Kurin_Commander.labelMale>男性 魅狐陆军司令</Kurin_Commander.labelMale>
+  <Kurin_Commander.labelMalePlural>男性 魅狐陆军司令</Kurin_Commander.labelMalePlural>
+  <Kurin_Commander.labelFemale>女性 魅狐陆军司令</Kurin_Commander.labelFemale>
+  <Kurin_Commander.labelFemalePlural>女性 魅狐陆军司令</Kurin_Commander.labelFemalePlural>
+
+
+  <!-- 군인 (엘리트 분대장) -->
+
+  <Kurin_Elite_Soldier.label>魅狐陆军精英士兵</Kurin_Elite_Soldier.label>
+  <Kurin_Elite_Soldier.labelPlural>魅狐陆军精英士兵</Kurin_Elite_Soldier.labelPlural>
+  <Kurin_Elite_Soldier.labelMale>男性 魅狐陆军精英士兵</Kurin_Elite_Soldier.labelMale>
+  <Kurin_Elite_Soldier.labelMalePlural>男性 魅狐陆军精英士兵</Kurin_Elite_Soldier.labelMalePlural>
+  <Kurin_Elite_Soldier.labelFemale>女性 魅狐陆军精英士兵</Kurin_Elite_Soldier.labelFemale>
+  <Kurin_Elite_Soldier.labelFemalePlural>女性 魅狐陆军精英士兵</Kurin_Elite_Soldier.labelFemalePlural>
+
+
+  <!-- 폭스 인 블랙 -->
+
+  <Kurin_Fox_In_Black.label>黑衣魅狐</Kurin_Fox_In_Black.label>
+  <Kurin_Fox_In_Black.labelPlural>黑衣魅狐</Kurin_Fox_In_Black.labelPlural>
+  <Kurin_Fox_In_Black.labelMale>男性 黑衣魅狐</Kurin_Fox_In_Black.labelMale>
+  <Kurin_Fox_In_Black.labelMalePlural>男性 黑衣魅狐</Kurin_Fox_In_Black.labelMalePlural>
+  <Kurin_Fox_In_Black.labelFemale>女性 黑衣魅狐</Kurin_Fox_In_Black.labelFemale>
+  <Kurin_Fox_In_Black.labelFemalePlural>女性 黑衣魅狐</Kurin_Fox_In_Black.labelFemalePlural>
+
+
+  <!-- 난민 -->
+
+  <Kurin_Refugee.label>魅狐难民</Kurin_Refugee.label>
+  <Kurin_Refugee.labelPlural>魅狐难民</Kurin_Refugee.labelPlural>
+  <Kurin_Refugee.labelMale>男性 魅狐难民</Kurin_Refugee.labelMale>
+  <Kurin_Refugee.labelMalePlural>男性 魅狐难民</Kurin_Refugee.labelMalePlural>
+  <Kurin_Refugee.labelFemale>女性 魅狐难民</Kurin_Refugee.labelFemale>
+  <Kurin_Refugee.labelFemalePlural>女性 魅狐难民</Kurin_Refugee.labelFemalePlural>
+
+
+</LanguageData>

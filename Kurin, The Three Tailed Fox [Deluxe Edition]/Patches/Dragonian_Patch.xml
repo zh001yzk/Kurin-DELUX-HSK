@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="DR_Dragonian"]/tradeTags</xpath>
+					<value>
+						<li>Kurin_Dragonian_TradeTag</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="DR_Dragonian"]/race</xpath>
+					<value>
+						<soundMeleeDodge>Pawn_MeleeDodge</soundMeleeDodge>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="WoolDragonian"]/statBases</xpath>
+					<value>
+						<MarketValue>12.0</MarketValue>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="DR_Dragonian"]/statBases</xpath>
+					<value>
+						<CarryingCapacity>75</CarryingCapacity>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationTest">
+					<success>Invert</success>
+					<xpath>Defs/BiomeDef/allowedPackAnimals</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/BiomeDef</xpath>
+					<value>
+						<allowedPackAnimals>
+						</allowedPackAnimals>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/BiomeDef/allowedPackAnimals</xpath>
+					<value>
+						<li>DR_Dragonian</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/FactionDef[defName="Kurin_Faction_Republic"]/pawnGroupMakers/li/carriers</xpath>
+					<value>
+			<carriers>
+				<DR_PAWN_Dragonian>3</DR_PAWN_Dragonian>
+			</carriers>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/FactionDef[defName="Kurin_Faction_UFU"]/pawnGroupMakers/li/carriers</xpath>
+					<value>
+			<carriers>
+				<DR_PAWN_Dragonian>3</DR_PAWN_Dragonian>
+			</carriers>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/TraderKindDef[defName="Kurin_City_Trader"]/stockGenerators</xpath>
+					<value>
+		<li Class="StockGenerator_Animals">
+			<tradeTagsSell>
+				<li>Kurin_Dragonian_TradeTag</li>
+			</tradeTagsSell>
+			<kindCountRange>1~1</kindCountRange>
+			<countRange>4~6</countRange>
+		</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="DR_Dragonian"]/statBases/LeatherAmount</xpath>
+					<value>
+						<LeatherAmount>75</LeatherAmount>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="DR_Dragonian"]/race/lifeStageAges</xpath>
+					<value>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>4</minAge>
+					<soundWounded>Pawn_Rodent_Wounded</soundWounded>
+					<soundDeath>Pawn_Rodent_Death</soundDeath>
+					<soundCall>Pawn_Rodent_Call</soundCall>
+					<soundAngry>Pawn_Rodent_Angry</soundAngry>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>24</minAge>
+					<soundWounded>Pawn_Rodent_Wounded</soundWounded>
+					<soundDeath>Pawn_Rodent_Death</soundDeath>
+					<soundCall>Pawn_Rodent_Call</soundCall>
+					<soundAngry>Pawn_Rodent_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dragonian</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="DR_Dragonian"]/race/ageGenerationCurve</xpath>
+					<value>
+			<ageGenerationCurve>
+				<points>
+                <li>(14, 0)</li>
+                <li>(16, 128)</li>
+                <li>(30, 64)</li>
+                <li>(40, 32)</li>
+                <li>(50, 16)</li>
+                <li>(60, 8)</li>
+                <li>(70, 4)</li>
+                <li>(80, 2)</li>
+                <li>(90, 1)</li>
+                <li>(500, 0)</li>
+				</points>
+			</ageGenerationCurve>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>

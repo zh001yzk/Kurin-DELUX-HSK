@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Unmaker.label>魅狐毁灭者</Kurin_Gun_Unmaker.label>
+  <Kurin_Gun_Unmaker.description>[FXU] - [毁灭者]\n\n~ 魅狐的绝密武器重型电荷枪，又名“毁灭者”。只有极少数参与创造这个怪物的魅狐知道它的存在，尝试使用过的人更少。沉重而致命。</Kurin_Gun_Unmaker.description>
+  <Kurin_Gun_Unmaker.tools.0.label>枪托</Kurin_Gun_Unmaker.tools.0.label>
+  <Kurin_Gun_Unmaker.tools.1.label>枪管</Kurin_Gun_Unmaker.tools.1.label>
+
+  <Kurin_Bullet_Unmaker.label>毁灭者子弹</Kurin_Bullet_Unmaker.label>
+
+
+</LanguageData>

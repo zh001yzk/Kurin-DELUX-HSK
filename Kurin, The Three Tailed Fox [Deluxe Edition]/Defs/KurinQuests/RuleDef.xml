@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RuleDef>
+    <defName>SymbolResolverKurinHostagesCampCamp</defName>
+    <symbol>symbolResolverKurinHostagesCampCamp</symbol>
+    <resolvers>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinHostagesCamp.SymbolResolver_KurinHostagesCamp_Camp">
+        <minRectSize>(12, 12)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>SymbolResolverKurinHostagesCampCell</defName>
+    <symbol>symbolResolverKurinHostagesCampCell</symbol>
+    <resolvers>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinHostagesCamp.SymbolResolver_KurinHostagesCamp_Cell">
+        <minRectSize>(6, 6)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>SymbolResolverKurinHostagesCampHostages</defName>
+    <symbol>symbolResolverKurinHostagesCampHostages</symbol>
+    <resolvers>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinHostagesCamp.SymbolResolver_KurinHostagesCamp_Hostages">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>SymbolResolverKurinCampAssault</defName>
+    <symbol>symbolResolverKurinCampAssault</symbol>
+    <resolvers>
+      <li Class="KurinDeluxeEdition.KurinQuests.KurinCampAssault.SymbolResolver_KurinCampAssault">
+        <minRectSize>(28, 28)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+</Defs>

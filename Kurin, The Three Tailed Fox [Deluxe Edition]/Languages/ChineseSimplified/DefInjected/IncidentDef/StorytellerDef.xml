@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_FoxInBlackJoin.label>黑衣魅狐</Kurin_FoxInBlackJoin.label>
+  <Kurin_FoxInBlackJoin.letterText>察觉到麻烦，神秘的[PAWN_kind]来了。\n\n[PAWN_pronoun]能解决麻烦吗？</Kurin_FoxInBlackJoin.letterText>
+  <Kurin_FoxInBlackJoin.letterLabel>黑衣魅狐</Kurin_FoxInBlackJoin.letterLabel>
+
+  <Kurin_WandererJoin.label>流浪的魅狐加入</Kurin_WandererJoin.label>
+  <Kurin_WandererJoin.letterText>一个名为{PAWN_nameDef}的{PAWN_title}挥舞着三条美丽的尾巴来到这里并加入。\n\n拥有三条狐尾巴的魅狐，除了他们自己的种族之外，对其他人都漠不关心。如果殖民地里的魅狐数量相对较少，那么魅狐会感到孤独，反之亦然，如果魅狐的数量相对较多，魅狐会感到高兴。如果你与其他魅狐殖民地为敌，他们会惊讶你居然是个叛徒。如果你不欢迎{PAWN_nameDef}，可以放逐{PAWN_objective}，将{PAWN_objective}卖给奴隶贩子，或者简单地杀掉。但其他人可能会因此而感到不安。</Kurin_WandererJoin.letterText>
+  <Kurin_WandererJoin.letterLabel>流浪的魅狐加入：{PAWN_nameDef}</Kurin_WandererJoin.letterLabel>
+
+  <Kimiri_WandererJoin.label>缓刑犯奇龙加入</Kimiri_WandererJoin.label>
+  <Kimiri_WandererJoin.letterText>一个名为{PAWN_nameDef}的{PAWN_title}挥舞着美丽的尾巴来到这里并加入。\n\n{PAWN_nameDef}发现{PAWN_possessive}生活很无聊，所以{PAWN_nameDef}决定离开魅狐移民船，加入你的阵营。如果你不欢迎{PAWN_nameDef}，可以放逐{PAWN_objective}，将{PAWN_objective}卖给奴隶贩子，或者简单地杀掉。但其他人可能会因此而感到不安。</Kimiri_WandererJoin.letterText>
+  <Kimiri_WandererJoin.letterLabel>缓刑犯奇龙加入：{PAWN_nameDef}</Kimiri_WandererJoin.letterLabel>
+
+
+</LanguageData>

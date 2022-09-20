@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>Kurin_Gun_Surigum</defName>
+    <label>魅狐手里剑</label>
+    <description>匕首形式的手里剑。范围有限但仍可进行远程攻击。</description>
+    <graphicData>
+      <texPath>Kurin/Weapon/Surigum/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>0.4</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.20</AccuracyLong>
+    </statBases>
+    <weaponTags Inherit="False">
+      <li>Kurin_Surigum</li>
+    </weaponTags>
+    <costList>
+      <Steel>30</Steel>
+    </costList>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FueledSmithy</li>
+        <li>ElectricSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>Kurin_WeaponT1</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <li>Kurin_Weapon_Melee</li>
+    </thingCategories>
+    <weaponClasses>
+      <li>Neolithic</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Kurin_Bullet_Surigum</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>12.9</range>
+      </li>
+    </verbs>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>blade</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>0.5</cooldownTime>
+        <armorPenetrationBlunt>4.44</armorPenetrationBlunt>
+        <armorPenetrationSharp>1</armorPenetrationSharp>
+        <linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Kurin_Bullet_Surigum</defName>
+    <label>手里剑</label>
+    <graphicData>
+      <texPath>Kurin/Projectile/Surigum_Bullet/Texture</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Cut</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <stoppingPower>0.8</stoppingPower>
+      <speed>48</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

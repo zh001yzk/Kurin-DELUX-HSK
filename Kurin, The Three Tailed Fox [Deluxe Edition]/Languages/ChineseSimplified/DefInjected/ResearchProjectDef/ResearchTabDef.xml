@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_ApparelT1.label>简单的魅狐服饰</Kurin_ApparelT1.label>
+  <Kurin_ApparelT1.description>研究如何制作简单的魅狐服饰。</Kurin_ApparelT1.description>
+
+  <Kurin_ApparelT2.label>朴素的魅狐服饰</Kurin_ApparelT2.label>
+  <Kurin_ApparelT2.description>研究如何制作朴素的魅狐服饰。</Kurin_ApparelT2.description>
+
+  <Kurin_ApparelT3.label>精美的魅狐服饰</Kurin_ApparelT3.label>
+  <Kurin_ApparelT3.description>研究如何制作精美的魅狐服饰。</Kurin_ApparelT3.description>
+
+  <Kurin_ApparelT4.label>魅狐军用服饰</Kurin_ApparelT4.label>
+  <Kurin_ApparelT4.description>研究如何制作魅狐军用服饰。</Kurin_ApparelT4.description>
+
+  <Kurin_ApparelT5.label>魅狐动力装甲</Kurin_ApparelT5.label>
+  <Kurin_ApparelT5.description>研究如何制作魅狐动力装甲。</Kurin_ApparelT5.description>
+
+  <Kurin_WeaponT1.label>魅狐钢制武器</Kurin_WeaponT1.label>
+  <Kurin_WeaponT1.description>研究如何制作魅狐钢制武器。</Kurin_WeaponT1.description>
+
+  <Kurin_WeaponT2.label>魅狐简单武器</Kurin_WeaponT2.label>
+  <Kurin_WeaponT2.description>研究如何制作魅狐简单武器</Kurin_WeaponT2.description>
+
+  <Kurin_WeaponT3.label>魅狐先进武器</Kurin_WeaponT3.label>
+  <Kurin_WeaponT3.description>研究如何制作魅狐先进武器。</Kurin_WeaponT3.description>
+
+  <Kurin_WeaponT4.label>魅狐重型武器</Kurin_WeaponT4.label>
+  <Kurin_WeaponT4.description>研究如何制作魅狐电荷武器。</Kurin_WeaponT4.description>
+
+  <Kurin_WeaponT5.label>魅狐电荷武器</Kurin_WeaponT5.label>
+  <Kurin_WeaponT5.description>研究如何制作魅狐电荷武器。</Kurin_WeaponT5.description>
+
+  <Kurin_WeaponT6.label>毁灭者</Kurin_WeaponT6.label>
+  <Kurin_WeaponT6.description>研究如何制作毁灭者，又称作"魅狐大炮"。</Kurin_WeaponT6.description>
+
+  <Kurin_WeaponT7.label>魅狐改进武器</Kurin_WeaponT7.label>
+  <Kurin_WeaponT7.description>研究如何改进魅狐武器。</Kurin_WeaponT7.description>
+
+  <Kurin_ProsthesesT1.label>简单魅狐假肢</Kurin_ProsthesesT1.label>
+  <Kurin_ProsthesesT1.description>研究如何制作简单魅狐假肢。</Kurin_ProsthesesT1.description>
+
+  <Kurin_ProsthesesT2.label>先进魅狐假肢</Kurin_ProsthesesT2.label>
+  <Kurin_ProsthesesT2.description>研究如何制作先进魅狐假肢。</Kurin_ProsthesesT2.description>
+  
+  <Kurin_ProductionT1.label>魅狐先进生产技术</Kurin_ProductionT1.label>
+  <Kurin_ProductionT1.description>研究如何制作魅狐制造台，也称作“魅狐3D打印机”。</Kurin_ProductionT1.description>
+
+  <Kurin_ProductionT2.label>魅狐先进生产技术（二级）</Kurin_ProductionT2.label>
+  <Kurin_ProductionT2.description>研究如何用魅狐制造台打印先进的物品。</Kurin_ProductionT2.description>
+
+  <Kurin_ProductionT3.label>魅狐先进生产技术（三级）</Kurin_ProductionT3.label>
+  <Kurin_ProductionT3.description>研究如何用魅狐制造台打印非常先进的物品。</Kurin_ProductionT3.description>
+
+  <Kurin_ProductionT4.label>魅狐先进生产技术（四级）</Kurin_ProductionT4.label>
+  <Kurin_ProductionT4.description>研究如何使用魅狐制造台打印非常先进的工具。</Kurin_ProductionT4.description>
+
+
+
+
+</LanguageData>

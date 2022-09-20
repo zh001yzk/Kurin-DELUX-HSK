@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kurin_Gun_Sniper_Charged_Rifle.label>魅狐电荷狙击步枪</Kurin_Gun_Sniper_Charged_Rifle.label>
+  <Kurin_Gun_Sniper_Charged_Rifle.description>[FXSCR-A1] - [单程票]\n\n~ “单程票”是超现代的魅狐武器，创造于魅狐太空时代初期，专为魅狐精锐部队设计。</Kurin_Gun_Sniper_Charged_Rifle.description>
+  <Kurin_Gun_Sniper_Charged_Rifle.tools.0.label>枪托</Kurin_Gun_Sniper_Charged_Rifle.tools.0.label>
+  <Kurin_Gun_Sniper_Charged_Rifle.tools.1.label>枪管</Kurin_Gun_Sniper_Charged_Rifle.tools.1.label>
+
+  <Kurin_Bullet_Sniper_Charged_Rifle.label>电荷狙击步枪子弹</Kurin_Bullet_Sniper_Charged_Rifle.label>
+
+
+</LanguageData>
